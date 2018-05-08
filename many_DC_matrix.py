@@ -35,16 +35,23 @@ def ECOC_Process(train_data,train_label,test_data,test_label,ECOC_name):
 
     return M
 
+<<<<<<< HEAD
 def other_ECOC_Process(train_data,train_label,ECOC_name):
     E = eval(ECOC_name + '()')
     M,index = E.create_matrix(train_data,train_label)
     return M
+=======
+>>>>>>> faa23ca778d809c7318e4b150e1428603a5aabba
 
 if __name__ == '__main__':
 
     LOG_FORMAT = "%(message)s"
     # set log filepath, log level and info format
+<<<<<<< HEAD
     logging.basicConfig(filename='E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix.txt', level=logging.DEBUG, format=LOG_FORMAT)
+=======
+    logging.basicConfig(filename='E:/workspace/pycharm/UCI/DC_matrix/DC_matrix.txt', level=logging.DEBUG, format=LOG_FORMAT)
+>>>>>>> faa23ca778d809c7318e4b150e1428603a5aabba
 
     microarray_dataname = ['Breast','Cancers','DLBCL','GCM','Leukemia1','Leukemia2'\
                 ,'Lung1','SRBCT']
@@ -55,6 +62,7 @@ if __name__ == '__main__':
 
     fs_name = ['variance_threshold','linear_svc','tree','fclassif','RandForReg']
     ecoc_name = ['DC_ECOC F1','DC_ECOC F2','DC_ECOC F3','DC_ECOC N2','DC_ECOC N3','DC_ECOC Cluster']
+<<<<<<< HEAD
     other_ecoc_name = ['OVA_ECOC','OVO_ECOC','Dense_random_ECOC','Sparse_random_ECOC'\
                 ,'D_ECOC']
 
@@ -62,6 +70,13 @@ if __name__ == '__main__':
     save_folder_path = 'E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/'
     selected_dataname = microarray_dataname
     selected_ecoc_name = other_ecoc_name
+=======
+
+    folder_path = 'E:/workspace/pycharm/UCI/FS_data/'
+    save_folder_path = 'E:/workspace/pycharm/UCI/DC_matrix/'
+    selected_dataname = UCI_dataname
+    selected_ecoc_name = ecoc_name
+>>>>>>> faa23ca778d809c7318e4b150e1428603a5aabba
     selected_fs_name = fs_name
 
     for k in range(len(selected_fs_name)):
@@ -81,6 +96,7 @@ if __name__ == '__main__':
 
             for j in range(len(selected_ecoc_name)):
 
+<<<<<<< HEAD
                 # logging.info('DC: ' + selected_ecoc_name[j])
                 # Matrix = ECOC_Process(train_data,train_label,test_data,test_label,selected_ecoc_name[j])#DC coding matrix
                 # dc = selected_ecoc_name[j].split(' ')[1]
@@ -90,6 +106,14 @@ if __name__ == '__main__':
                 Matrix = other_ECOC_Process(train_data,train_label,selected_ecoc_name[j])# other ECOC
                 save_file_path = fin_save_folder_path + '/' + selected_ecoc_name[j] + '_' + selected_dataname[i] + '.xls'
                 write_matrix(save_file_path,Matrix)
+=======
+                logging.info('DC: ' + selected_ecoc_name[j])
+                Matrix = ECOC_Process(train_data,train_label,test_data,test_label,selected_ecoc_name[j])
+                dc = selected_ecoc_name[j].split(' ')[1]
+                save_filepath = fin_save_folder_path + '/' + dc + '_' + selected_dataname[i] + '.xls'
+                write_matrix(save_filepath,Matrix)
+
+>>>>>>> faa23ca778d809c7318e4b150e1428603a5aabba
 
 
 

@@ -1,0 +1,1986 @@
+2018-03-16 09:51:02,736 
+ 
+ feature size: 211
+2018-03-16 09:51:02,737 ********************    data:Breast     ECOC:Self_Adaption_ECOC F1 F2 DC    *****************
+2018-03-16 09:51:04,105 class cplx:
+{'ERBB2': 8.7212442382866197e-05, 'basal': 2426357485.4763875, 'cell_lines': 8.2857379783205945e+34, 'lumina': 19860.489738798664, 'normal': 2.758412135637314e-13}
+2018-03-16 09:51:04,107 var:1098455261526147992056930749509135230627351645194938371839346897584128.000000 mean:16571475956641189006032361167519744.000000
+2018-03-16 09:51:04,107 botttom th:16571475956641189006032361167519744.000000 top th:33142951913282378012064722335039488.000000
+2018-03-16 09:51:04,158 column num:2
+2018-03-16 09:51:04,187 merged matrix:
+[[-1.  0.  1.  0. -1.  0. -1.  1.]
+ [ 1. -1.  0.  0. -1.  0. -1. -1.]
+ [-1.  0. -1. -1. -1.  0.  1.  0.]
+ [ 1.  1.  0.  0.  1. -1.  0.  0.]
+ [-1.  0. -1.  1.  1.  1.  0.  0.]]
+2018-03-16 09:51:09,095 1.create matrix:
+[[-1.  0.  1.  0. -1.  0. -1.  1. -1.  1. -1.  0.  0.  1.  1.]
+ [ 1. -1.  0.  0. -1.  0. -1. -1.  0.  0. -1.  1.  0.  0.  0.]
+ [-1.  0. -1. -1. -1.  0.  1.  0.  1. -1.  1. -1.  0.  0.  0.]
+ [ 1.  1.  0.  0.  1. -1.  0.  0. -1.  0.  0.  0.  1.  0. -1.]
+ [-1.  0. -1.  1.  1.  1.  0.  0. -1.  0. -1.  0. -1. -1.  1.]]
+2018-03-16 09:51:09,098 2.remove reverse matrix:
+[[-1.  0.  1.  0. -1.  0. -1.  1. -1.  1. -1.  0.  1.  1.]
+ [ 1. -1.  0.  0. -1.  0. -1. -1.  0.  0. -1.  1.  0.  0.]
+ [-1.  0. -1. -1. -1.  0.  1.  0.  1. -1.  1. -1.  0.  0.]
+ [ 1.  1.  0.  0.  1. -1.  0.  0. -1.  0.  0.  0.  0. -1.]
+ [-1.  0. -1.  1.  1.  1.  0.  0. -1.  0. -1.  0. -1.  1.]]
+2018-03-16 09:51:09,101 3.remove duplicate matrix:
+[[-1.  0.  1.  0. -1.  0. -1.  1. -1.  1. -1.  0.  1.  1.]
+ [ 1. -1.  0.  0. -1.  0. -1. -1.  0.  0. -1.  1.  0.  0.]
+ [-1.  0. -1. -1. -1.  0.  1.  0.  1. -1.  1. -1.  0.  0.]
+ [ 1.  1.  0.  0.  1. -1.  0.  0. -1.  0.  0.  0.  0. -1.]
+ [-1.  0. -1.  1.  1.  1.  0.  0. -1.  0. -1.  0. -1.  1.]]
+2018-03-16 09:51:09,102 4.remove unfit matrix:
+[[-1.  0.  1.  0. -1.  0. -1.  1. -1.  1. -1.  0.  1.  1.]
+ [ 1. -1.  0.  0. -1.  0. -1. -1.  0.  0. -1.  1.  0.  0.]
+ [-1.  0. -1. -1. -1.  0.  1.  0.  1. -1.  1. -1.  0.  0.]
+ [ 1.  1.  0.  0.  1. -1.  0.  0. -1.  0.  0.  0.  0. -1.]
+ [-1.  0. -1.  1.  1.  1.  0.  0. -1.  0. -1.  0. -1.  1.]]
+2018-03-16 09:51:09,170 Self_Adaption_ECOC F1 F2 DC Matrix:
+[[-1.  0.  1.  0. -1.  0. -1.  1. -1.  1. -1.  0.  1.  1.]
+ [ 1. -1.  0.  0. -1.  0. -1. -1.  0.  0. -1.  1.  0.  0.]
+ [-1.  0. -1. -1. -1.  0.  1.  0.  1. -1.  1. -1.  0.  0.]
+ [ 1.  1.  0.  0.  1. -1.  0.  0. -1.  0.  0.  0.  0. -1.]
+ [-1.  0. -1.  1.  1.  1.  0.  0. -1.  0. -1.  0. -1.  1.]]
+2018-03-16 09:51:09,276 classifier accuracy
+[1.0, 0.933, 0.867, 1.0, 1.0, 0.941, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+2018-03-16 09:51:09,276 diversity
+[-0.014, 0.022, 0.006, 0.094, 0.049, -0.03, -0.125, 0.129, -0.125, 0.122, -0.125, 0.077, 0.027, -0.036]
+2018-03-16 09:51:09,276 accuracy: 1.000000
+2018-03-16 09:51:09,276 ********************    data:Breast     ECOC:Self_Adaption_ECOC F1 F2 info    *****************
+2018-03-16 09:51:10,440 class cplx:
+{'ERBB2': 8.7212442382866197e-05, 'basal': 2426357485.4763875, 'cell_lines': 8.2857379783205945e+34, 'lumina': 19860.489738798664, 'normal': 2.758412135637314e-13}
+2018-03-16 09:51:10,440 var:1098455261526147992056930749509135230627351645194938371839346897584128.000000 mean:16571475956641189006032361167519744.000000
+2018-03-16 09:51:10,441 botttom th:16571475956641189006032361167519744.000000 top th:33142951913282378012064722335039488.000000
+2018-03-16 09:51:10,441 column num:2
+2018-03-16 09:51:10,444 merged matrix:
+[[-1.  0.  1.  0. -1.  0. -1.  1.]
+ [ 1. -1.  0.  0. -1.  0. -1. -1.]
+ [-1.  0. -1. -1. -1.  0.  1.  0.]
+ [ 1.  1.  0.  0.  1. -1.  0.  0.]
+ [-1.  0. -1.  1.  1.  1.  0.  0.]]
+2018-03-16 09:51:10,444 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:10,444 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:10,444 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:10,444 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:10,444 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:10,444 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:10,446 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:10,446 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:10,446 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:10,446 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:10,921 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:10,921 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:10,921 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:10,921 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:10,921 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:10,921 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:10,921 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:10,921 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:10,921 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:10,921 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:11,135 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:11,135 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:11,135 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:11,135 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:11,135 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:11,137 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:11,138 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:11,138 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:11,138 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:11,138 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:11,138 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:11,138 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:12,753 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:12,753 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:12,756 1.create matrix:
+[[-1.  0.  1.  0. -1.  0. -1.  1. -1.  0. -1. -1. -1. -1. -1.]
+ [ 1. -1.  0.  0. -1.  0. -1. -1. -1.  0. -1.  1. -1. -1. -1.]
+ [-1.  0. -1. -1. -1.  0.  1.  0. -1.  1. -1.  0.  1.  1.  1.]
+ [ 1.  1.  0.  0.  1. -1.  0.  0.  1.  0. -1.  0.  0. -1. -1.]
+ [-1.  0. -1.  1.  1.  1.  0.  0. -1. -1.  1.  0. -1.  0. -1.]]
+2018-03-16 09:51:12,760 2.remove reverse matrix:
+[[-1.  0.  1.  0. -1.  0. -1.  1. -1. -1. -1. -1. -1.]
+ [ 1. -1.  0.  0. -1.  0. -1. -1. -1. -1. -1. -1. -1.]
+ [-1.  0. -1. -1. -1.  0.  1.  0. -1. -1.  1.  1.  1.]
+ [ 1.  1.  0.  0.  1. -1.  0.  0.  1. -1.  0. -1. -1.]
+ [-1.  0. -1.  1.  1.  1.  0.  0. -1.  1. -1.  0. -1.]]
+2018-03-16 09:51:12,763 3.remove duplicate matrix:
+[[-1.  0.  1.  0. -1.  0. -1.  1. -1. -1. -1. -1. -1.]
+ [ 1. -1.  0.  0. -1.  0. -1. -1. -1. -1. -1. -1. -1.]
+ [-1.  0. -1. -1. -1.  0.  1.  0. -1. -1.  1.  1.  1.]
+ [ 1.  1.  0.  0.  1. -1.  0.  0.  1. -1.  0. -1. -1.]
+ [-1.  0. -1.  1.  1.  1.  0.  0. -1.  1. -1.  0. -1.]]
+2018-03-16 09:51:12,766 4.remove unfit matrix:
+[[-1.  0.  1.  0. -1.  0. -1.  1. -1. -1. -1. -1. -1.]
+ [ 1. -1.  0.  0. -1.  0. -1. -1. -1. -1. -1. -1. -1.]
+ [-1.  0. -1. -1. -1.  0.  1.  0. -1. -1.  1.  1.  1.]
+ [ 1.  1.  0.  0.  1. -1.  0.  0.  1. -1.  0. -1. -1.]
+ [-1.  0. -1.  1.  1.  1.  0.  0. -1.  1. -1.  0. -1.]]
+2018-03-16 09:51:12,783 Self_Adaption_ECOC F1 F2 info Matrix:
+[[-1.  0.  1.  0. -1.  0. -1.  1. -1. -1. -1. -1. -1.]
+ [ 1. -1.  0.  0. -1.  0. -1. -1. -1. -1. -1. -1. -1.]
+ [-1.  0. -1. -1. -1.  0.  1.  0. -1. -1.  1.  1.  1.]
+ [ 1.  1.  0.  0.  1. -1.  0.  0.  1. -1.  0. -1. -1.]
+ [-1.  0. -1.  1.  1.  1.  0.  0. -1.  1. -1.  0. -1.]]
+2018-03-16 09:51:12,884 classifier accuracy
+[1.0, 0.933, 0.867, 1.0, 1.0, 0.941, 1.0, 1.0, 0.967, 0.933, 1.0, 1.0, 1.0]
+2018-03-16 09:51:12,884 diversity
+[-0.072, 0.049, -0.033, 0.008, 0.049, -0.008, 0.023, 0.031, 0.013, 0.011, 0.023, 0.023, 0.023]
+2018-03-16 09:51:12,884 accuracy: 1.000000
+2018-03-16 09:51:12,884 Breast res are:
+2018-03-16 09:51:12,884 [1.0, 1.0]
+2018-03-16 09:51:13,145 
+ 
+ feature size: 473
+2018-03-16 09:51:13,145 ********************    data:Cancers    ECOC:Self_Adaption_ECOC F1 F2 DC    *****************
+2018-03-16 09:51:17,003 class cplx:
+{'PR': 5.9835645794362729e-132, 'LU_A': 5.0147778692907834e-07, 'CO': 3.2180856784677684e-21, 'BR': 1.8754402003346297e-37, 'KI': 3.5571834099235335e-92, 'LI': 28564589.60700028, 'LU_S': 3.8882514919224617e-34, 'GA': 5.3711659643066908e-25, 'OV': 3.1345953981394306e-06}
+2018-03-16 09:51:17,003 var:80586249818896.031250 mean:3173843.289667
+2018-03-16 09:51:17,003 botttom th:3173843.289667 top th:6347686.579334
+2018-03-16 09:51:17,005 column num:2
+2018-03-16 09:51:17,009 merged matrix:
+[[ 1.  1.  0. -1.  0.  0.  0.  0.  1.  1.  0. -1.  0.  0.  0.  0.]
+ [-1.  0. -1.  0.  0.  0. -1. -1.  1. -1.  0.  0. -1.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0. -1.  0.  1.  0.  0. -1.  0.  0.]
+ [-1.  0. -1.  0.  0.  0.  1.  0. -1.  0. -1.  0.  0.  0. -1. -1.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0. -1.  0.  1.  0.  0.  1.  0.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1. -1.  0.  0.  1.  0.  0.  0.]
+ [-1.  0.  1.  0.  0.  1.  0.  0. -1.  0. -1.  0.  0.  0. -1.  1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.  0.  1.  0.]
+ [-1.  0. -1.  0.  0.  0. -1.  1.  1.  1.  0.  1.  0.  0.  0.  0.]]
+2018-03-16 09:51:25,174 1.create matrix:
+[[ 1.  1.  0. -1.  0.  0.  0.  0.  1.  1.  0. -1.  0.  0.  0.  0. -1. -1.
+   0.  0. -1. -1.  0.  0.  1.  0.  1.  0.  1.  1. -1.]
+ [-1.  0. -1.  0.  0.  0. -1. -1.  1. -1.  0.  0. -1.  0.  0.  0. -1. -1.
+   0. -1.  0.  0. -1.  0.  1. -1.  0. -1.  0. -1. -1.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0. -1.  0.  1.  0.  0. -1.  0.  0.  0.  0.
+  -1.  0. -1.  1. -1.  0.  0. -1.  0. -1. -1. -1.  1.]
+ [-1.  0. -1.  0.  0.  0.  1.  0. -1.  0. -1.  0.  0.  0. -1. -1. -1. -1.
+   0.  1. -1. -1.  0.  1.  1.  1.  1.  1. -1. -1.  1.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0. -1.  0.  1.  0.  0.  1.  0.  0.  1.  1.
+   0.  0.  1.  1.  1.  0. -1.  0. -1.  1. -1.  0. -1.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1. -1.  0.  0.  1.  0.  0.  0.  0.  0.
+   1.  0.  0.  0.  1.  0.  0.  1.  0.  1.  1.  1. -1.]
+ [-1.  0.  1.  0.  0.  1.  0.  0. -1.  0. -1.  0.  0.  0. -1.  1. -1.  1.
+   1.  0. -1. -1.  0.  0.  0.  1.  1.  0.  1.  1. -1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.  0.  1.  0. -1.  1.
+  -1.  0. -1. -1.  0. -1.  0. -1.  1. -1. -1.  0. -1.]
+ [-1.  0. -1.  0.  0.  0. -1.  1.  1.  1.  0.  1.  0.  0.  0.  0. -1. -1.
+   0.  0. -1.  1.  0.  0.  1.  0.  0.  0.  1.  0.  1.]]
+2018-03-16 09:51:25,193 2.remove reverse matrix:
+[[ 1.  1.  0. -1.  0.  0.  0.  0.  1.  1.  0. -1.  0.  0.  0.  0. -1. -1.
+   0.  0. -1. -1.  0.  0.  1.  0.  1.  0.  1.  1. -1.]
+ [-1.  0. -1.  0.  0.  0. -1. -1.  1. -1.  0.  0. -1.  0.  0.  0. -1. -1.
+   0. -1.  0.  0. -1.  0.  1. -1.  0. -1.  0. -1. -1.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0. -1.  0.  1.  0.  0. -1.  0.  0.  0.  0.
+  -1.  0. -1.  1. -1.  0.  0. -1.  0. -1. -1. -1.  1.]
+ [-1.  0. -1.  0.  0.  0.  1.  0. -1.  0. -1.  0.  0.  0. -1. -1. -1. -1.
+   0.  1. -1. -1.  0.  1.  1.  1.  1.  1. -1. -1.  1.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0. -1.  0.  1.  0.  0.  1.  0.  0.  1.  1.
+   0.  0.  1.  1.  1.  0. -1.  0. -1.  1. -1.  0. -1.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1. -1.  0.  0.  1.  0.  0.  0.  0.  0.
+   1.  0.  0.  0.  1.  0.  0.  1.  0.  1.  1.  1. -1.]
+ [-1.  0.  1.  0.  0.  1.  0.  0. -1.  0. -1.  0.  0.  0. -1.  1. -1.  1.
+   1.  0. -1. -1.  0.  0.  0.  1.  1.  0.  1.  1. -1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.  0.  1.  0. -1.  1.
+  -1.  0. -1. -1.  0. -1.  0. -1.  1. -1. -1.  0. -1.]
+ [-1.  0. -1.  0.  0.  0. -1.  1.  1.  1.  0.  1.  0.  0.  0.  0. -1. -1.
+   0.  0. -1.  1.  0.  0.  1.  0.  0.  0.  1.  0.  1.]]
+2018-03-16 09:51:25,203 3.remove duplicate matrix:
+[[ 1.  1.  0. -1.  0.  0.  0.  0.  1.  1.  0. -1.  0.  0.  0.  0. -1. -1.
+   0.  0. -1. -1.  0.  0.  1.  0.  1.  0.  1.  1. -1.]
+ [-1.  0. -1.  0.  0.  0. -1. -1.  1. -1.  0.  0. -1.  0.  0.  0. -1. -1.
+   0. -1.  0.  0. -1.  0.  1. -1.  0. -1.  0. -1. -1.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0. -1.  0.  1.  0.  0. -1.  0.  0.  0.  0.
+  -1.  0. -1.  1. -1.  0.  0. -1.  0. -1. -1. -1.  1.]
+ [-1.  0. -1.  0.  0.  0.  1.  0. -1.  0. -1.  0.  0.  0. -1. -1. -1. -1.
+   0.  1. -1. -1.  0.  1.  1.  1.  1.  1. -1. -1.  1.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0. -1.  0.  1.  0.  0.  1.  0.  0.  1.  1.
+   0.  0.  1.  1.  1.  0. -1.  0. -1.  1. -1.  0. -1.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1. -1.  0.  0.  1.  0.  0.  0.  0.  0.
+   1.  0.  0.  0.  1.  0.  0.  1.  0.  1.  1.  1. -1.]
+ [-1.  0.  1.  0.  0.  1.  0.  0. -1.  0. -1.  0.  0.  0. -1.  1. -1.  1.
+   1.  0. -1. -1.  0.  0.  0.  1.  1.  0.  1.  1. -1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.  0.  1.  0. -1.  1.
+  -1.  0. -1. -1.  0. -1.  0. -1.  1. -1. -1.  0. -1.]
+ [-1.  0. -1.  0.  0.  0. -1.  1.  1.  1.  0.  1.  0.  0.  0.  0. -1. -1.
+   0.  0. -1.  1.  0.  0.  1.  0.  0.  0.  1.  0.  1.]]
+2018-03-16 09:51:25,213 4.remove unfit matrix:
+[[ 1.  1.  0. -1.  0.  0.  0.  0.  1.  1.  0. -1.  0.  0.  0.  0. -1. -1.
+   0.  0. -1. -1.  0.  0.  1.  0.  1.  0.  1.  1. -1.]
+ [-1.  0. -1.  0.  0.  0. -1. -1.  1. -1.  0.  0. -1.  0.  0.  0. -1. -1.
+   0. -1.  0.  0. -1.  0.  1. -1.  0. -1.  0. -1. -1.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0. -1.  0.  1.  0.  0. -1.  0.  0.  0.  0.
+  -1.  0. -1.  1. -1.  0.  0. -1.  0. -1. -1. -1.  1.]
+ [-1.  0. -1.  0.  0.  0.  1.  0. -1.  0. -1.  0.  0.  0. -1. -1. -1. -1.
+   0.  1. -1. -1.  0.  1.  1.  1.  1.  1. -1. -1.  1.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0. -1.  0.  1.  0.  0.  1.  0.  0.  1.  1.
+   0.  0.  1.  1.  1.  0. -1.  0. -1.  1. -1.  0. -1.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1. -1.  0.  0.  1.  0.  0.  0.  0.  0.
+   1.  0.  0.  0.  1.  0.  0.  1.  0.  1.  1.  1. -1.]
+ [-1.  0.  1.  0.  0.  1.  0.  0. -1.  0. -1.  0.  0.  0. -1.  1. -1.  1.
+   1.  0. -1. -1.  0.  0.  0.  1.  1.  0.  1.  1. -1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.  0.  1.  0. -1.  1.
+  -1.  0. -1. -1.  0. -1.  0. -1.  1. -1. -1.  0. -1.]
+ [-1.  0. -1.  0.  0.  0. -1.  1.  1.  1.  0.  1.  0.  0.  0.  0. -1. -1.
+   0.  0. -1.  1.  0.  0.  1.  0.  0.  0.  1.  0.  1.]]
+2018-03-16 09:51:25,313 Self_Adaption_ECOC F1 F2 DC Matrix:
+[[ 1.  1.  0. -1.  0.  0.  0.  0.  1.  1.  0. -1.  0.  0.  0.  0. -1. -1.
+   0.  0. -1. -1.  0.  0.  1.  0.  1.  0.  1.  1. -1.]
+ [-1.  0. -1.  0.  0.  0. -1. -1.  1. -1.  0.  0. -1.  0.  0.  0. -1. -1.
+   0. -1.  0.  0. -1.  0.  1. -1.  0. -1.  0. -1. -1.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0. -1.  0.  1.  0.  0. -1.  0.  0.  0.  0.
+  -1.  0. -1.  1. -1.  0.  0. -1.  0. -1. -1. -1.  1.]
+ [-1.  0. -1.  0.  0.  0.  1.  0. -1.  0. -1.  0.  0.  0. -1. -1. -1. -1.
+   0.  1. -1. -1.  0.  1.  1.  1.  1.  1. -1. -1.  1.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0. -1.  0.  1.  0.  0.  1.  0.  0.  1.  1.
+   0.  0.  1.  1.  1.  0. -1.  0. -1.  1. -1.  0. -1.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1. -1.  0.  0.  1.  0.  0.  0.  0.  0.
+   1.  0.  0.  0.  1.  0.  0.  1.  0.  1.  1.  1. -1.]
+ [-1.  0.  1.  0.  0.  1.  0.  0. -1.  0. -1.  0.  0.  0. -1.  1. -1.  1.
+   1.  0. -1. -1.  0.  0.  0.  1.  1.  0.  1.  1. -1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.  0.  1.  0. -1.  1.
+  -1.  0. -1. -1.  0. -1.  0. -1.  1. -1. -1.  0. -1.]
+ [-1.  0. -1.  0.  0.  0. -1.  1.  1.  1.  0.  1.  0.  0.  0.  0. -1. -1.
+   0.  0. -1.  1.  0.  0.  1.  0.  0.  0.  1.  0.  1.]]
+2018-03-16 09:51:26,144 classifier accuracy
+[0.973, 0.952, 1.0, 0.933, 0.833, 1.0, 0.966, 0.964, 0.865, 0.936, 0.926, 0.967, 1.0, 0.5, 0.92, 1.0, 0.985, 0.941, 0.967, 1.0, 0.982, 0.965, 0.947, 1.0, 0.977, 0.977, 0.975, 0.974, 0.903, 0.949, 0.959]
+2018-03-16 09:51:26,145 diversity
+[-0.011, -0.042, -0.024, 0.0, 0.069, 0.009, 0.0, 0.089, -0.018, 0.053, -0.125, 0.089, 0.07, 0.0, -0.063, -0.066, 0.0, -0.021, 0.076, 0.042, 0.0, -0.022, 0.08, 0.07, 0.0, 0.102, 0.0, 0.118, 0.099, 0.05, 0.089]
+2018-03-16 09:51:26,145 accuracy: 0.932000
+2018-03-16 09:51:26,147 ********************    data:Cancers    ECOC:Self_Adaption_ECOC F1 F2 info    *****************
+2018-03-16 09:51:30,242 class cplx:
+{'PR': 5.9835645794362729e-132, 'LU_A': 5.0147778692907834e-07, 'CO': 3.2180856784677684e-21, 'BR': 1.8754402003346297e-37, 'KI': 3.5571834099235335e-92, 'LI': 28564589.60700028, 'LU_S': 3.8882514919224617e-34, 'GA': 5.3711659643066908e-25, 'OV': 3.1345953981394306e-06}
+2018-03-16 09:51:30,243 var:80586249818896.031250 mean:3173843.289667
+2018-03-16 09:51:30,243 botttom th:3173843.289667 top th:6347686.579334
+2018-03-16 09:51:30,243 column num:2
+2018-03-16 09:51:30,249 merged matrix:
+[[ 1.  1.  0. -1.  0.  0.  0.  0.  1.  1.  0. -1.  0.  0.  0.  0.]
+ [-1.  0. -1.  0.  0.  0. -1. -1.  1. -1.  0.  0. -1.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0. -1.  0.  1.  0.  0. -1.  0.  0.]
+ [-1.  0. -1.  0.  0.  0.  1.  0. -1.  0. -1.  0.  0.  0. -1. -1.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0. -1.  0.  1.  0.  0.  1.  0.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1. -1.  0.  0.  1.  0.  0.  0.]
+ [-1.  0.  1.  0.  0.  1.  0.  0. -1.  0. -1.  0.  0.  0. -1.  1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.  0.  1.  0.]
+ [-1.  0. -1.  0.  0.  0. -1.  1.  1.  1.  0.  1.  0.  0.  0.  0.]]
+2018-03-16 09:51:30,250 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:30,250 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:30,250 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:30,250 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:30,250 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:30,250 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:30,250 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:30,252 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:30,252 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:30,252 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:30,253 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:30,253 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:30,253 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:30,255 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:30,255 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:30,255 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:30,255 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:30,255 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:30,255 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:30,255 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:30,256 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:30,256 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:31,503 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:31,503 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:31,503 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:31,503 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:31,503 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:31,503 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:31,503 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:31,503 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:31,503 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:31,505 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:31,506 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:31,506 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:31,506 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:31,506 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:31,506 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:31,506 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:31,506 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:33,497 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:33,497 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:33,497 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:33,497 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:33,497 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:33,497 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:33,497 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:33,499 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:33,499 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:33,499 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:33,500 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:33,500 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:33,500 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:33,500 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:33,500 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:33,500 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:33,500 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:33,500 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:33,500 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:33,500 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:33,500 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:33,502 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:34,806 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:34,808 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:34,808 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:34,808 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:34,808 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:34,808 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:34,808 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:34,809 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:34,809 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:34,811 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:34,811 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:34,811 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:34,811 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:34,811 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:34,812 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:34,812 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:34,812 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:36,723 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:36,723 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:36,723 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:36,723 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:36,723 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:36,723 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:36,723 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:36,723 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:36,723 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:36,723 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:36,723 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:36,724 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:36,726 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:36,726 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:36,726 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:36,726 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:36,726 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:36,726 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:36,726 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:36,726 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:36,726 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:41,234 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:41,234 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:41,236 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:41,236 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:41,236 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:41,236 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:41,236 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:41,236 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:41,236 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:41,236 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:41,236 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:41,236 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:41,237 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:41,237 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:41,237 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:41,237 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:41,237 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:41,237 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:41,237 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:41,239 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:41,239 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:42,092 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:42,094 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:42,094 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:42,094 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:42,094 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:42,094 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:42,094 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:42,094 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:42,095 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:42,095 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:42,095 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:42,095 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:42,095 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:42,096 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:42,096 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:42,096 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:42,096 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:42,096 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:42,096 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:42,096 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:42,096 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:42,096 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:42,098 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:42,098 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:42,098 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:42,098 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:47,920 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:47,921 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:47,921 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:51,023 1.create matrix:
+[[ 1.  1.  0. -1.  0.  0.  0.  0.  1.  1.  0. -1.  0.  0.  0.  0.  1.  0.
+   0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0. -1.  0.  0.  0. -1. -1.  1. -1.  0.  0. -1.  0.  0.  0. -1.  0.
+   0.  1. -1.  0.  1.  0. -1.  0. -1.  0. -1. -1. -1.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0. -1.  0.  1.  0.  0. -1.  0.  0. -1.  0.
+  -1.  0. -1.  1. -1.  0. -1.  1. -1.  1. -1. -1. -1.]
+ [-1.  0. -1.  0.  0.  0.  1.  0. -1.  0. -1.  0.  0.  0. -1. -1. -1.  0.
+   0.  0. -1.  0.  0. -1. -1.  0. -1. -1. -1. -1. -1.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0. -1.  0.  1.  0.  0.  1.  0.  0.  1. -1.
+   0.  0. -1. -1.  0.  0.  1.  0. -1.  0.  0.  1.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1. -1.  0.  0.  1.  0.  0.  0. -1.  0.
+   0.  0. -1.  0.  0.  0. -1.  0. -1.  0. -1. -1. -1.]
+ [-1.  0.  1.  0.  0.  1.  0.  0. -1.  0. -1.  0.  0.  0. -1.  1. -1.  1.
+   0.  0. -1.  0.  0.  1. -1.  0. -1.  0. -1. -1. -1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.  0.  1.  0. -1.  1.
+   1.  0. -1.  0.  0.  0. -1.  0. -1.  0.  1. -1.  1.]
+ [-1.  0. -1.  0.  0.  0. -1.  1.  1.  1.  0.  1.  0.  0.  0.  0. -1.  0.
+   0. -1.  1.  1.  0.  0. -1. -1.  1.  0. -1.  0. -1.]]
+2018-03-16 09:51:51,038 2.remove reverse matrix:
+[[ 1.  1.  0. -1.  0.  0.  0.  0.  1.  1.  0. -1.  0.  0.  0.  0.  1.  0.
+   0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0. -1.  0.  0.  0. -1. -1.  1. -1.  0.  0. -1.  0.  0.  0. -1.  0.
+   0. -1.  0.  1.  0. -1.  0. -1.  0. -1. -1. -1.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0. -1.  0.  1.  0.  0. -1.  0.  0. -1.  0.
+  -1. -1.  1. -1.  0. -1.  1. -1.  1. -1. -1. -1.]
+ [-1.  0. -1.  0.  0.  0.  1.  0. -1.  0. -1.  0.  0.  0. -1. -1. -1.  0.
+   0. -1.  0.  0. -1. -1.  0. -1. -1. -1. -1. -1.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0. -1.  0.  1.  0.  0.  1.  0.  0.  1. -1.
+   0. -1. -1.  0.  0.  1.  0. -1.  0.  0.  1.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1. -1.  0.  0.  1.  0.  0.  0. -1.  0.
+   0. -1.  0.  0.  0. -1.  0. -1.  0. -1. -1. -1.]
+ [-1.  0.  1.  0.  0.  1.  0.  0. -1.  0. -1.  0.  0.  0. -1.  1. -1.  1.
+   0. -1.  0.  0.  1. -1.  0. -1.  0. -1. -1. -1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.  0.  1.  0. -1.  1.
+   1. -1.  0.  0.  0. -1.  0. -1.  0.  1. -1.  1.]
+ [-1.  0. -1.  0.  0.  0. -1.  1.  1.  1.  0.  1.  0.  0.  0.  0. -1.  0.
+   0.  1.  1.  0.  0. -1. -1.  1.  0. -1.  0. -1.]]
+2018-03-16 09:51:51,049 3.remove duplicate matrix:
+[[ 1.  1.  0. -1.  0.  0.  0.  0.  1.  1.  0. -1.  0.  0.  0.  0.  1.  0.
+   0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0. -1.  0.  0.  0. -1. -1.  1. -1.  0.  0. -1.  0.  0.  0. -1.  0.
+   0. -1.  0.  1.  0. -1.  0. -1.  0. -1. -1. -1.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0. -1.  0.  1.  0.  0. -1.  0.  0. -1.  0.
+  -1. -1.  1. -1.  0. -1.  1. -1.  1. -1. -1. -1.]
+ [-1.  0. -1.  0.  0.  0.  1.  0. -1.  0. -1.  0.  0.  0. -1. -1. -1.  0.
+   0. -1.  0.  0. -1. -1.  0. -1. -1. -1. -1. -1.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0. -1.  0.  1.  0.  0.  1.  0.  0.  1. -1.
+   0. -1. -1.  0.  0.  1.  0. -1.  0.  0.  1.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1. -1.  0.  0.  1.  0.  0.  0. -1.  0.
+   0. -1.  0.  0.  0. -1.  0. -1.  0. -1. -1. -1.]
+ [-1.  0.  1.  0.  0.  1.  0.  0. -1.  0. -1.  0.  0.  0. -1.  1. -1.  1.
+   0. -1.  0.  0.  1. -1.  0. -1.  0. -1. -1. -1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.  0.  1.  0. -1.  1.
+   1. -1.  0.  0.  0. -1.  0. -1.  0.  1. -1.  1.]
+ [-1.  0. -1.  0.  0.  0. -1.  1.  1.  1.  0.  1.  0.  0.  0.  0. -1.  0.
+   0.  1.  1.  0.  0. -1. -1.  1.  0. -1.  0. -1.]]
+2018-03-16 09:51:51,055 4.remove unfit matrix:
+[[ 1.  1.  0. -1.  0.  0.  0.  0.  1.  1.  0. -1.  0.  0.  0.  0.  1.  0.
+   0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0. -1.  0.  0.  0. -1. -1.  1. -1.  0.  0. -1.  0.  0.  0. -1.  0.
+   0. -1.  0.  1.  0. -1.  0. -1.  0. -1. -1. -1.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0. -1.  0.  1.  0.  0. -1.  0.  0. -1.  0.
+  -1. -1.  1. -1.  0. -1.  1. -1.  1. -1. -1. -1.]
+ [-1.  0. -1.  0.  0.  0.  1.  0. -1.  0. -1.  0.  0.  0. -1. -1. -1.  0.
+   0. -1.  0.  0. -1. -1.  0. -1. -1. -1. -1. -1.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0. -1.  0.  1.  0.  0.  1.  0.  0.  1. -1.
+   0. -1. -1.  0.  0.  1.  0. -1.  0.  0.  1.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1. -1.  0.  0.  1.  0.  0.  0. -1.  0.
+   0. -1.  0.  0.  0. -1.  0. -1.  0. -1. -1. -1.]
+ [-1.  0.  1.  0.  0.  1.  0.  0. -1.  0. -1.  0.  0.  0. -1.  1. -1.  1.
+   0. -1.  0.  0.  1. -1.  0. -1.  0. -1. -1. -1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.  0.  1.  0. -1.  1.
+   1. -1.  0.  0.  0. -1.  0. -1.  0.  1. -1.  1.]
+ [-1.  0. -1.  0.  0.  0. -1.  1.  1.  1.  0.  1.  0.  0.  0.  0. -1.  0.
+   0.  1.  1.  0.  0. -1. -1.  1.  0. -1.  0. -1.]]
+2018-03-16 09:51:51,141 Self_Adaption_ECOC F1 F2 info Matrix:
+[[ 1.  1.  0. -1.  0.  0.  0.  0.  1.  1.  0. -1.  0.  0.  0.  0.  1.  0.
+   0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0. -1.  0.  0.  0. -1. -1.  1. -1.  0.  0. -1.  0.  0.  0. -1.  0.
+   0. -1.  0.  1.  0. -1.  0. -1.  0. -1. -1. -1.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0. -1.  0.  1.  0.  0. -1.  0.  0. -1.  0.
+  -1. -1.  1. -1.  0. -1.  1. -1.  1. -1. -1. -1.]
+ [-1.  0. -1.  0.  0.  0.  1.  0. -1.  0. -1.  0.  0.  0. -1. -1. -1.  0.
+   0. -1.  0.  0. -1. -1.  0. -1. -1. -1. -1. -1.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0. -1.  0.  1.  0.  0.  1.  0.  0.  1. -1.
+   0. -1. -1.  0.  0.  1.  0. -1.  0.  0.  1.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1. -1.  0.  0.  1.  0.  0.  0. -1.  0.
+   0. -1.  0.  0.  0. -1.  0. -1.  0. -1. -1. -1.]
+ [-1.  0.  1.  0.  0.  1.  0.  0. -1.  0. -1.  0.  0.  0. -1.  1. -1.  1.
+   0. -1.  0.  0.  1. -1.  0. -1.  0. -1. -1. -1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.  0.  1.  0. -1.  1.
+   1. -1.  0.  0.  0. -1.  0. -1.  0.  1. -1.  1.]
+ [-1.  0. -1.  0.  0.  0. -1.  1.  1.  1.  0.  1.  0.  0.  0.  0. -1.  0.
+   0.  1.  1.  0.  0. -1. -1.  1.  0. -1.  0. -1.]]
+2018-03-16 09:51:51,864 classifier accuracy
+[0.973, 0.952, 1.0, 0.933, 0.833, 1.0, 0.966, 0.964, 0.865, 0.936, 0.926, 0.967, 1.0, 0.5, 0.92, 1.0, 0.905, 0.96, 1.0, 0.878, 0.944, 0.923, 1.0, 0.983, 0.941, 0.983, 0.5, 0.712, 0.977, 0.712]
+2018-03-16 09:51:51,864 diversity
+[-0.009, 0.018, -0.005, 0.0, -0.029, -0.055, 0.0, 0.02, -0.01, 0.038, -0.052, 0.02, -0.006, 0.0, -0.023, 0.02, 0.013, 0.0, -0.021, 0.039, 0.0, -0.063, 0.02, 0.0, -0.021, 0.02, 0.004, 0.034, 0.0, 0.034]
+2018-03-16 09:51:51,864 accuracy: 0.635000
+2018-03-16 09:51:51,865 Cancers res are:
+2018-03-16 09:51:51,865 [0.93200000000000005, 0.63500000000000001]
+2018-03-16 09:51:51,994 
+ 
+ feature size: 167
+2018-03-16 09:51:51,996 ********************    data:DLBCL      ECOC:Self_Adaption_ECOC F1 F2 DC    *****************
+2018-03-16 09:51:53,352 class cplx:
+{'CLL': 18.927156448514189, 'B_cell': 3281995540113304.5, 'FL': 2.5244864896597716e-09, 'DLBCL': 1066813491897.0076}
+2018-03-16 09:51:53,354 var:2019217814749921500068956864512.000000 mean:820765588401305.125000
+2018-03-16 09:51:53,354 botttom th:820765588401305.125000 top th:1641531176802610.250000
+2018-03-16 09:51:53,354 column num:2
+2018-03-16 09:51:53,355 merged matrix:
+[[-1.  0. -1. -1.  0. -1.]
+ [-1.  0.  1.  1.  1.  0.]
+ [ 1.  1.  0.  1. -1.  0.]
+ [ 1. -1.  0. -1.  0.  1.]]
+2018-03-16 09:51:54,446 1.create matrix:
+[[-1.  0. -1. -1.  0. -1.  1.  1. -1. -1.  1.]
+ [-1.  0.  1.  1.  1.  0. -1. -1.  1.  1. -1.]
+ [ 1.  1.  0.  1. -1.  0. -1.  1. -1.  0. -1.]
+ [ 1. -1.  0. -1.  0.  1.  0. -1.  1. -1.  0.]]
+2018-03-16 09:51:54,448 2.remove reverse matrix:
+[[-1.  0. -1. -1.  0. -1.  1.  1. -1.  1.]
+ [-1.  0.  1.  1.  1.  0. -1. -1.  1. -1.]
+ [ 1.  1.  0.  1. -1.  0. -1.  1.  0. -1.]
+ [ 1. -1.  0. -1.  0.  1.  0. -1. -1.  0.]]
+2018-03-16 09:51:54,450 3.remove duplicate matrix:
+[[-1.  0. -1. -1.  0. -1.  1.  1. -1.  1.]
+ [-1.  0.  1.  1.  1.  0. -1. -1.  1. -1.]
+ [ 1.  1.  0.  1. -1.  0. -1.  1.  0. -1.]
+ [ 1. -1.  0. -1.  0.  1.  0. -1. -1.  0.]]
+2018-03-16 09:51:54,451 4.remove unfit matrix:
+[[-1.  0. -1. -1.  0. -1.  1.  1. -1.  1.]
+ [-1.  0.  1.  1.  1.  0. -1. -1.  1. -1.]
+ [ 1.  1.  0.  1. -1.  0. -1.  1.  0. -1.]
+ [ 1. -1.  0. -1.  0.  1.  0. -1. -1.  0.]]
+2018-03-16 09:51:54,466 Self_Adaption_ECOC F1 F2 DC Matrix:
+[[-1.  0. -1. -1.  0. -1.  1.  1. -1.  1.]
+ [-1.  0.  1.  1.  1.  0. -1. -1.  1. -1.]
+ [ 1.  1.  0.  1. -1.  0. -1.  1.  0. -1.]
+ [ 1. -1.  0. -1.  0.  1.  0. -1. -1.  0.]]
+2018-03-16 09:51:54,532 classifier accuracy
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+2018-03-16 09:51:54,532 diversity
+[-0.081, 0.07, 0.029, 0.059, 0.071, -0.106, -0.003, -0.002, 0.071, -0.003]
+2018-03-16 09:51:54,533 accuracy: 1.000000
+2018-03-16 09:51:54,533 ********************    data:DLBCL      ECOC:Self_Adaption_ECOC F1 F2 info    *****************
+2018-03-16 09:51:55,759 class cplx:
+{'CLL': 18.927156448514189, 'B_cell': 3281995540113304.5, 'FL': 2.5244864896597716e-09, 'DLBCL': 1066813491897.0076}
+2018-03-16 09:51:55,759 var:2019217814749921500068956864512.000000 mean:820765588401305.125000
+2018-03-16 09:51:55,760 botttom th:820765588401305.125000 top th:1641531176802610.250000
+2018-03-16 09:51:55,760 column num:2
+2018-03-16 09:51:55,762 merged matrix:
+[[-1.  0. -1. -1.  0. -1.]
+ [-1.  0.  1.  1.  1.  0.]
+ [ 1.  1.  0.  1. -1.  0.]
+ [ 1. -1.  0. -1.  0.  1.]]
+2018-03-16 09:51:55,762 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:55,762 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:55,763 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:55,763 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:55,928 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:55,930 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:55,930 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:55,930 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:55,930 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:55,930 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:51:55,930 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:55,930 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:57,385 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:51:57,385 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:51:57,388 1.create matrix:
+[[-1.  0. -1. -1.  0. -1. -1. -1.  1.  1.  1.]
+ [-1.  0.  1.  1.  1.  0. -1.  1.  0. -1. -1.]
+ [ 1.  1.  0.  1. -1.  0.  1.  0. -1.  0. -1.]
+ [ 1. -1.  0. -1.  0.  1. -1.  0.  0. -1. -1.]]
+2018-03-16 09:51:57,390 2.remove reverse matrix:
+[[-1.  0. -1. -1.  0. -1. -1. -1.  1.  1.  1.]
+ [-1.  0.  1.  1.  1.  0. -1.  1.  0. -1. -1.]
+ [ 1.  1.  0.  1. -1.  0.  1.  0. -1.  0. -1.]
+ [ 1. -1.  0. -1.  0.  1. -1.  0.  0. -1. -1.]]
+2018-03-16 09:51:57,391 3.remove duplicate matrix:
+[[-1.  0. -1. -1.  0. -1. -1. -1.  1.  1.  1.]
+ [-1.  0.  1.  1.  1.  0. -1.  1.  0. -1. -1.]
+ [ 1.  1.  0.  1. -1.  0.  1.  0. -1.  0. -1.]
+ [ 1. -1.  0. -1.  0.  1. -1.  0.  0. -1. -1.]]
+2018-03-16 09:51:57,392 4.remove unfit matrix:
+[[-1.  0. -1. -1.  0. -1. -1. -1.  1.  1.  1.]
+ [-1.  0.  1.  1.  1.  0. -1.  1.  0. -1. -1.]
+ [ 1.  1.  0.  1. -1.  0.  1.  0. -1.  0. -1.]
+ [ 1. -1.  0. -1.  0.  1. -1.  0.  0. -1. -1.]]
+2018-03-16 09:51:57,404 Self_Adaption_ECOC F1 F2 info Matrix:
+[[-1.  0. -1. -1.  0. -1. -1. -1.  1.  1.  1.]
+ [-1.  0.  1.  1.  1.  0. -1.  1.  0. -1. -1.]
+ [ 1.  1.  0.  1. -1.  0.  1.  0. -1.  0. -1.]
+ [ 1. -1.  0. -1.  0.  1. -1.  0.  0. -1. -1.]]
+2018-03-16 09:51:57,466 classifier accuracy
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+2018-03-16 09:51:57,466 diversity
+[-0.046, 0.042, 0.017, 0.06, 0.019, -0.085, -0.015, 0.017, 0.0, -0.053, 0.0]
+2018-03-16 09:51:57,466 accuracy: 1.000000
+2018-03-16 09:51:57,467 DLBCL res are:
+2018-03-16 09:51:57,467 [1.0, 1.0]
+2018-03-16 09:51:57,887 
+ 
+ feature size: 772
+2018-03-16 09:51:57,887 ********************    data:GCM        ECOC:Self_Adaption_ECOC F1 F2 DC    *****************
+2018-03-16 09:52:09,825 class cplx:
+{'Melanoma': 4.1872399957952302e-190, 'CNS': 1.2766736367179228e+66, 'Mesothelioma': 2.5202345725200211e-135, 'Leukemia': 6.1320351104936367e-13, 'Bladder': 5.913883945960683e-196, 'Renal': 6.6434556184838122e-16, 'Lung': 2.4909217041861285e-61, 'Breast': 1.8788856763054686e-271, 'Colorectal': 2.3384983033695538e-136, 'Uterus': 1.5044607964435172e-108, 'Ovary': 2.6359522153557929e+18, 'Lymphoma': 2.9077194807786836e-121, 'Prostate': 1082599.3772253059, 'Pancreas': 7.3226359426173822e-190}
+2018-03-16 09:52:09,825 var:108105318729476380081144436992379339633290197655367879480709592492582096628876502969967799898366859991519692190031183151519638749184.000000 mean:91190974051280194048640116942209587022739216213492981652395130880.000000
+2018-03-16 09:52:09,825 botttom th:91190974051280194048640116942209587022739216213492981652395130880.000000 top th:182381948102560388097280233884419174045478432426985963304790261760.000000
+2018-03-16 09:52:09,825 column num:2
+2018-03-16 09:52:09,834 merged matrix:
+[[-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  1. -1.  0.  0.  1.
+   0.  0.  0. -1.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0. -1.  0.  0.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  1.  0. -1.  0.
+   0.  0.  1.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  1.  0.  1.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0. -1.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0.  1.  0.  0.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0. -1.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0. -1.  0.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  1.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  1.  1.  0. -1.  0.
+   0.  0. -1.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0.  1.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0. -1.]
+ [-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0. -1.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0.  1.]
+ [ 1.  1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  1.
+   0.  0.  0.  1.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0.  1.  0.]]
+2018-03-16 09:52:19,872 1.create matrix:
+[[-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  1. -1.  0.  0.  1.
+   0.  0.  0. -1.  0.  0.  0.  0. -1. -1.  0.  1.  0.  1.  1. -1.  1.  0.
+  -1.  0.  0.  1.  1.  1.  0.  1. -1.  1. -1.  1.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0. -1.  0.  0.  0.  0. -1.  0.  1.  0. -1.  1.  0. -1.
+   0. -1.  0.  0. -1.  1.  0. -1. -1.  0.  0. -1. -1. -1.  1.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  1.  0. -1.  0.
+   0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0. -1.  0.  0.  0.  1. -1.  0.
+   1.  0.  0.  0. -1.  0.  1. -1.  1.  0. -1.  0.  1. -1.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  1.  0.  1.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  1.  0.  1.  1.  1.  0.
+   0.  0.  0.  0.  1.  1. -1.  1.  0.  0. -1.  0.  0. -1. -1.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0. -1.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1.  0. -1.  0.  1. -1. -1.  0.
+   0.  1.  0.  0.  1. -1.  0. -1.  1.  0.  0. -1.  1. -1.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0. -1.  0.  0.  0. -1. -1.  0.  1.  0.  0.  1. -1. -1.  0.
+   0. -1.  0.  1.  1.  0.  0. -1. -1.  1.  1. -1.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0. -1.  0. -1.  1. -1.  0.  0. -1. -1. -1.  0.  1.
+   0.  0. -1.  0. -1. -1.  1.  1.  0. -1.  1. -1. -1.  0. -1.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  1.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0. -1. -1.  0. -1.  0.  0.  0.  1.  0.  1.
+   0.  0.  0.  1. -1.  0.  1.  1.  0.  1. -1. -1.  1.  1. -1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  1.  1.  0. -1.  0.
+   0.  0. -1.  0.  0.  0.  0.  0. -1.  1. -1.  0.  0.  1.  1.  1. -1.  0.
+  -1.  0.  0.  0. -1.  1. -1. -1. -1.  0.  0.  1. -1.  1.  0.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0.  1.  0.  0. -1.  1.  0.  0.  0.  0. -1.  1.  0. -1.
+   0.  1.  0.  0.  0.  0.  0. -1.  1.  0.  0. -1.  1. -1.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0. -1. -1.  0. -1.
+   0.  0. -1.  0. -1. -1.  1. -1.  0. -1.  1.  0. -1.  1.  0.]
+ [-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0. -1.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0.  1. -1. -1.  0.  1.  0. -1. -1. -1.  0. -1.
+   0.  0.  1. -1.  1. -1.  1. -1.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  1.
+   0.  0.  0.  1.  0.  0.  0.  0. -1. -1.  0. -1.  0.  0.  1. -1.  1.  0.
+   1.  0.  0.  1. -1.  0.  0.  1.  1.  1. -1.  1. -1.  0. -1.]
+ [-1.  0.  1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0.  1.  0. -1.  1.  1.  0.  0.  0. -1. -1.  0.  1.
+   0.  0.  1.  0.  1.  0.  1.  1.  0.  1.  1. -1.  1.  0.  1.]]
+2018-03-16 09:52:19,915 2.remove reverse matrix:
+[[-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  1. -1.  0.  0.  1.
+   0.  0.  0. -1.  0.  0.  0.  0. -1. -1.  0.  1.  0.  1.  1. -1.  1.  0.
+  -1.  0.  0.  1.  1.  1.  0.  1. -1.  1. -1.  1.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0. -1.  0.  0.  0.  0. -1.  0.  1.  0. -1.  1.  0. -1.
+   0. -1.  0.  0. -1.  1.  0. -1. -1.  0.  0. -1. -1. -1.  1.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  1.  0. -1.  0.
+   0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0. -1.  0.  0.  0.  1. -1.  0.
+   1.  0.  0.  0. -1.  0.  1. -1.  1.  0. -1.  0.  1. -1.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  1.  0.  1.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  1.  0.  1.  1.  1.  0.
+   0.  0.  0.  0.  1.  1. -1.  1.  0.  0. -1.  0.  0. -1. -1.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0. -1.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1.  0. -1.  0.  1. -1. -1.  0.
+   0.  1.  0.  0.  1. -1.  0. -1.  1.  0.  0. -1.  1. -1.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0. -1.  0.  0.  0. -1. -1.  0.  1.  0.  0.  1. -1. -1.  0.
+   0. -1.  0.  1.  1.  0.  0. -1. -1.  1.  1. -1.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0. -1.  0. -1.  1. -1.  0.  0. -1. -1. -1.  0.  1.
+   0.  0. -1.  0. -1. -1.  1.  1.  0. -1.  1. -1. -1.  0. -1.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  1.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0. -1. -1.  0. -1.  0.  0.  0.  1.  0.  1.
+   0.  0.  0.  1. -1.  0.  1.  1.  0.  1. -1. -1.  1.  1. -1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  1.  1.  0. -1.  0.
+   0.  0. -1.  0.  0.  0.  0.  0. -1.  1. -1.  0.  0.  1.  1.  1. -1.  0.
+  -1.  0.  0.  0. -1.  1. -1. -1. -1.  0.  0.  1. -1.  1.  0.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0.  1.  0.  0. -1.  1.  0.  0.  0.  0. -1.  1.  0. -1.
+   0.  1.  0.  0.  0.  0.  0. -1.  1.  0.  0. -1.  1. -1.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0. -1. -1.  0. -1.
+   0.  0. -1.  0. -1. -1.  1. -1.  0. -1.  1.  0. -1.  1.  0.]
+ [-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0. -1.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0.  1. -1. -1.  0.  1.  0. -1. -1. -1.  0. -1.
+   0.  0.  1. -1.  1. -1.  1. -1.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  1.
+   0.  0.  0.  1.  0.  0.  0.  0. -1. -1.  0. -1.  0.  0.  1. -1.  1.  0.
+   1.  0.  0.  1. -1.  0.  0.  1.  1.  1. -1.  1. -1.  0. -1.]
+ [-1.  0.  1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0.  1.  0. -1.  1.  1.  0.  0.  0. -1. -1.  0.  1.
+   0.  0.  1.  0.  1.  0.  1.  1.  0.  1.  1. -1.  1.  0.  1.]]
+2018-03-16 09:52:19,938 3.remove duplicate matrix:
+[[-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  1. -1.  0.  0.  1.
+   0.  0.  0. -1.  0.  0.  0.  0. -1. -1.  0.  1.  0.  1.  1. -1.  1.  0.
+  -1.  0.  0.  1.  1.  1.  0.  1. -1.  1. -1.  1.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0. -1.  0.  0.  0.  0. -1.  0.  1.  0. -1.  1.  0. -1.
+   0. -1.  0.  0. -1.  1.  0. -1. -1.  0.  0. -1. -1. -1.  1.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  1.  0. -1.  0.
+   0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0. -1.  0.  0.  0.  1. -1.  0.
+   1.  0.  0.  0. -1.  0.  1. -1.  1.  0. -1.  0.  1. -1.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  1.  0.  1.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  1.  0.  1.  1.  1.  0.
+   0.  0.  0.  0.  1.  1. -1.  1.  0.  0. -1.  0.  0. -1. -1.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0. -1.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1.  0. -1.  0.  1. -1. -1.  0.
+   0.  1.  0.  0.  1. -1.  0. -1.  1.  0.  0. -1.  1. -1.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0. -1.  0.  0.  0. -1. -1.  0.  1.  0.  0.  1. -1. -1.  0.
+   0. -1.  0.  1.  1.  0.  0. -1. -1.  1.  1. -1.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0. -1.  0. -1.  1. -1.  0.  0. -1. -1. -1.  0.  1.
+   0.  0. -1.  0. -1. -1.  1.  1.  0. -1.  1. -1. -1.  0. -1.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  1.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0. -1. -1.  0. -1.  0.  0.  0.  1.  0.  1.
+   0.  0.  0.  1. -1.  0.  1.  1.  0.  1. -1. -1.  1.  1. -1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  1.  1.  0. -1.  0.
+   0.  0. -1.  0.  0.  0.  0.  0. -1.  1. -1.  0.  0.  1.  1.  1. -1.  0.
+  -1.  0.  0.  0. -1.  1. -1. -1. -1.  0.  0.  1. -1.  1.  0.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0.  1.  0.  0. -1.  1.  0.  0.  0.  0. -1.  1.  0. -1.
+   0.  1.  0.  0.  0.  0.  0. -1.  1.  0.  0. -1.  1. -1.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0. -1. -1.  0. -1.
+   0.  0. -1.  0. -1. -1.  1. -1.  0. -1.  1.  0. -1.  1.  0.]
+ [-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0. -1.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0.  1. -1. -1.  0.  1.  0. -1. -1. -1.  0. -1.
+   0.  0.  1. -1.  1. -1.  1. -1.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  1.
+   0.  0.  0.  1.  0.  0.  0.  0. -1. -1.  0. -1.  0.  0.  1. -1.  1.  0.
+   1.  0.  0.  1. -1.  0.  0.  1.  1.  1. -1.  1. -1.  0. -1.]
+ [-1.  0.  1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0.  1.  0. -1.  1.  1.  0.  0.  0. -1. -1.  0.  1.
+   0.  0.  1.  0.  1.  0.  1.  1.  0.  1.  1. -1.  1.  0.  1.]]
+2018-03-16 09:52:19,954 4.remove unfit matrix:
+[[-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  1. -1.  0.  0.  1.
+   0.  0.  0. -1.  0.  0.  0.  0. -1. -1.  0.  1.  0.  1.  1. -1.  1.  0.
+  -1.  0.  0.  1.  1.  1.  0.  1. -1.  1. -1.  1.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0. -1.  0.  0.  0.  0. -1.  0.  1.  0. -1.  1.  0. -1.
+   0. -1.  0.  0. -1.  1.  0. -1. -1.  0.  0. -1. -1. -1.  1.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  1.  0. -1.  0.
+   0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0. -1.  0.  0.  0.  1. -1.  0.
+   1.  0.  0.  0. -1.  0.  1. -1.  1.  0. -1.  0.  1. -1.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  1.  0.  1.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  1.  0.  1.  1.  1.  0.
+   0.  0.  0.  0.  1.  1. -1.  1.  0.  0. -1.  0.  0. -1. -1.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0. -1.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1.  0. -1.  0.  1. -1. -1.  0.
+   0.  1.  0.  0.  1. -1.  0. -1.  1.  0.  0. -1.  1. -1.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0. -1.  0.  0.  0. -1. -1.  0.  1.  0.  0.  1. -1. -1.  0.
+   0. -1.  0.  1.  1.  0.  0. -1. -1.  1.  1. -1.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0. -1.  0. -1.  1. -1.  0.  0. -1. -1. -1.  0.  1.
+   0.  0. -1.  0. -1. -1.  1.  1.  0. -1.  1. -1. -1.  0. -1.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  1.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0. -1. -1.  0. -1.  0.  0.  0.  1.  0.  1.
+   0.  0.  0.  1. -1.  0.  1.  1.  0.  1. -1. -1.  1.  1. -1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  1.  1.  0. -1.  0.
+   0.  0. -1.  0.  0.  0.  0.  0. -1.  1. -1.  0.  0.  1.  1.  1. -1.  0.
+  -1.  0.  0.  0. -1.  1. -1. -1. -1.  0.  0.  1. -1.  1.  0.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0.  1.  0.  0. -1.  1.  0.  0.  0.  0. -1.  1.  0. -1.
+   0.  1.  0.  0.  0.  0.  0. -1.  1.  0.  0. -1.  1. -1.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0. -1. -1.  0. -1.
+   0.  0. -1.  0. -1. -1.  1. -1.  0. -1.  1.  0. -1.  1.  0.]
+ [-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0. -1.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0.  1. -1. -1.  0.  1.  0. -1. -1. -1.  0. -1.
+   0.  0.  1. -1.  1. -1.  1. -1.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  1.
+   0.  0.  0.  1.  0.  0.  0.  0. -1. -1.  0. -1.  0.  0.  1. -1.  1.  0.
+   1.  0.  0.  1. -1.  0.  0.  1.  1.  1. -1.  1. -1.  0. -1.]
+ [-1.  0.  1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0.  1.  0. -1.  1.  1.  0.  0.  0. -1. -1.  0.  1.
+   0.  0.  1.  0.  1.  0.  1.  1.  0.  1.  1. -1.  1.  0.  1.]]
+2018-03-16 09:52:20,321 Self_Adaption_ECOC F1 F2 DC Matrix:
+[[-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  1. -1.  0.  0.  1.
+   0.  0.  0. -1.  0.  0.  0.  0. -1. -1.  0.  1.  0.  1.  1. -1.  1.  0.
+  -1.  0.  0.  1.  1.  1.  0.  1. -1.  1. -1.  1.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0. -1.  0.  0.  0.  0. -1.  0.  1.  0. -1.  1.  0. -1.
+   0. -1.  0.  0. -1.  1.  0. -1. -1.  0.  0. -1. -1. -1.  1.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  1.  0. -1.  0.
+   0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0. -1.  0.  0.  0.  1. -1.  0.
+   1.  0.  0.  0. -1.  0.  1. -1.  1.  0. -1.  0.  1. -1.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  1.  0.  1.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  1.  0.  1.  1.  1.  0.
+   0.  0.  0.  0.  1.  1. -1.  1.  0.  0. -1.  0.  0. -1. -1.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0. -1.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1.  0. -1.  0.  1. -1. -1.  0.
+   0.  1.  0.  0.  1. -1.  0. -1.  1.  0.  0. -1.  1. -1.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0. -1.  0.  0.  0. -1. -1.  0.  1.  0.  0.  1. -1. -1.  0.
+   0. -1.  0.  1.  1.  0.  0. -1. -1.  1.  1. -1.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0. -1.  0. -1.  1. -1.  0.  0. -1. -1. -1.  0.  1.
+   0.  0. -1.  0. -1. -1.  1.  1.  0. -1.  1. -1. -1.  0. -1.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  1.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0. -1. -1.  0. -1.  0.  0.  0.  1.  0.  1.
+   0.  0.  0.  1. -1.  0.  1.  1.  0.  1. -1. -1.  1.  1. -1.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  1.  1.  0. -1.  0.
+   0.  0. -1.  0.  0.  0.  0.  0. -1.  1. -1.  0.  0.  1.  1.  1. -1.  0.
+  -1.  0.  0.  0. -1.  1. -1. -1. -1.  0.  0.  1. -1.  1.  0.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0.  1.  0.  0. -1.  1.  0.  0.  0.  0. -1.  1.  0. -1.
+   0.  1.  0.  0.  0.  0.  0. -1.  1.  0.  0. -1.  1. -1.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0. -1. -1.  0. -1.
+   0.  0. -1.  0. -1. -1.  1. -1.  0. -1.  1.  0. -1.  1.  0.]
+ [-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0. -1.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0.  1. -1. -1.  0.  1.  0. -1. -1. -1.  0. -1.
+   0.  0.  1. -1.  1. -1.  1. -1.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  1.
+   0.  0.  0.  1.  0.  0.  0.  0. -1. -1.  0. -1.  0.  0.  1. -1.  1.  0.
+   1.  0.  0.  1. -1.  0.  0.  1.  1.  1. -1.  1. -1.  0. -1.]
+ [-1.  0.  1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0.  1.  0. -1.  1.  1.  0.  0.  0. -1. -1.  0.  1.
+   0.  0.  1.  0.  1.  0.  1.  1.  0.  1.  1. -1.  1.  0.  1.]]
+2018-03-16 09:52:21,690 classifier accuracy
+[0.804, 0.667, 0.818, 0.667, 0.8, 0.909, 0.818, 0.5, 0.889, 0.667, 1.0, 0.6, 1.0, 0.717, 0.84, 0.762, 0.8, 0.867, 0.875, 0.846, 1.0, 0.833, 0.889, 0.5, 1.0, 0.6, 0.903, 0.806, 0.731, 0.765, 0.733, 0.857, 0.7, 0.739, 0.88, 0.762, 0.923, 0.733, 0.769, 0.846, 0.791, 0.828, 0.76, 0.783, 0.857, 0.773, 0.793, 0.735, 0.743, 0.852, 0.737]
+2018-03-16 09:52:21,690 diversity
+[0.012, 0.027, -0.007, 0.0, -0.001, -0.002, 0.011, 0.001, -0.013, 0.0, 0.001, 0.02, -0.005, 0.031, -0.025, -0.021, 0.009, 0.021, 0.017, 0.017, -0.014, -0.016, -0.022, 0.012, 0.04, -0.039, -0.004, -0.008, 0.044, 0.013, -0.02, 0.017, 0.036, -0.032, 0.009, 0.002, -0.028, -0.012, 0.019, 0.0, 0.058, 0.012, 0.0, 0.013, -0.023, 0.022, -0.02, 0.0, 0.044, 0.009, 0.0]
+2018-03-16 09:52:21,690 accuracy: 0.457000
+2018-03-16 09:52:21,691 ********************    data:GCM        ECOC:Self_Adaption_ECOC F1 F2 info    *****************
+2018-03-16 09:52:33,732 class cplx:
+{'Melanoma': 4.1872399957952302e-190, 'CNS': 1.2766736367179228e+66, 'Mesothelioma': 2.5202345725200211e-135, 'Leukemia': 6.1320351104936367e-13, 'Bladder': 5.913883945960683e-196, 'Renal': 6.6434556184838122e-16, 'Lung': 2.4909217041861285e-61, 'Breast': 1.8788856763054686e-271, 'Colorectal': 2.3384983033695538e-136, 'Uterus': 1.5044607964435172e-108, 'Ovary': 2.6359522153557929e+18, 'Lymphoma': 2.9077194807786836e-121, 'Prostate': 1082599.3772253059, 'Pancreas': 7.3226359426173822e-190}
+2018-03-16 09:52:33,733 var:108105318729476380081144436992379339633290197655367879480709592492582096628876502969967799898366859991519692190031183151519638749184.000000 mean:91190974051280194048640116942209587022739216213492981652395130880.000000
+2018-03-16 09:52:33,733 botttom th:91190974051280194048640116942209587022739216213492981652395130880.000000 top th:182381948102560388097280233884419174045478432426985963304790261760.000000
+2018-03-16 09:52:33,733 column num:2
+2018-03-16 09:52:33,740 merged matrix:
+[[-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  1. -1.  0.  0.  1.
+   0.  0.  0. -1.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0. -1.  0.  0.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  1.  0. -1.  0.
+   0.  0.  1.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  1.  0.  1.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0. -1.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0.  1.  0.  0.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0. -1.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0. -1.  0.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  1.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  1.  1.  0. -1.  0.
+   0.  0. -1.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0.  1.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0. -1.]
+ [-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0. -1.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0.  1.]
+ [ 1.  1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  1.
+   0.  0.  0.  1.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0.  1.  0.]]
+2018-03-16 09:52:33,742 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,742 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:33,743 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,743 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:33,743 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,743 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:33,743 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,743 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:33,743 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,743 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:33,743 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,743 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:33,743 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,743 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:33,746 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,746 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:33,746 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,746 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,746 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:33,746 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,746 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,746 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,746 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:52:33,746 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,746 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:33,746 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,746 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:52:33,746 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,746 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,746 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:33,746 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:33,746 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:52:37,226 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,226 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,226 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:37,227 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,227 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,227 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:52:37,227 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,227 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:52:37,227 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,227 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,227 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,227 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,229 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:37,229 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,229 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,230 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,230 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:52:37,230 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,230 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,230 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:37,230 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,230 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,230 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,230 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,230 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:37,230 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,230 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,230 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,232 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:37,232 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:52:37,232 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,673 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,673 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,673 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,674 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:52:44,674 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,674 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:44,674 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,674 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,674 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,674 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,674 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,676 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,676 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,676 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,680 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,680 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,680 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,680 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,680 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,680 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,680 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:44,680 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,680 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,680 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:52:44,680 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,680 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,681 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:44,681 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:58,323 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:58,325 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:58,325 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:58,325 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:52:58,325 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:58,325 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:52:58,325 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:58,325 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:58,325 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:58,325 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:52:58,325 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:58,325 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:52:58,325 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:52:58,325 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:08,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,180 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:08,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,180 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:08,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,181 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:08,181 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,181 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,181 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,181 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,183 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,184 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,184 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:08,184 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,184 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,184 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,184 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,184 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,184 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:08,184 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,184 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:08,184 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:08,184 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,993 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,993 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,993 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:11,993 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,993 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,993 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,993 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,993 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,993 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,993 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:11,993 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,993 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,993 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,994 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,996 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:11,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,996 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:11,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:11,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:13,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:13,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:13,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:13,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:13,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:13,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:13,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:13,996 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:13,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:13,996 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:13,997 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:13,997 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:13,997 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:13,997 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:14,000 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:14,000 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:14,000 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:14,000 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:14,000 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:14,002 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:14,002 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:14,002 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:14,002 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:14,002 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:14,002 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:14,002 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:14,002 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:14,002 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:14,002 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:14,003 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:14,003 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:14,003 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:14,003 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:14,003 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:26,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,180 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:26,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,180 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:26,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,180 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,181 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:26,183 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,183 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,183 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,183 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,183 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,183 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:26,184 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,184 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,184 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,184 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,184 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,184 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:26,184 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:26,184 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,138 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,138 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,138 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:32,138 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,138 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,138 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:32,138 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,138 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,141 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,141 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:32,141 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,141 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,141 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,141 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:32,141 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,141 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,141 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,141 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,141 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,141 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,141 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:32,141 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:35,263 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:35,263 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:35,263 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:35,263 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:35,263 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:35,263 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:35,265 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:35,265 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:35,265 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:35,265 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:35,265 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:35,265 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:35,265 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:35,265 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:35,266 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:35,266 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,210 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,210 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,211 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,211 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,211 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,211 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:36,211 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,211 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,211 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:36,213 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,213 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,213 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,213 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,213 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:36,213 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,214 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,216 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,216 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,216 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:36,216 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,216 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,216 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,216 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,216 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,216 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,217 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,217 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,217 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:36,217 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:42,332 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,332 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:42,334 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,334 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:42,334 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,334 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,334 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,334 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,334 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,334 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,335 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,335 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,335 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,335 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,335 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,335 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,335 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,336 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,336 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:42,336 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,336 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,336 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:42,336 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,336 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,336 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,336 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,336 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:42,338 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:47,914 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:47,914 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:47,914 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:47,914 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:47,914 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:47,914 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:47,914 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:47,914 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:47,914 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:47,914 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:47,914 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:47,914 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:47,914 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:47,914 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:48,914 1.create matrix:
+[[-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  1. -1.  0.  0.  1.
+   0.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0.  0.  0.  0. -1.  1.  0.
+  -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0. -1.  0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0. -1.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0. -1.  0. -1.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  1.  0. -1.  0.
+   0.  0.  1.  0.  0.  0.  0.  0. -1.  0.  0.  1.  0.  0.  1.  0.  0.  0.
+   0.  0.  0.  1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  1.  0.  1.  0.
+   0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.  0.  0.  0.  1.  0.
+   0.  0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0. -1.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0.  1.  0.  0.  0. -1.  0. -1.  0.  1.  0.  0. -1.  0.  0.
+   0.  0.  0. -1.  1.  0.  0.  0.  0.  0. -1.  0.  0.  1.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0. -1.  0. -1.  1.  0.  0.  0. -1.  0. -1.  0.  1.
+   0.  0.  1. -1.  0.  1.  0.  0.  0. -1.  1.  0.  1.  0.  0.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  1.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0. -1.  0.  0. -1.  0.  0. -1.  0.  0.  1.
+   0.  0.  0. -1. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  1.  1.  0. -1.  0.
+   0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  0.  0.  0.  0.  0.  0.  0.  0.
+   1.  0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0.  1.  0.  0.  1. -1.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0. -1. -1.  0.  0.  0. -1.  0.  0. -1.  0.  0.
+   0.  0. -1. -1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0.]
+ [-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0. -1.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  0.  0.  1.  0.  1.  0.  0.
+   0.  0.  0. -1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  1.
+   0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  0. -1.  0.  0.  0. -1. -1.  0.
+   0.  0.  0.  0. -1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0.  1.  0. -1.  1.  1.  0.  0.  0.  0. -1.  0. -1.
+   0.  0.  0. -1.  0.  0.  0. -1.  0.  0.  0. -1.  0. -1.  1.]]
+2018-03-16 09:53:48,956 2.remove reverse matrix:
+[[-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  1. -1.  0.  0.  1.
+   0.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  0. -1.
+   0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0. -1.  0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  -1.  0. -1.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  1.  0. -1.  0.
+   0.  0.  1.  0.  0.  0.  0.  0. -1.  0.  0.  1.  0.  0.  0.  0.  0.  0.
+   0.  0.  1.  0.  0. -1.  0.  0.  0.  1.  0.  0.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  1.  0.  1.  0.
+   0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.  0.  0.  1.  0.  0.
+   0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0. -1.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0.  1.  0.  0.  0. -1.  0. -1.  0.  1.  0. -1.  0.  0.  0.
+   0.  0. -1.  1.  0.  0.  0.  0. -1.  0.  0.  1.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0. -1.  0.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0. -1.  0. -1.  1.  0.  0.  0. -1. -1.  0.  1.  0.
+   0.  1. -1.  0.  1.  0.  0.  0.  1.  0.  1.  0.  0.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  1.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0. -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.
+   0.  0. -1. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  1.  1.  0. -1.  0.
+   0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  0.  0.  0.  0.  0.  0.  0.  1.
+   0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0.  1.  0.  0.  1. -1.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0. -1. -1.  0.  0.  0. -1.  0. -1.  0.  0.  0.
+   0. -1. -1.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0. -1.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  0.  0.  1.  1.  0.  0.  0.
+   0.  0. -1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  1.
+   0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  0. -1.  0.  0. -1. -1.  0.  0.
+   0.  0.  0. -1.  0.  0.  1.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0.  1.  0. -1.  1.  1.  0.  0.  0. -1.  0. -1.  0.
+   0.  0. -1.  0.  0.  0. -1.  0.  0. -1.  0. -1.  1.]]
+2018-03-16 09:53:48,979 3.remove duplicate matrix:
+[[-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  1. -1.  0.  0.  1.
+   0.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  0. -1.
+   0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0. -1.  0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  -1.  0. -1.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  1.  0. -1.  0.
+   0.  0.  1.  0.  0.  0.  0.  0. -1.  0.  0.  1.  0.  0.  0.  0.  0.  0.
+   0.  0.  1.  0.  0. -1.  0.  0.  0.  1.  0.  0.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  1.  0.  1.  0.
+   0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.  0.  0.  1.  0.  0.
+   0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0. -1.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0.  1.  0.  0.  0. -1.  0. -1.  0.  1.  0. -1.  0.  0.  0.
+   0.  0. -1.  1.  0.  0.  0.  0. -1.  0.  0.  1.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0. -1.  0.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0. -1.  0. -1.  1.  0.  0.  0. -1. -1.  0.  1.  0.
+   0.  1. -1.  0.  1.  0.  0.  0.  1.  0.  1.  0.  0.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  1.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0. -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.
+   0.  0. -1. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  1.  1.  0. -1.  0.
+   0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  0.  0.  0.  0.  0.  0.  0.  1.
+   0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0.  1.  0.  0.  1. -1.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0. -1. -1.  0.  0.  0. -1.  0. -1.  0.  0.  0.
+   0. -1. -1.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0. -1.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  0.  0.  1.  1.  0.  0.  0.
+   0.  0. -1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  1.
+   0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  0. -1.  0.  0. -1. -1.  0.  0.
+   0.  0.  0. -1.  0.  0.  1.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0.  1.  0. -1.  1.  1.  0.  0.  0. -1.  0. -1.  0.
+   0.  0. -1.  0.  0.  0. -1.  0.  0. -1.  0. -1.  1.]]
+2018-03-16 09:53:48,994 4.remove unfit matrix:
+[[-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  1. -1.  0.  0.  1.
+   0.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  0. -1.
+   0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0. -1.  0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  -1.  0. -1.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  1.  0. -1.  0.
+   0.  0.  1.  0.  0.  0.  0.  0. -1.  0.  0.  1.  0.  0.  0.  0.  0.  0.
+   0.  0.  1.  0.  0. -1.  0.  0.  0.  1.  0.  0.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  1.  0.  1.  0.
+   0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.  0.  0.  1.  0.  0.
+   0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0. -1.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0.  1.  0.  0.  0. -1.  0. -1.  0.  1.  0. -1.  0.  0.  0.
+   0.  0. -1.  1.  0.  0.  0.  0. -1.  0.  0.  1.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0. -1.  0.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0. -1.  0. -1.  1.  0.  0.  0. -1. -1.  0.  1.  0.
+   0.  1. -1.  0.  1.  0.  0.  0.  1.  0.  1.  0.  0.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  1.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0. -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.
+   0.  0. -1. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  1.  1.  0. -1.  0.
+   0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  0.  0.  0.  0.  0.  0.  0.  1.
+   0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0.  1.  0.  0.  1. -1.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0. -1. -1.  0.  0.  0. -1.  0. -1.  0.  0.  0.
+   0. -1. -1.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0. -1.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  0.  0.  1.  1.  0.  0.  0.
+   0.  0. -1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  1.
+   0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  0. -1.  0.  0. -1. -1.  0.  0.
+   0.  0.  0. -1.  0.  0.  1.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0.  1.  0. -1.  1.  1.  0.  0.  0. -1.  0. -1.  0.
+   0.  0. -1.  0.  0.  0. -1.  0.  0. -1.  0. -1.  1.]]
+2018-03-16 09:53:49,191 Self_Adaption_ECOC F1 F2 info Matrix:
+[[-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  1. -1.  0.  0.  1.
+   0.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  0. -1.
+   0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0. -1.  0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  -1.  0. -1.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  1.  0. -1.  0.
+   0.  0.  1.  0.  0.  0.  0.  0. -1.  0.  0.  1.  0.  0.  0.  0.  0.  0.
+   0.  0.  1.  0.  0. -1.  0.  0.  0.  1.  0.  0.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0.  1.  0.  0.  0.  0.  1.  1.  0.  1.  0.
+   0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.  0.  0.  1.  0.  0.
+   0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0.  1.  0.  0.  0. -1.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0.  1.  0.  0.  0. -1.  0. -1.  0.  1.  0. -1.  0.  0.  0.
+   0.  0. -1.  1.  0.  0.  0.  0. -1.  0.  0.  1.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0.  1. -1.  0.  0. -1.
+   0.  0.  0.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0.  0. -1.  0.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0. -1.  0. -1.  1.  0.  0.  0. -1. -1.  0.  1.  0.
+   0.  1. -1.  0.  1.  0.  0.  0.  1.  0.  1.  0.  0.]
+ [-1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  1.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0. -1.  0.  0. -1.  0.  0.  0.  0.  1.  0.
+   0.  0. -1. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0. -1.  0.  0.  0.  0.  1.  0.  0.  1.  1.  0. -1.  0.
+   0.  0. -1.  0.  0.  0.  0.  0. -1.  1.  0.  0.  0.  0.  0.  0.  0.  1.
+   0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0. -1.  0.  1.  0.  0.
+  -1.  0.  0.  0.  0.  1.  0.  0.  1. -1.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1. -1.  0.  0. -1.  0.  0.  0.  0. -1.  0.  0.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0. -1. -1.  0.  0.  0. -1.  0. -1.  0.  0.  0.
+   0. -1. -1.  0. -1.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [-1.  0. -1.  0.  0.  0.  1.  0.  0.  0.  0. -1.  0. -1.  0. -1.  0.  0.
+   0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  0.  0.  1.  1.  0.  0.  0.
+   0.  0. -1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.]
+ [ 1.  1.  0. -1.  0.  0.  0. -1.  0.  0.  0.  0.  0.  1. -1.  0.  0.  1.
+   0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  0. -1.  0.  0. -1. -1.  0.  0.
+   0.  0.  0. -1.  0.  0.  1.  0.  0.  0.  0.  0.  0.]
+ [-1.  0.  1.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0. -1.  0. -1.  0.  0.
+   0.  1.  0.  0.  0.  0.  1.  0. -1.  1.  1.  0.  0.  0. -1.  0. -1.  0.
+   0.  0. -1.  0.  0.  0. -1.  0.  0. -1.  0. -1.  1.]]
+2018-03-16 09:53:50,438 classifier accuracy
+[0.804, 0.667, 0.818, 0.667, 0.8, 0.909, 0.818, 0.5, 0.889, 0.667, 1.0, 0.6, 1.0, 0.717, 0.84, 0.762, 0.8, 0.867, 0.875, 0.846, 1.0, 0.833, 0.889, 0.5, 1.0, 0.6, 0.804, 0.786, 0.909, 1.0, 0.889, 0.75, 0.929, 0.667, 0.8, 1.0, 0.667, 1.0, 0.925, 0.909, 1.0, 0.667, 0.4, 0.333, 0.917, 1.0, 0.889, 1.0, 0.6]
+2018-03-16 09:53:50,438 diversity
+[-0.024, 0.019, 0.004, 0.0, 0.101, -0.027, -0.069, -0.081, -0.148, 0.023, -0.131, -0.118, -0.148, 0.078, -0.039, -0.095, -0.007, -0.109, 0.007, 0.051, 0.108, 0.11, 0.099, 0.112, -0.107, 0.112, 0.0, 0.0, -0.08, 0.08, 0.124, 0.053, 0.0, -0.04, 0.023, 0.06, 0.124, 0.121, 0.013, 0.079, 0.121, 0.0, 0.087, 0.093, -0.112, 0.09, 0.106, 0.102, 0.095]
+2018-03-16 09:53:50,438 accuracy: 0.478000
+2018-03-16 09:53:50,440 GCM res are:
+2018-03-16 09:53:50,440 [0.45700000000000002, 0.47799999999999998]
+2018-03-16 09:53:50,565 
+ 
+ feature size: 119
+2018-03-16 09:53:50,565 ********************    data:Leukemia1  ECOC:Self_Adaption_ECOC F1 F2 DC    *****************
+2018-03-16 09:53:51,151 class cplx:
+{'B_cell': 7.5749689627707652e-16, 'AML': 257.05692574001199, 'T_cell': 0.00041960394203435422}
+2018-03-16 09:53:51,151 var:14684.034491 mean:85.685782 
+2018-03-16 09:53:51,151 botttom th:85.685782  top th:171.371564
+2018-03-16 09:53:51,153 column num:2
+2018-03-16 09:53:51,154 merged matrix:
+[[ 1.  0. -1. -1.]
+ [-1.  1.  1.  0.]
+ [-1. -1. -1.  1.]]
+2018-03-16 09:53:52,335 1.create matrix:
+[[ 1.  0. -1. -1. -1. -1. -1.]
+ [-1.  1.  1.  0.  0.  1.  1.]
+ [-1. -1. -1.  1.  1.  0.  1.]]
+2018-03-16 09:53:52,335 2.remove reverse matrix:
+[[ 1.  0. -1. -1. -1. -1.]
+ [-1.  1.  1.  0.  0.  1.]
+ [-1. -1. -1.  1.  1.  0.]]
+2018-03-16 09:53:52,336 3.remove duplicate matrix:[[ 1.  0. -1. -1. -1. -1.]
+ [-1.  1.  1.  0.  0.  1.]
+ [-1. -1. -1.  1.  1.  0.]]
+2018-03-16 09:53:52,338 4.remove unfit matrix:
+[[ 1.  0. -1. -1. -1. -1.]
+ [-1.  1.  1.  0.  0.  1.]
+ [-1. -1. -1.  1.  1.  0.]]
+2018-03-16 09:53:52,342 Self_Adaption_ECOC F1 F2 DC Matrix:
+[[ 1.  0. -1. -1. -1. -1.]
+ [-1.  1.  1.  0.  0.  1.]
+ [-1. -1. -1.  1.  1.  0.]]
+2018-03-16 09:53:52,375 classifier accuracy
+[0.882, 0.95, 0.971, 0.933, 0.933, 0.939]
+2018-03-16 09:53:52,375 diversity
+[-0.372, -0.028, 0.168, 0.208, 0.208, 0.163]
+2018-03-16 09:53:52,375 accuracy: 0.912000
+2018-03-16 09:53:52,375 ********************    data:Leukemia1  ECOC:Self_Adaption_ECOC F1 F2 info    *****************
+2018-03-16 09:53:52,911 class cplx:
+{'B_cell': 7.5749689627707652e-16, 'AML': 257.05692574001199, 'T_cell': 0.00041960394203435422}
+2018-03-16 09:53:52,911 var:14684.034491 mean:85.685782 
+2018-03-16 09:53:52,911 botttom th:85.685782  top th:171.371564
+2018-03-16 09:53:52,911 column num:2
+2018-03-16 09:53:52,913 merged matrix:
+[[ 1.  0. -1. -1.]
+ [-1.  1.  1.  0.]
+ [-1. -1. -1.  1.]]
+2018-03-16 09:53:52,913 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:52,913 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:52,914 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:52,914 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:53:53,522 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:53:53,522 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:53:53,957 1.create matrix:
+[[ 1.  0. -1. -1.  0.  1.  0.]
+ [-1.  1.  1.  0. -1.  0. -1.]
+ [-1. -1. -1.  1.  1. -1.  1.]]
+2018-03-16 09:53:53,959 2.remove reverse matrix:
+[[ 1.  0. -1. -1.]
+ [-1.  1.  1.  0.]
+ [-1. -1. -1.  1.]]
+2018-03-16 09:53:53,959 3.remove duplicate matrix:[[ 1.  0. -1. -1.]
+ [-1.  1.  1.  0.]
+ [-1. -1. -1.  1.]]
+2018-03-16 09:53:53,960 4.remove unfit matrix:
+[[ 1.  0. -1. -1.]
+ [-1.  1.  1.  0.]
+ [-1. -1. -1.  1.]]
+2018-03-16 09:53:53,963 Self_Adaption_ECOC F1 F2 info Matrix:
+[[ 1.  0. -1. -1.]
+ [-1.  1.  1.  0.]
+ [-1. -1. -1.  1.]]
+2018-03-16 09:53:53,983 classifier accuracy
+[0.882, 0.95, 0.971, 0.933]
+2018-03-16 09:53:53,983 diversity
+[-0.264, 0.015, -0.029, -0.064]
+2018-03-16 09:53:53,983 accuracy: 0.941000
+2018-03-16 09:53:53,983 Leukemia1 res are:
+2018-03-16 09:53:53,983 [0.91200000000000003, 0.94099999999999995]
+2018-03-16 09:53:54,500 
+ 
+ feature size: 695
+2018-03-16 09:53:54,500 ********************    data:Leukemia2  ECOC:Self_Adaption_ECOC F1 F2 DC    *****************
+2018-03-16 09:54:33,611 class cplx:
+{'ALL': 4.980772184208946e+86, 'AML': 1.1967065167004706e+35, 'MLL': 1.280544012081336e+47, 'HYP': 1.1422562404430718e+23, 'E2A': 3.2030241225523283e+17, 'OTHERS': 1.4608746479366207e+63, 'BCR': 7.4527219871087517e+51}
+2018-03-16 09:54:33,611 var:30377254960395362167084120439304351507585092793063273664714895330360620955062106751563612879412753065990878649638136196186840534968549112468621060342852862828413604423794688.000000 mean:71153888345842085340309291141771695106715106304708205644709302818532380508922423803904.000000
+2018-03-16 09:54:33,611 botttom th:71153888345842085340309291141771695106715106304708205644709302818532380508922423803904.000000 top th:142307776691684170680618582283543390213430212609416411289418605637064761017844847607808.000000
+2018-03-16 09:54:33,611 column num:2
+2018-03-16 09:54:33,615 merged matrix:
+[[-1.  0.  1.  0. -1.  0.  1. -1.  0.  0.  0.]
+ [-1.  0.  1.  0.  1.  0.  1. -1.  0.  0.  0.]
+ [ 1. -1.  0.  1.  0.  0. -1.  0.  1.  1.  0.]
+ [-1.  0. -1.  0.  0.  1. -1.  0. -1.  0. -1.]
+ [ 1. -1.  0. -1.  0.  0.  1.  1.  0.  0.  0.]
+ [-1.  0. -1.  0.  0. -1. -1.  0.  1. -1.  0.]
+ [ 1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  1.]]
+2018-03-16 09:55:42,328 1.create matrix:
+[[-1.  0.  1.  0. -1.  0.  1. -1.  0.  0.  0.  1.  1. -1.  0.  0.  1.  0.
+   0.  1.  1.]
+ [-1.  0.  1.  0.  1.  0.  1. -1.  0.  0.  0. -1.  1.  1.  0.  0. -1. -1.
+   0.  1.  1.]
+ [ 1. -1.  0.  1.  0.  0. -1.  0.  1.  1.  0.  0.  1.  0. -1. -1.  0.  1.
+   1.  1. -1.]
+ [-1.  0. -1.  0.  0.  1. -1.  0. -1.  0. -1. -1. -1.  1. -1. -1.  1.  0.
+   1.  1. -1.]
+ [ 1. -1.  0. -1.  0.  0.  1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  0. -1.
+  -1. -1.  1.]
+ [-1.  0. -1.  0.  0. -1. -1.  0.  1. -1.  0. -1. -1. -1. -1.  0. -1.  1.
+  -1.  0. -1.]
+ [ 1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  1. -1.  0.  0.  1.  1.  0.  0.
+  -1.  0. -1.]]
+2018-03-16 09:55:42,338 2.remove reverse matrix:
+[[-1.  0.  1.  0. -1.  0.  1. -1.  0.  0.  0.  1.  1. -1.  0.  0.  1.  0.
+   0.  1.  1.]
+ [-1.  0.  1.  0.  1.  0.  1. -1.  0.  0.  0. -1.  1.  1.  0.  0. -1. -1.
+   0.  1.  1.]
+ [ 1. -1.  0.  1.  0.  0. -1.  0.  1.  1.  0.  0.  1.  0. -1. -1.  0.  1.
+   1.  1. -1.]
+ [-1.  0. -1.  0.  0.  1. -1.  0. -1.  0. -1. -1. -1.  1. -1. -1.  1.  0.
+   1.  1. -1.]
+ [ 1. -1.  0. -1.  0.  0.  1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  0. -1.
+  -1. -1.  1.]
+ [-1.  0. -1.  0.  0. -1. -1.  0.  1. -1.  0. -1. -1. -1. -1.  0. -1.  1.
+  -1.  0. -1.]
+ [ 1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  1. -1.  0.  0.  1.  1.  0.  0.
+  -1.  0. -1.]]
+2018-03-16 09:55:42,344 3.remove duplicate matrix:
+[[-1.  0.  1.  0. -1.  0.  1. -1.  0.  0.  0.  1.  1. -1.  0.  0.  1.  0.
+   0.  1.  1.]
+ [-1.  0.  1.  0.  1.  0.  1. -1.  0.  0.  0. -1.  1.  1.  0.  0. -1. -1.
+   0.  1.  1.]
+ [ 1. -1.  0.  1.  0.  0. -1.  0.  1.  1.  0.  0.  1.  0. -1. -1.  0.  1.
+   1.  1. -1.]
+ [-1.  0. -1.  0.  0.  1. -1.  0. -1.  0. -1. -1. -1.  1. -1. -1.  1.  0.
+   1.  1. -1.]
+ [ 1. -1.  0. -1.  0.  0.  1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  0. -1.
+  -1. -1.  1.]
+ [-1.  0. -1.  0.  0. -1. -1.  0.  1. -1.  0. -1. -1. -1. -1.  0. -1.  1.
+  -1.  0. -1.]
+ [ 1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  1. -1.  0.  0.  1.  1.  0.  0.
+  -1.  0. -1.]]
+2018-03-16 09:55:42,348 4.remove unfit matrix:
+[[-1.  0.  1.  0. -1.  0.  1. -1.  0.  0.  0.  1.  1. -1.  0.  0.  1.  0.
+   0.  1.  1.]
+ [-1.  0.  1.  0.  1.  0.  1. -1.  0.  0.  0. -1.  1.  1.  0.  0. -1. -1.
+   0.  1.  1.]
+ [ 1. -1.  0.  1.  0.  0. -1.  0.  1.  1.  0.  0.  1.  0. -1. -1.  0.  1.
+   1.  1. -1.]
+ [-1.  0. -1.  0.  0.  1. -1.  0. -1.  0. -1. -1. -1.  1. -1. -1.  1.  0.
+   1.  1. -1.]
+ [ 1. -1.  0. -1.  0.  0.  1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  0. -1.
+  -1. -1.  1.]
+ [-1.  0. -1.  0.  0. -1. -1.  0.  1. -1.  0. -1. -1. -1. -1.  0. -1.  1.
+  -1.  0. -1.]
+ [ 1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  1. -1.  0.  0.  1.  1.  0.  0.
+  -1.  0. -1.]]
+2018-03-16 09:55:42,730 Self_Adaption_ECOC F1 F2 DC Matrix:
+[[-1.  0.  1.  0. -1.  0.  1. -1.  0.  0.  0.  1.  1. -1.  0.  0.  1.  0.
+   0.  1.  1.]
+ [-1.  0.  1.  0.  1.  0.  1. -1.  0.  0.  0. -1.  1.  1.  0.  0. -1. -1.
+   0.  1.  1.]
+ [ 1. -1.  0.  1.  0.  0. -1.  0.  1.  1.  0.  0.  1.  0. -1. -1.  0.  1.
+   1.  1. -1.]
+ [-1.  0. -1.  0.  0.  1. -1.  0. -1.  0. -1. -1. -1.  1. -1. -1.  1.  0.
+   1.  1. -1.]
+ [ 1. -1.  0. -1.  0.  0.  1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  0. -1.
+  -1. -1.  1.]
+ [-1.  0. -1.  0.  0. -1. -1.  0.  1. -1.  0. -1. -1. -1. -1.  0. -1.  1.
+  -1.  0. -1.]
+ [ 1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  1. -1.  0.  0.  1.  1.  0.  0.
+  -1.  0. -1.]]
+2018-03-16 09:55:43,582 classifier accuracy
+[0.991, 0.909, 1.0, 0.786, 0.976, 1.0, 0.991, 1.0, 0.833, 1.0, 1.0, 1.0, 0.988, 0.982, 0.9, 0.857, 1.0, 0.934, 0.914, 0.987, 0.991]
+2018-03-16 09:55:43,582 diversity
+[-0.046, -0.027, 0.103, 0.0, 0.017, -0.019, 0.033, -0.046, -0.022, 0.037, 0.081, -0.004, 0.063, 0.027, 0.032, 0.081, -0.032, -0.036, -0.016, -0.027, 0.033]
+2018-03-16 09:55:43,582 accuracy: 0.946000
+2018-03-16 09:55:43,584 ********************    data:Leukemia2  ECOC:Self_Adaption_ECOC F1 F2 info    *****************
+2018-03-16 09:56:16,690 class cplx:
+{'ALL': 4.980772184208946e+86, 'AML': 1.1967065167004706e+35, 'MLL': 1.280544012081336e+47, 'HYP': 1.1422562404430718e+23, 'E2A': 3.2030241225523283e+17, 'OTHERS': 1.4608746479366207e+63, 'BCR': 7.4527219871087517e+51}
+2018-03-16 09:56:16,690 var:30377254960395362167084120439304351507585092793063273664714895330360620955062106751563612879412753065990878649638136196186840534968549112468621060342852862828413604423794688.000000 mean:71153888345842085340309291141771695106715106304708205644709302818532380508922423803904.000000
+2018-03-16 09:56:16,690 botttom th:71153888345842085340309291141771695106715106304708205644709302818532380508922423803904.000000 top th:142307776691684170680618582283543390213430212609416411289418605637064761017844847607808.000000
+2018-03-16 09:56:16,690 column num:2
+2018-03-16 09:56:16,694 merged matrix:
+[[-1.  0.  1.  0. -1.  0.  1. -1.  0.  0.  0.]
+ [-1.  0.  1.  0.  1.  0.  1. -1.  0.  0.  0.]
+ [ 1. -1.  0.  1.  0.  0. -1.  0.  1.  1.  0.]
+ [-1.  0. -1.  0.  0.  1. -1.  0. -1.  0. -1.]
+ [ 1. -1.  0. -1.  0.  0.  1.  1.  0.  0.  0.]
+ [-1.  0. -1.  0.  0. -1. -1.  0.  1. -1.  0.]
+ [ 1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  1.]]
+2018-03-16 09:56:16,694 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:16,694 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:16,694 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:16,694 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:16,694 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:16,694 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:16,696 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:16,696 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:16,697 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:16,697 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:56:16,697 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:16,697 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:56:16,697 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:16,697 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:16,697 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:16,697 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:16,697 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:25,380 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:25,380 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:25,381 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:25,381 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:56:25,381 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:25,381 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:25,381 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:25,381 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:25,381 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:25,381 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:25,381 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:25,381 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:25,382 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:25,382 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:25,382 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:29,328 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:29,328 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:29,328 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:29,328 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:29,328 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:29,328 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:29,328 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:30,766 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:30,766 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:30,766 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:30,766 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:30,766 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:30,766 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:30,766 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:30,769 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:30,769 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:30,769 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:30,769 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:30,769 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:30,769 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:30,769 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:30,769 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:56:30,770 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:30,770 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:56,023 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:56,023 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:56,023 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:56,023 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:56,023 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:56,025 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:56,025 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:56,025 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:56,025 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:56,025 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:56:56,025 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:56:56,025 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:57:17,832 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:57:17,832 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:57:17,835 1.create matrix:
+[[-1.  0.  1.  0. -1.  0.  1. -1.  0.  0.  0. -1.  0.  1. -1.  0. -1.  0.
+   1.  1.  1.]
+ [-1.  0.  1.  0.  1.  0.  1. -1.  0.  0.  0. -1.  0.  0. -1.  0. -1.  0.
+  -1. -1. -1.]
+ [ 1. -1.  0.  1.  0.  0. -1.  0.  1.  1.  0. -1.  0.  0. -1. -1. -1.  0.
+  -1. -1. -1.]
+ [-1.  0. -1.  0.  0.  1. -1.  0. -1.  0. -1. -1. -1.  0. -1.  0. -1.  0.
+  -1. -1. -1.]
+ [ 1. -1.  0. -1.  0.  0.  1.  1.  0.  0.  0. -1. -1.  0.  1.  0. -1.  0.
+   0. -1. -1.]
+ [-1.  0. -1.  0.  0. -1. -1.  0.  1. -1.  0. -1.  1. -1. -1.  1. -1.  1.
+  -1. -1. -1.]
+ [ 1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  1.  1.  0.  0. -1.  0.  1.  0.
+  -1.  0. -1.]]
+2018-03-16 09:57:17,842 2.remove reverse matrix:
+[[-1.  0.  1.  0. -1.  0.  1. -1.  0.  0.  0. -1.  0.  1. -1. -1.  0.  1.
+   1.  1.]
+ [-1.  0.  1.  0.  1.  0.  1. -1.  0.  0.  0. -1.  0.  0. -1. -1.  0. -1.
+  -1. -1.]
+ [ 1. -1.  0.  1.  0.  0. -1.  0.  1.  1.  0. -1.  0.  0. -1. -1.  0. -1.
+  -1. -1.]
+ [-1.  0. -1.  0.  0.  1. -1.  0. -1.  0. -1. -1. -1.  0. -1. -1.  0. -1.
+  -1. -1.]
+ [ 1. -1.  0. -1.  0.  0.  1.  1.  0.  0.  0. -1. -1.  0.  1. -1.  0.  0.
+  -1. -1.]
+ [-1.  0. -1.  0.  0. -1. -1.  0.  1. -1.  0. -1.  1. -1. -1. -1.  1. -1.
+  -1. -1.]
+ [ 1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  1.  1.  0.  0. -1.  1.  0. -1.
+   0. -1.]]
+2018-03-16 09:57:17,846 3.remove duplicate matrix:
+[[-1.  0.  1.  0. -1.  0.  1. -1.  0.  0.  0. -1.  0.  1. -1. -1.  0.  1.
+   1.  1.]
+ [-1.  0.  1.  0.  1.  0.  1. -1.  0.  0.  0. -1.  0.  0. -1. -1.  0. -1.
+  -1. -1.]
+ [ 1. -1.  0.  1.  0.  0. -1.  0.  1.  1.  0. -1.  0.  0. -1. -1.  0. -1.
+  -1. -1.]
+ [-1.  0. -1.  0.  0.  1. -1.  0. -1.  0. -1. -1. -1.  0. -1. -1.  0. -1.
+  -1. -1.]
+ [ 1. -1.  0. -1.  0.  0.  1.  1.  0.  0.  0. -1. -1.  0.  1. -1.  0.  0.
+  -1. -1.]
+ [-1.  0. -1.  0.  0. -1. -1.  0.  1. -1.  0. -1.  1. -1. -1. -1.  1. -1.
+  -1. -1.]
+ [ 1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  1.  1.  0.  0. -1.  1.  0. -1.
+   0. -1.]]
+2018-03-16 09:57:17,851 4.remove unfit matrix:
+[[-1.  0.  1.  0. -1.  0.  1. -1.  0.  0.  0. -1.  0.  1. -1. -1.  1.  1.
+   1.]
+ [-1.  0.  1.  0.  1.  0.  1. -1.  0.  0.  0. -1.  0.  0. -1. -1. -1. -1.
+  -1.]
+ [ 1. -1.  0.  1.  0.  0. -1.  0.  1.  1.  0. -1.  0.  0. -1. -1. -1. -1.
+  -1.]
+ [-1.  0. -1.  0.  0.  1. -1.  0. -1.  0. -1. -1. -1.  0. -1. -1. -1. -1.
+  -1.]
+ [ 1. -1.  0. -1.  0.  0.  1.  1.  0.  0.  0. -1. -1.  0.  1. -1.  0. -1.
+  -1.]
+ [-1.  0. -1.  0.  0. -1. -1.  0.  1. -1.  0. -1.  1. -1. -1. -1. -1. -1.
+  -1.]
+ [ 1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  1.  1.  0.  0. -1.  1. -1.  0.
+  -1.]]
+2018-03-16 09:57:18,157 Self_Adaption_ECOC F1 F2 info Matrix:
+[[-1.  0.  1.  0. -1.  0.  1. -1.  0.  0.  0. -1.  0.  1. -1. -1.  1.  1.
+   1.]
+ [-1.  0.  1.  0.  1.  0.  1. -1.  0.  0.  0. -1.  0.  0. -1. -1. -1. -1.
+  -1.]
+ [ 1. -1.  0.  1.  0.  0. -1.  0.  1.  1.  0. -1.  0.  0. -1. -1. -1. -1.
+  -1.]
+ [-1.  0. -1.  0.  0.  1. -1.  0. -1.  0. -1. -1. -1.  0. -1. -1. -1. -1.
+  -1.]
+ [ 1. -1.  0. -1.  0.  0.  1.  1.  0.  0.  0. -1. -1.  0.  1. -1.  0. -1.
+  -1.]
+ [-1.  0. -1.  0.  0. -1. -1.  0.  1. -1.  0. -1.  1. -1. -1. -1. -1. -1.
+  -1.]
+ [ 1.  1.  0.  0.  0.  0. -1.  0. -1.  0.  1.  1.  0.  0. -1.  1. -1.  0.
+  -1.]]
+2018-03-16 09:57:18,815 classifier accuracy
+[0.991, 0.909, 1.0, 0.786, 0.976, 1.0, 0.991, 1.0, 0.833, 1.0, 1.0, 0.902, 0.973, 1.0, 0.964, 0.902, 1.0, 1.0, 1.0]
+2018-03-16 09:57:18,815 diversity
+[0.021, -0.1, 0.073, 0.0, -0.022, -0.102, 0.02, 0.025, 0.002, 0.001, 0.052, 0.005, -0.016, 0.003, -0.004, 0.005, 0.061, 0.061, 0.061]
+2018-03-16 09:57:18,816 accuracy: 0.866000
+2018-03-16 09:57:18,818 Leukemia2 res are:
+2018-03-16 09:57:18,818 [0.94599999999999995, 0.86599999999999999]
+2018-03-16 09:57:18,959 
+ 
+ feature size: 167
+2018-03-16 09:57:18,959 ********************    data:Lung1      ECOC:Self_Adaption_ECOC F1 F2 DC    *****************
+2018-03-16 09:57:21,061 class cplx:
+{'A': 367.65281775253845, 'C': 329095108300683.19, 'N': 2.9769040011950042e-14}
+2018-03-16 09:57:21,061 var:24067464512737198523916746752.000000 mean:109698369433683.609375
+2018-03-16 09:57:21,061 botttom th:109698369433683.609375 top th:219396738867367.218750
+2018-03-16 09:57:21,062 column num:2
+2018-03-16 09:57:21,062 merged matrix:
+[[ 1.  0. -1.  1.]
+ [-1. -1.  1.  0.]
+ [-1.  1. -1. -1.]]
+2018-03-16 09:57:25,319 1.create matrix:
+[[ 1.  0. -1.  1.  1.  0.  1.]
+ [-1. -1.  1.  0. -1. -1. -1.]
+ [-1.  1. -1. -1.  0.  1.  1.]]
+2018-03-16 09:57:25,321 2.remove reverse matrix:
+[[ 1.  0. -1.  1.  1.  0.]
+ [-1. -1.  1.  0. -1. -1.]
+ [-1.  1. -1. -1.  0.  1.]]
+2018-03-16 09:57:25,321 3.remove duplicate matrix:
+[[ 1.  0. -1.  1.  1.  0.]
+ [-1. -1.  1.  0. -1. -1.]
+ [-1.  1. -1. -1.  0.  1.]]
+2018-03-16 09:57:25,322 4.remove unfit matrix:
+[[ 1.  0. -1.  1.  1.  0.]
+ [-1. -1.  1.  0. -1. -1.]
+ [-1.  1. -1. -1.  0.  1.]]
+2018-03-16 09:57:25,329 Self_Adaption_ECOC F1 F2 DC Matrix:
+[[ 1.  0. -1.  1.  1.  0.]
+ [-1. -1.  1.  0. -1. -1.]
+ [-1.  1. -1. -1.  0.  1.]]
+2018-03-16 09:57:25,358 classifier accuracy
+[0.938, 1.0, 0.844, 1.0, 0.828, 1.0]
+2018-03-16 09:57:25,358 diversity
+[0.047, 0.092, -0.037, 0.015, 0.018, 0.092]
+2018-03-16 09:57:25,358 accuracy: 0.844000
+2018-03-16 09:57:25,358 ********************    data:Lung1      ECOC:Self_Adaption_ECOC F1 F2 info    *****************
+2018-03-16 09:57:27,395 class cplx:
+{'A': 367.65281775253845, 'C': 329095108300683.19, 'N': 2.9769040011950042e-14}
+2018-03-16 09:57:27,395 var:24067464512737198523916746752.000000 mean:109698369433683.609375
+2018-03-16 09:57:27,395 botttom th:109698369433683.609375 top th:219396738867367.218750
+2018-03-16 09:57:27,395 column num:2
+2018-03-16 09:57:27,397 merged matrix:
+[[ 1.  0. -1.  1.]
+ [-1. -1.  1.  0.]
+ [-1.  1. -1. -1.]]
+2018-03-16 09:57:27,397 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:57:27,398 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:57:27,398 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:57:27,398 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:57:29,522 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:57:29,522 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:57:29,605 1.create matrix:
+[[ 1.  0. -1.  1.  0.  1.  0.]
+ [-1. -1.  1.  0.  1.  0.  0.]
+ [-1.  1. -1. -1. -1. -1.  1.]]
+2018-03-16 09:57:29,605 2.remove reverse matrix:
+[[ 1.  0. -1.  1.  1.  0.]
+ [-1. -1.  1.  0.  0.  0.]
+ [-1.  1. -1. -1. -1.  1.]]
+2018-03-16 09:57:29,607 3.remove duplicate matrix:
+[[ 1.  0. -1.  1.  1.  0.]
+ [-1. -1.  1.  0.  0.  0.]
+ [-1.  1. -1. -1. -1.  1.]]
+2018-03-16 09:57:29,608 4.remove unfit matrix:
+[[ 1.  0. -1.  1.  1.]
+ [-1. -1.  1.  0.  0.]
+ [-1.  1. -1. -1. -1.]]
+2018-03-16 09:57:29,615 Self_Adaption_ECOC F1 F2 info Matrix:
+[[ 1.  0. -1.  1.  1.]
+ [-1. -1.  1.  0.  0.]
+ [-1.  1. -1. -1. -1.]]
+2018-03-16 09:57:29,640 classifier accuracy
+[0.938, 1.0, 0.844, 1.0, 1.0]
+2018-03-16 09:57:29,640 diversity
+[0.163, -0.132, -0.02, 0.268, 0.268]
+2018-03-16 09:57:29,640 accuracy: 0.844000
+2018-03-16 09:57:29,640 Lung1 res are:
+2018-03-16 09:57:29,640 [0.84399999999999997, 0.84399999999999997]
+2018-03-16 09:57:29,767 
+ 
+ feature size: 161
+2018-03-16 09:57:29,767 ********************    data:SRBCT      ECOC:Self_Adaption_ECOC F1 F2 DC    *****************
+2018-03-16 09:57:31,069 class cplx:
+{'BL': 1.1467900502365203e-38, 'EWS': 4.2796726120359145e-20, 'NB': 5.548774273358018e-15, 'RMS': 38.610072520608341}
+2018-03-16 09:57:31,069 var:279.513319 mean:9.652518  
+2018-03-16 09:57:31,069 botttom th:9.652518   top th:19.305036 
+2018-03-16 09:57:31,069 column num:2
+2018-03-16 09:57:31,071 merged matrix:
+[[-1.  0. -1.  1.  1.  0.]
+ [ 1.  1.  0. -1.  0. -1.]
+ [-1.  0.  1. -1.  0.  1.]
+ [ 1. -1.  0.  1. -1.  0.]]
+2018-03-16 09:57:32,048 1.create matrix:
+[[-1.  0. -1.  1.  1.  0. -1.  0.  1. -1.  0.]
+ [ 1.  1.  0. -1.  0. -1. -1. -1. -1.  1.  0.]
+ [-1.  0.  1. -1.  0.  1.  1.  0.  1.  1.  1.]
+ [ 1. -1.  0.  1. -1.  0.  0.  1. -1.  1.  0.]]
+2018-03-16 09:57:32,049 2.remove reverse matrix:
+[[-1.  0. -1.  1.  1.  0. -1. -1.  0.]
+ [ 1.  1.  0. -1.  0. -1. -1.  1.  0.]
+ [-1.  0.  1. -1.  0.  1.  1.  1.  1.]
+ [ 1. -1.  0.  1. -1.  0.  0.  1.  0.]]
+2018-03-16 09:57:32,052 3.remove duplicate matrix:
+[[-1.  0. -1.  1.  1.  0. -1. -1.  0.]
+ [ 1.  1.  0. -1.  0. -1. -1.  1.  0.]
+ [-1.  0.  1. -1.  0.  1.  1.  1.  1.]
+ [ 1. -1.  0.  1. -1.  0.  0.  1.  0.]]
+2018-03-16 09:57:32,052 4.remove unfit matrix:
+[[-1.  0. -1.  1.  1.  0. -1. -1.]
+ [ 1.  1.  0. -1.  0. -1. -1.  1.]
+ [-1.  0.  1. -1.  0.  1.  1.  1.]
+ [ 1. -1.  0.  1. -1.  0.  0.  1.]]
+2018-03-16 09:57:32,063 Self_Adaption_ECOC F1 F2 DC Matrix:
+[[-1.  0. -1.  1.  1.  0. -1. -1.]
+ [ 1.  1.  0. -1.  0. -1. -1.  1.]
+ [-1.  0.  1. -1.  0.  1.  1.  1.]
+ [ 1. -1.  0.  1. -1.  0.  0.  1.]]
+2018-03-16 09:57:32,096 classifier accuracy
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+2018-03-16 09:57:32,096 diversity
+[-0.109, -0.13, 0.087, -0.186, -0.108, -0.03, -0.03, 0.087]
+2018-03-16 09:57:32,096 accuracy: 1.000000
+2018-03-16 09:57:32,096 ********************    data:SRBCT      ECOC:Self_Adaption_ECOC F1 F2 info    *****************
+2018-03-16 09:57:33,408 class cplx:
+{'BL': 1.1467900502365203e-38, 'EWS': 4.2796726120359145e-20, 'NB': 5.548774273358018e-15, 'RMS': 38.610072520608341}
+2018-03-16 09:57:33,408 var:279.513319 mean:9.652518  
+2018-03-16 09:57:33,408 botttom th:9.652518   top th:19.305036 
+2018-03-16 09:57:33,408 column num:2
+2018-03-16 09:57:33,410 merged matrix:
+[[-1.  0. -1.  1.  1.  0.]
+ [ 1.  1.  0. -1.  0. -1.]
+ [-1.  0.  1. -1.  0.  1.]
+ [ 1. -1.  0.  1. -1.  0.]]
+2018-03-16 09:57:33,411 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:57:33,411 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:57:33,411 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:57:33,411 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:57:34,207 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:57:34,207 ERROR: left 1, right 0, left and right node is wrong!
+2018-03-16 09:57:34,207 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:57:34,207 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:57:34,209 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:57:34,209 ERROR: left -1, right 0, left and right node is wrong!
+2018-03-16 09:57:35,174 ERROR: The denominator of Ternary Divide is zero!
+2018-03-16 09:57:36,102 1.create matrix:
+[[-1.  0. -1.  1.  1.  0. -1. -1.  0.  0.  0.]
+ [ 1.  1.  0. -1.  0. -1.  1. -1. -1. -1. -1.]
+ [-1.  0.  1. -1.  0.  1. -1.  1.  0.  1.  0.]
+ [ 1. -1.  0.  1. -1.  0. -1.  0.  1. -1.  1.]]
+2018-03-16 09:57:36,105 2.remove reverse matrix:
+[[-1.  0. -1.  1.  1.  0. -1. -1.  0.]
+ [ 1.  1.  0. -1.  0. -1.  1. -1. -1.]
+ [-1.  0.  1. -1.  0.  1. -1.  1.  1.]
+ [ 1. -1.  0.  1. -1.  0. -1.  0. -1.]]
+2018-03-16 09:57:36,107 3.remove duplicate matrix:
+[[-1.  0. -1.  1.  1.  0. -1. -1.  0.]
+ [ 1.  1.  0. -1.  0. -1.  1. -1. -1.]
+ [-1.  0.  1. -1.  0.  1. -1.  1.  1.]
+ [ 1. -1.  0.  1. -1.  0. -1.  0. -1.]]
+2018-03-16 09:57:36,108 4.remove unfit matrix:
+[[-1.  0. -1.  1.  1.  0. -1. -1.  0.]
+ [ 1.  1.  0. -1.  0. -1.  1. -1. -1.]
+ [-1.  0.  1. -1.  0.  1. -1.  1.  1.]
+ [ 1. -1.  0.  1. -1.  0. -1.  0. -1.]]
+2018-03-16 09:57:36,118 Self_Adaption_ECOC F1 F2 info Matrix:
+[[-1.  0. -1.  1.  1.  0. -1. -1.  0.]
+ [ 1.  1.  0. -1.  0. -1.  1. -1. -1.]
+ [-1.  0.  1. -1.  0.  1. -1.  1.  1.]
+ [ 1. -1.  0.  1. -1.  0. -1.  0. -1.]]
+2018-03-16 09:57:36,154 classifier accuracy
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+2018-03-16 09:57:36,155 diversity
+[-0.149, -0.047, -0.002, -0.246, -0.114, 0.022, -0.106, 0.022, 0.022]
+2018-03-16 09:57:36,155 accuracy: 1.000000
+2018-03-16 09:57:36,155 SRBCT res are:
+2018-03-16 09:57:36,155 [1.0, 1.0]

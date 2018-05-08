@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # author: sunmengxin
 # time: 2018/2/28 10:05
@@ -266,3 +267,9 @@ if __name__ == '__main__':
             save_filepath = res_folder_path + 'Fscore_' + selected_fs_name[k] + '.xls'
             data_Fscore.append(np.mean(data_Fscore, axis=0))
             Read_Write_tool.write_file(save_filepath, data_Fscore, selected_ecoc_name, row_name)
+=======
+import numpy as np
+
+x = np.arange(0.885,1.010,0.005)
+print(x)
+>>>>>>> faa23ca778d809c7318e4b150e1428603a5aabba

@@ -9,7 +9,10 @@ import copy
 import logging
 import types
 import time
+<<<<<<< HEAD
 from sklearn.ensemble import RandomForestClassifier
+=======
+>>>>>>> faa23ca778d809c7318e4b150e1428603a5aabba
 
 from ECOCDemo.Common.Evaluation_tool import Evaluation
 from ECOCDemo.ECOC.Classifier import ECOC_ONE,OVO_ECOC,OVA_ECOC,DC_ECOC,D_ECOC,Dense_random_ECOC,Sparse_random_ECOC
@@ -54,8 +57,12 @@ def ECOC_Process(train_data,train_label,test_data,test_label,ECOC_name,**param):
             E.fit(train_data, train_label, **param)
 
     else:
+<<<<<<< HEAD
         E = eval(ECOC_name + '(base_estimator=RandomForestClassifier)')
 
+=======
+        E = eval(ECOC_name + '()')
+>>>>>>> faa23ca778d809c7318e4b150e1428603a5aabba
         E.fit(train_data, train_label)
 
     logging.info(ECOC_name + ' Matrix:\n' + str(E.matrix))
@@ -91,7 +98,11 @@ if __name__ == '__main__':
     LOG_FORMAT = "%(message)s"
 
     # set log filepath, log level and info format
+<<<<<<< HEAD
     logging.basicConfig(filename='RandForest_OtherECOC_log.txt', level=logging.DEBUG, format=LOG_FORMAT)
+=======
+    logging.basicConfig(filename='F1_DC_log.txt', level=logging.DEBUG, format=LOG_FORMAT)
+>>>>>>> faa23ca778d809c7318e4b150e1428603a5aabba
 
     fs_name = ['variance_threshold', 'linear_svc', 'tree', 'fclassif', 'RandForReg', 'linearsvc_tree']
 
@@ -127,15 +138,28 @@ if __name__ == '__main__':
 
     data_folder_path = 'E:/workspace1/ECOCDemo/Microarray_data/FS_data/'
     matrix_folder_path = 'E:/workspace1/ECOCDemo/Microarray_res/DC_matrix/'
+<<<<<<< HEAD
     res_folder_path = 'E:/workspace1/ECOCDemo/Microarray_res/RandForest/other_ECOC_backup/'
 
     selected_dataname = microarray_dataname
     selected_ecoc_name = other_ECOC
 
+=======
+    res_folder_path = 'E:/workspace1/ECOCDemo/Microarray_res/SAT_DC/various_matrix_num/填充0/'
+
+    selected_dataname = microarray_dataname
+    selected_ecoc_name = ECOC_coding_numbers
+>>>>>>> faa23ca778d809c7318e4b150e1428603a5aabba
     selected_fs_name = fs_name
 
     for k in range(len(selected_fs_name)):
 
+<<<<<<< HEAD
+=======
+        if selected_fs_name[k] != 'RandForReg':
+            continue
+
+>>>>>>> faa23ca778d809c7318e4b150e1428603a5aabba
         # save evaluation varibles
         data_acc = []
         data_simacc = []
