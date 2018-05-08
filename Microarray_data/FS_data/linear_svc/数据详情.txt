@@ -1,0 +1,9 @@
+FS method:linear_svc
+Breast	 		FS size: 4090
+Cancers	 		FS size: 5603
+DLBCL	 		FS size: 1787
+GCM	 			FS size: 6825
+Leukemia1	 	FS size: 2830
+Leukemia2	 	FS size: 6196
+Lung1	 		FS size: 3083
+SRBCT	 		FS size: 1014

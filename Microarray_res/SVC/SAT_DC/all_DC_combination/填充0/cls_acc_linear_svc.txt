@@ -1,0 +1,497 @@
+
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F1 F1 DC	 [0.9, 0.7, 0.8, 0.647, 0.75, 0.967, 0.8, 0.733, 0.9]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F2 F2 DC	 [0.933, 0.667, 0.8, 0.75, 0.9, 0.6, 0.8, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F3 F3 DC	 [0.933, 0.667, 0.6, 0.667, 0.75, 0.9, 0.8, 0.8]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC N2 N2 DC	 [0.867, 1.0, 0.708, 0.667, 0.75, 0.9, 0.625, 0.778]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC N3 N3 DC	 [0.767, 0.75, 0.682, 0.684, 0.867, 0.773, 0.9]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC Cluster Cluster DC	 [0.933, 0.647, 1.0, 1.0, 0.75, 0.867, 0.769, 0.9]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F1 F2 DC	 [0.9, 0.7, 0.8, 0.647, 0.967, 0.8, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F1 F3 DC	 [0.9, 0.7, 0.8, 0.647, 0.967, 0.8, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F1 N2 DC	 [0.9, 0.7, 0.8, 0.647, 0.967, 0.8, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F1 N3 DC	 [0.9, 0.7, 0.8, 0.647, 0.967, 0.8, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F1 Cluster DC	 [0.9, 0.7, 0.8, 0.647, 0.967, 0.8, 0.708]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F2 F3 DC	 [0.933, 0.667, 0.8, 0.75, 0.9, 0.6, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F2 N2 DC	 [0.933, 0.667, 0.8, 0.75, 0.9, 0.6, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F2 N3 DC	 [0.933, 0.667, 0.8, 0.75, 0.9, 0.6, 0.85]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F2 Cluster DC	 [0.933, 0.667, 0.8, 0.75, 0.9, 0.6, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F3 N2 DC	 [0.933, 0.667, 0.6, 0.667, 0.9, 0.8, 0.625, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F3 N3 DC	 [0.933, 0.667, 0.6, 0.667, 0.9, 0.8, 0.926]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F3 Cluster DC	 [0.933, 0.667, 0.6, 0.667, 0.9, 0.8, 0.926]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC N2 N3 DC	 [0.867, 1.0, 0.708, 0.667, 0.9, 0.625, 0.778]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC N2 Cluster DC	 [0.867, 1.0, 0.708, 0.667, 0.9, 0.625, 0.778]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC N3 Cluster DC	 [0.767, 0.75, 0.682, 0.684, 0.867, 0.773, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F1 F2 F3 DC	 [0.9, 0.7, 0.8, 0.647, 0.967, 0.8, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F1 F2 N2 DC	 [0.9, 0.7, 0.8, 0.647, 0.967, 0.8, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F1 F2 N3 DC	 [0.9, 0.7, 0.8, 0.647, 0.967, 0.8, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F1 F2 Cluster DC	 [0.9, 0.7, 0.8, 0.647, 0.967, 0.8, 0.708]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F2 F3 N2 DC	 [0.933, 0.667, 0.8, 0.75, 0.9, 0.6, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F2 F3 N3 DC	 [0.933, 0.667, 0.8, 0.75, 0.9, 0.6, 0.85]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F2 F3 Cluster DC	 [0.933, 0.667, 0.8, 0.75, 0.9, 0.6, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F3 N2 N3 DC	 [0.933, 0.667, 0.6, 0.667, 0.9, 0.8, 0.625, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F3 N2 Cluster DC	 [0.933, 0.667, 0.6, 0.667, 0.9, 0.8, 0.625, 0.815]
+tian chong 0!
+Data: Breast	 ECOC: Self_Adaption_ECOC F3 N3 Cluster DC	 [0.933, 0.667, 0.6, 0.667, 0.9, 0.8, 0.926]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F1 F1 DC	 [0.932, 0.75, 0.605, 0.8, 0.5, 0.632, 0.895, 1.0, 0.824, 0.706, 0.68, 0.895, 0.824, 0.909, 0.904]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F2 F2 DC	 [0.892, 0.811, 0.838, 0.714, 0.8, 0.632, 0.889, 1.0, 0.905, 0.705, 0.612, 0.944, 0.784, 0.891, 0.77]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F3 F3 DC	 [0.838, 0.956, 0.897, 0.967, 0.6, 1.0, 0.5, 0.714, 0.8, 0.622, 0.898, 0.781, 0.417, 0.95, 0.931, 0.94]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC N2 N2 DC	 [0.919, 0.971, 0.55, 0.5, 0.964, 0.632, 0.714, 0.857, 0.8, 0.919, 0.739, 0.979, 0.667, 0.778, 0.806, 0.78]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC N3 N3 DC	 [0.932, 0.941, 0.675, 0.941, 1.0, 0.714, 0.606, 0.632, 0.8, 0.851, 0.86, 0.958, 0.697, 0.936, 0.839, 0.842]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC Cluster Cluster DC	 [0.905, 0.838, 0.595, 0.882, 0.65, 0.632, 1.0, 0.667, 0.8, 0.973, 0.667, 0.641, 0.944, 0.878, 0.919]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F1 F2 DC	 [0.932, 0.75, 0.605, 0.8, 0.5, 0.632, 0.895, 1.0, 0.824, 0.706, 0.68, 0.895, 0.953, 0.938]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F1 F3 DC	 [0.932, 0.75, 0.605, 0.8, 0.5, 0.632, 0.895, 1.0, 0.824, 0.706, 0.68, 0.895, 0.897, 0.955, 0.884]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F1 N2 DC	 [0.932, 0.75, 0.605, 0.8, 0.5, 0.632, 0.895, 1.0, 0.824, 0.706, 0.68, 0.895, 0.897, 0.955, 0.884]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F1 N3 DC	 [0.932, 0.75, 0.605, 0.8, 0.5, 0.632, 0.895, 1.0, 0.824, 0.706, 0.68, 0.895, 0.897, 0.955, 0.884]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F1 Cluster DC	 [0.932, 0.75, 0.605, 0.8, 0.5, 0.632, 0.895, 1.0, 0.824, 0.706, 0.68, 0.895, 0.897, 0.955, 0.884]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F2 F3 DC	 [0.892, 0.811, 0.838, 0.714, 0.8, 0.632, 0.889, 1.0, 0.905, 0.705, 0.612, 0.944, 0.909, 0.955, 0.81]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F2 N2 DC	 [0.892, 0.811, 0.838, 0.714, 0.8, 0.632, 0.889, 1.0, 0.905, 0.705, 0.612, 0.944, 0.909, 0.955, 0.81]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F2 N3 DC	 [0.892, 0.811, 0.838, 0.714, 0.8, 0.632, 0.889, 1.0, 0.905, 0.705, 0.612, 0.944, 0.909, 0.955, 0.81]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F2 Cluster DC	 [0.892, 0.811, 0.838, 0.714, 0.8, 0.632, 0.889, 1.0, 0.905, 0.705, 0.612, 0.944, 0.909, 0.955, 0.81]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F3 N2 DC	 [0.838, 0.956, 0.897, 0.967, 0.6, 1.0, 0.5, 0.714, 0.622, 0.898, 0.781, 0.417, 0.949, 0.773, 0.9]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F3 N3 DC	 [0.838, 0.956, 0.897, 0.967, 0.6, 1.0, 0.5, 0.714, 0.622, 0.898, 0.781, 0.417, 0.949, 0.773, 0.9]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F3 Cluster DC	 [0.838, 0.956, 0.897, 0.967, 0.6, 1.0, 0.5, 0.714, 0.622, 0.898, 0.781, 0.417, 0.949, 0.773, 0.9]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC N2 N3 DC	 [0.919, 0.971, 0.55, 0.5, 0.964, 0.632, 0.714, 0.857, 0.919, 0.739, 0.979, 0.667, 0.674, 0.897, 0.776]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC N2 Cluster DC	 [0.919, 0.971, 0.55, 0.5, 0.964, 0.632, 0.714, 0.857, 0.919, 0.739, 0.979, 0.667, 0.674, 0.897, 0.776]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC N3 Cluster DC	 [0.932, 0.941, 0.675, 0.941, 1.0, 0.714, 0.606, 0.632, 0.851, 0.86, 0.958, 0.697, 0.895, 0.807, 0.658]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F1 F2 F3 DC	 [0.932, 0.75, 0.605, 0.8, 0.5, 0.632, 0.895, 1.0, 0.824, 0.706, 0.68, 0.895, 0.953, 0.938]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F1 F2 N2 DC	 [0.932, 0.75, 0.605, 0.8, 0.5, 0.632, 0.895, 1.0, 0.824, 0.706, 0.68, 0.895, 0.953, 0.938]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F1 F2 N3 DC	 [0.932, 0.75, 0.605, 0.8, 0.5, 0.632, 0.895, 1.0, 0.824, 0.706, 0.68, 0.895, 0.953, 0.938]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F1 F2 Cluster DC	 [0.932, 0.75, 0.605, 0.8, 0.5, 0.632, 0.895, 1.0, 0.824, 0.706, 0.68, 0.895, 0.953, 0.938]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F2 F3 N2 DC	 [0.892, 0.811, 0.838, 0.714, 0.8, 0.632, 0.889, 1.0, 0.905, 0.705, 0.612, 0.944, 0.909, 0.955, 0.81]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F2 F3 N3 DC	 [0.892, 0.811, 0.838, 0.714, 0.8, 0.632, 0.889, 1.0, 0.905, 0.705, 0.612, 0.944, 0.909, 0.955, 0.81]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F2 F3 Cluster DC	 [0.892, 0.811, 0.838, 0.714, 0.8, 0.632, 0.889, 1.0, 0.905, 0.705, 0.612, 0.944, 0.909, 0.955, 0.81]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F3 N2 N3 DC	 [0.838, 0.956, 0.897, 0.967, 0.6, 1.0, 0.5, 0.714, 0.622, 0.898, 0.781, 0.417, 0.949, 0.773, 0.9]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F3 N2 Cluster DC	 [0.838, 0.956, 0.897, 0.967, 0.6, 1.0, 0.5, 0.714, 0.622, 0.898, 0.781, 0.417, 0.949, 0.773, 0.9]
+tian chong 0!
+Data: Cancers	 ECOC: Self_Adaption_ECOC F3 N3 Cluster DC	 [0.838, 0.956, 0.897, 0.967, 0.6, 1.0, 0.5, 0.714, 0.622, 0.898, 0.781, 0.417, 0.949, 0.773, 0.9]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F1 F1 DC	 [1.0, 1.0, 1.0, 1.0, 0.962, 1.0, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F2 F2 DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F3 F3 DC	 [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC N2 N2 DC	 [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC N3 N3 DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC Cluster Cluster DC	 [1.0, 1.0, 1.0, 1.0, 0.962, 1.0, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F1 F2 DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F1 F3 DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F1 N2 DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F1 N3 DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F1 Cluster DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F2 F3 DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F2 N2 DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F2 N3 DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F2 Cluster DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F3 N2 DC	 [1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F3 N3 DC	 [1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F3 Cluster DC	 [1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC N2 N3 DC	 [1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC N2 Cluster DC	 [1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC N3 Cluster DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F1 F2 F3 DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F1 F2 N2 DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F1 F2 N3 DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F1 F2 Cluster DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F2 F3 N2 DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F2 F3 N3 DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F2 F3 Cluster DC	 [1.0, 1.0, 1.0, 0.962, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F3 N2 N3 DC	 [1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F3 N2 Cluster DC	 [1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F3 N3 Cluster DC	 [1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F1 F1 DC	 [0.783, 0.87, 0.478, 0.25, 0.6, 0.769, 0.1, 0.4, 0.833, 0.444, 0.778, 0.2, 0.0, 0.8, 0.826, 0.613, 0.714, 0.4, 0.733, 0.571, 0.2, 0.935, 0.791, 0.655, 0.308, 0.838, 0.5]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F2 F2 DC	 [0.826, 0.684, 0.444, 0.625, 0.364, 0.333, 0.5, 0.833, 0.167, 0.2, 0.0, 0.556, 0.444, 0.8, 0.826, 0.686, 0.35, 0.792, 0.273, 0.357, 0.429, 0.714, 0.705, 0.36, 0.769, 0.812, 0.762]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F3 F3 DC	 [0.739, 0.364, 0.583, 0.143, 0.333, 0.6, 0.571, 0.2, 0.167, 0.444, 0.714, 0.5, 0.5, 0.8, 0.848, 0.774, 0.72, 0.526, 0.333, 0.692, 0.692, 0.71, 0.727, 0.571, 0.72, 0.738, 0.619]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC N2 N2 DC	 [0.696, 0.609, 0.522, 0.364, 0.583, 0.333, 0.5, 0.444, 0.333, 0.833, 0.5, 0.444, 0.6, 0.8, 0.826, 0.5, 0.619, 0.609, 0.5, 0.467, 0.6, 0.529, 0.818, 0.815, 0.714, 0.743, 0.471]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC N3 N3 DC	 [0.826, 0.462, 0.6, 0.583, 0.357, 0.333, 0.273, 0.5, 0.0, 0.556, 0.333, 0.6, 0.0, 0.8, 0.848, 0.719, 0.522, 0.529, 0.357, 0.455, 0.727, 0.75, 0.7, 0.48, 0.889, 0.457, 0.438]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC Cluster Cluster DC	 [0.826, 0.704, 0.368, 0.9, 0.471, 0.375, 0.364, 0.833, 0.5, 0.444, 0.167, 0.2, 0.333, 0.8, 0.804, 0.793, 0.48, 0.824, 0.471, 0.273, 0.636, 0.655, 0.714, 0.393, 0.708, 0.595, 0.2]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F1 F2 DC	 [0.783, 0.87, 0.478, 0.25, 0.6, 0.769, 0.1, 0.4, 0.833, 0.444, 0.778, 0.2, 0.0, 0.826, 0.613, 0.714, 0.4, 0.733, 0.571, 0.308, 0.667, 0.407, 0.814, 0.6]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F1 F3 DC	 [0.783, 0.87, 0.478, 0.25, 0.6, 0.769, 0.1, 0.4, 0.833, 0.444, 0.778, 0.2, 0.0, 0.826, 0.613, 0.714, 0.4, 0.733, 0.571, 0.308, 0.667, 0.407, 0.814, 0.6]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F1 N2 DC	 [0.783, 0.87, 0.478, 0.25, 0.6, 0.769, 0.1, 0.4, 0.833, 0.444, 0.778, 0.2, 0.0, 0.826, 0.613, 0.714, 0.4, 0.733, 0.571, 0.308, 0.667, 0.407, 0.814, 0.6]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F1 N3 DC	 [0.783, 0.87, 0.478, 0.25, 0.6, 0.769, 0.1, 0.4, 0.833, 0.444, 0.778, 0.2, 0.0, 0.826, 0.613, 0.714, 0.4, 0.733, 0.571, 0.308, 0.667, 0.407, 0.814, 0.6]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F1 Cluster DC	 [0.783, 0.87, 0.478, 0.25, 0.6, 0.769, 0.1, 0.4, 0.833, 0.444, 0.778, 0.2, 0.0, 0.826, 0.613, 0.714, 0.4, 0.733, 0.571, 0.308, 0.667, 0.407, 0.814, 0.6]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F2 F3 DC	 [0.826, 0.684, 0.444, 0.625, 0.364, 0.333, 0.5, 0.833, 0.167, 0.2, 0.0, 0.556, 0.444, 0.826, 0.686, 0.35, 0.792, 0.273, 0.357, 0.706, 0.943, 0.71, 0.841, 0.647]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F2 N2 DC	 [0.826, 0.684, 0.444, 0.625, 0.364, 0.333, 0.5, 0.833, 0.167, 0.2, 0.0, 0.556, 0.444, 0.826, 0.686, 0.35, 0.792, 0.273, 0.357, 0.706, 0.943, 0.71, 0.841, 0.647]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F2 N3 DC	 [0.826, 0.684, 0.444, 0.625, 0.364, 0.333, 0.5, 0.833, 0.167, 0.2, 0.0, 0.556, 0.444, 0.826, 0.686, 0.35, 0.792, 0.273, 0.357, 0.706, 0.943, 0.71, 0.841, 0.647]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F2 Cluster DC	 [0.826, 0.684, 0.444, 0.625, 0.364, 0.333, 0.5, 0.833, 0.167, 0.2, 0.0, 0.556, 0.444, 0.826, 0.686, 0.35, 0.792, 0.273, 0.357, 0.706, 0.943, 0.71, 0.841, 0.647]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F3 N2 DC	 [0.739, 0.364, 0.583, 0.143, 0.333, 0.6, 0.571, 0.2, 0.167, 0.444, 0.714, 0.5, 0.5, 0.848, 0.774, 0.72, 0.526, 0.333, 0.692, 0.333, 0.5, 0.429, 0.682, 0.743]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F3 N3 DC	 [0.739, 0.364, 0.583, 0.143, 0.333, 0.6, 0.571, 0.2, 0.167, 0.444, 0.714, 0.5, 0.5, 0.848, 0.774, 0.72, 0.526, 0.333, 0.692, 0.333, 0.5, 0.429, 0.682, 0.743]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F3 Cluster DC	 [0.739, 0.364, 0.583, 0.143, 0.333, 0.6, 0.571, 0.2, 0.167, 0.444, 0.714, 0.5, 0.5, 0.848, 0.774, 0.72, 0.526, 0.333, 0.692, 0.333, 0.5, 0.429, 0.682, 0.743]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC N2 N3 DC	 [0.696, 0.609, 0.522, 0.364, 0.583, 0.333, 0.5, 0.444, 0.333, 0.833, 0.5, 0.444, 0.6, 0.826, 0.5, 0.619, 0.609, 0.5, 0.467, 0.438, 0.771, 0.548, 0.795, 0.629]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC N2 Cluster DC	 [0.696, 0.609, 0.522, 0.364, 0.583, 0.333, 0.5, 0.444, 0.333, 0.833, 0.5, 0.444, 0.6, 0.826, 0.5, 0.619, 0.609, 0.5, 0.467, 0.438, 0.771, 0.548, 0.795, 0.629]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC N3 Cluster DC	 [0.826, 0.462, 0.6, 0.583, 0.357, 0.333, 0.273, 0.5, 0.0, 0.556, 0.333, 0.6, 0.0, 0.848, 0.719, 0.522, 0.529, 0.357, 0.455, 0.5, 0.516, 0.517, 0.675, 0.536]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F1 F2 F3 DC	 [0.783, 0.87, 0.478, 0.25, 0.6, 0.769, 0.1, 0.4, 0.833, 0.444, 0.778, 0.2, 0.0, 0.826, 0.613, 0.714, 0.4, 0.733, 0.571, 0.308, 0.667, 0.407, 0.814, 0.6]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F1 F2 N2 DC	 [0.783, 0.87, 0.478, 0.25, 0.6, 0.769, 0.1, 0.4, 0.833, 0.444, 0.778, 0.2, 0.0, 0.826, 0.613, 0.714, 0.4, 0.733, 0.571, 0.308, 0.667, 0.407, 0.814, 0.6]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F1 F2 N3 DC	 [0.783, 0.87, 0.478, 0.25, 0.6, 0.769, 0.1, 0.4, 0.833, 0.444, 0.778, 0.2, 0.0, 0.826, 0.613, 0.714, 0.4, 0.733, 0.571, 0.308, 0.667, 0.407, 0.814, 0.6]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F1 F2 Cluster DC	 [0.783, 0.87, 0.478, 0.25, 0.6, 0.769, 0.1, 0.4, 0.833, 0.444, 0.778, 0.2, 0.0, 0.826, 0.613, 0.714, 0.4, 0.733, 0.571, 0.308, 0.667, 0.407, 0.814, 0.6]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F2 F3 N2 DC	 [0.826, 0.684, 0.444, 0.625, 0.364, 0.333, 0.5, 0.833, 0.167, 0.2, 0.0, 0.556, 0.444, 0.826, 0.686, 0.35, 0.792, 0.273, 0.357, 0.706, 0.943, 0.71, 0.841, 0.647]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F2 F3 N3 DC	 [0.826, 0.684, 0.444, 0.625, 0.364, 0.333, 0.5, 0.833, 0.167, 0.2, 0.0, 0.556, 0.444, 0.826, 0.686, 0.35, 0.792, 0.273, 0.357, 0.706, 0.943, 0.71, 0.841, 0.647]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F2 F3 Cluster DC	 [0.826, 0.684, 0.444, 0.625, 0.364, 0.333, 0.5, 0.833, 0.167, 0.2, 0.0, 0.556, 0.444, 0.826, 0.686, 0.35, 0.792, 0.273, 0.357, 0.706, 0.943, 0.71, 0.841, 0.647]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F3 N2 N3 DC	 [0.739, 0.364, 0.583, 0.143, 0.333, 0.6, 0.571, 0.2, 0.167, 0.444, 0.714, 0.5, 0.5, 0.848, 0.774, 0.72, 0.526, 0.333, 0.692, 0.333, 0.5, 0.429, 0.682, 0.743]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F3 N2 Cluster DC	 [0.739, 0.364, 0.583, 0.143, 0.333, 0.6, 0.571, 0.2, 0.167, 0.444, 0.714, 0.5, 0.5, 0.848, 0.774, 0.72, 0.526, 0.333, 0.692, 0.333, 0.5, 0.429, 0.682, 0.743]
+tian chong 0!
+Data: GCM	 ECOC: Self_Adaption_ECOC F3 N3 Cluster DC	 [0.739, 0.364, 0.583, 0.143, 0.333, 0.6, 0.571, 0.2, 0.167, 0.444, 0.714, 0.5, 0.5, 0.848, 0.774, 0.72, 0.526, 0.333, 0.692, 0.333, 0.5, 0.429, 0.682, 0.743]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F1 F1 DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F2 F2 DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F3 F3 DC	 [0.971, 0.788, 0.733, 0.706]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC N2 N2 DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC N3 N3 DC	 [0.971, 0.788, 0.733, 0.706]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC Cluster Cluster DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F1 F2 DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F1 F3 DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F1 N2 DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F1 N3 DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F1 Cluster DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F2 F3 DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F2 N2 DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F2 N3 DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F2 Cluster DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F3 N2 DC	 [0.971, 0.788, 0.706]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F3 N3 DC	 [0.971, 0.788, 0.706]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F3 Cluster DC	 [0.971, 0.788, 0.706]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC N2 N3 DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC N2 Cluster DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC N3 Cluster DC	 [0.971, 0.788, 0.706]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F1 F2 F3 DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F1 F2 N2 DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F1 F2 N3 DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F1 F2 Cluster DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F2 F3 N2 DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F2 F3 N3 DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F2 F3 Cluster DC	 [0.941, 0.733, 0.971]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F3 N2 N3 DC	 [0.971, 0.788, 0.706]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F3 N2 Cluster DC	 [0.971, 0.788, 0.706]
+tian chong 0!
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F3 N3 Cluster DC	 [0.971, 0.788, 0.706]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F1 F1 DC	 [0.92, 0.859, 0.896, 0.946, 0.933, 0.818, 0.833, 0.786, 0.929, 0.854, 0.982, 0.857]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F2 F2 DC	 [0.964, 0.946, 0.987, 0.933, 0.952, 0.636, 0.833, 0.973, 0.967, 0.893, 0.859, 0.845]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F3 F3 DC	 [0.991, 0.935, 0.879, 0.946, 0.636, 0.818, 0.833, 0.991, 0.903, 0.803, 0.882, 0.8, 0.844]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC N2 N2 DC	 [0.929, 0.857, 0.886, 0.667, 0.946, 0.636, 0.833, 0.973, 0.882, 0.871, 0.957, 0.823]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC N3 N3 DC	 [0.991, 0.935, 0.803, 0.946, 0.5, 0.944, 0.833, 0.991, 0.922, 0.879, 0.882, 0.92, 0.772]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC Cluster Cluster DC	 [0.938, 0.968, 0.796, 1.0, 0.946, 0.5, 0.833, 0.786, 0.894, 0.816, 0.982, 0.793, 0.862]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F1 F2 DC	 [0.92, 0.859, 0.896, 0.946, 0.933, 0.818, 0.786, 0.929, 0.854, 0.938, 0.938]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F1 F3 DC	 [0.92, 0.859, 0.896, 0.946, 0.933, 0.818, 0.786, 0.929, 0.942, 0.95, 0.865, 0.92]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F1 N2 DC	 [0.92, 0.859, 0.896, 0.946, 0.933, 0.818, 0.786, 0.929, 0.942, 0.95, 0.865, 0.92]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F1 N3 DC	 [0.92, 0.859, 0.896, 0.946, 0.933, 0.818, 0.786, 0.929, 0.942, 0.95, 0.918, 0.955]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F1 Cluster DC	 [0.92, 0.859, 0.896, 0.946, 0.933, 0.818, 0.786, 0.929, 0.942, 0.95, 0.865, 0.92]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F2 F3 DC	 [0.964, 0.946, 0.987, 0.933, 0.952, 0.636, 0.973, 0.967, 0.893, 0.911, 0.821]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F2 N2 DC	 [0.964, 0.946, 0.987, 0.933, 0.952, 0.636, 0.973, 0.967, 0.893, 0.911, 0.821]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F2 N3 DC	 [0.964, 0.946, 0.987, 0.933, 0.952, 0.636, 0.973, 0.967, 0.893, 0.911, 0.821]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F2 Cluster DC	 [0.964, 0.946, 0.987, 0.933, 0.952, 0.636, 0.973, 0.967, 0.893, 0.911, 0.821]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F3 N2 DC	 [0.991, 0.935, 0.879, 0.946, 0.636, 0.818, 0.991, 0.903, 0.829, 0.857, 0.8, 0.902]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F3 N3 DC	 [0.991, 0.935, 0.879, 0.946, 0.636, 0.818, 0.991, 0.903, 0.871, 0.857, 0.857, 0.902]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F3 Cluster DC	 [0.991, 0.935, 0.879, 0.946, 0.636, 0.818, 0.991, 0.903, 0.829, 0.857, 0.8, 0.902]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC N2 N3 DC	 [0.929, 0.857, 0.886, 0.667, 0.946, 0.636, 0.973, 0.882, 0.871, 0.911, 0.802]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC N2 Cluster DC	 [0.929, 0.857, 0.886, 0.667, 0.946, 0.636, 0.973, 0.882, 0.871, 0.911, 0.802]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC N3 Cluster DC	 [0.991, 0.935, 0.803, 0.946, 0.5, 0.944, 0.991, 0.922, 0.816, 0.968, 0.913, 0.976]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F1 F2 F3 DC	 [0.92, 0.859, 0.896, 0.946, 0.933, 0.818, 0.786, 0.929, 0.942, 0.95, 0.865, 0.92]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F1 F2 N2 DC	 [0.92, 0.859, 0.896, 0.946, 0.933, 0.818, 0.786, 0.929, 0.942, 0.95, 0.865, 0.92]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F1 F2 N3 DC	 [0.92, 0.859, 0.896, 0.946, 0.933, 0.818, 0.786, 0.929, 0.942, 0.95, 0.918, 0.955]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F1 F2 Cluster DC	 [0.92, 0.859, 0.896, 0.946, 0.933, 0.818, 0.786, 0.929, 0.942, 0.95, 0.865, 0.92]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F2 F3 N2 DC	 [0.964, 0.946, 0.987, 0.933, 0.952, 0.636, 0.973, 0.967, 0.893, 0.911, 0.821]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F2 F3 N3 DC	 [0.964, 0.946, 0.987, 0.933, 0.952, 0.636, 0.973, 0.967, 0.893, 0.911, 0.821]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F2 F3 Cluster DC	 [0.964, 0.946, 0.987, 0.933, 0.952, 0.636, 0.973, 0.967, 0.893, 0.911, 0.821]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F3 N2 N3 DC	 [0.991, 0.935, 0.879, 0.946, 0.636, 0.818, 0.991, 0.903, 0.829, 0.857, 0.8, 0.902]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F3 N2 Cluster DC	 [0.991, 0.935, 0.879, 0.946, 0.636, 0.818, 0.991, 0.903, 0.829, 0.857, 0.8, 0.902]
+tian chong 0!
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F3 N3 Cluster DC	 [0.991, 0.935, 0.879, 0.946, 0.636, 0.818, 0.991, 0.903, 0.871, 0.857, 0.857, 0.902]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F1 F1 DC	 [0.844, 0.556, 0.962, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F2 F2 DC	 [0.844, 0.556, 0.962, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F3 F3 DC	 [1.0, 0.793, 0.962, 0.844]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC N2 N2 DC	 [0.844, 0.556, 0.962, 1.0]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC N3 N3 DC	 [0.812, 0.962, 0.844, 1.0]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC Cluster Cluster DC	 [1.0, 0.793, 0.962, 0.812, 0.844]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F1 F2 DC	 [0.844, 0.556, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F1 F3 DC	 [0.844, 0.556, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F1 N2 DC	 [0.844, 0.556, 0.812, 1.0]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F1 N3 DC	 [0.844, 0.556, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F1 Cluster DC	 [0.844, 0.556, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F2 F3 DC	 [0.844, 0.556, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F2 N2 DC	 [0.844, 0.556, 0.812, 1.0]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F2 N3 DC	 [0.844, 0.556, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F2 Cluster DC	 [0.844, 0.556, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F3 N2 DC	 [1.0, 0.793, 0.844]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F3 N3 DC	 [1.0, 0.793, 0.844]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F3 Cluster DC	 [1.0, 0.793, 0.844, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC N2 N3 DC	 [0.844, 0.556, 1.0]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC N2 Cluster DC	 [0.844, 0.556, 1.0]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC N3 Cluster DC	 [0.812, 0.962, 0.844]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F1 F2 F3 DC	 [0.844, 0.556, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F1 F2 N2 DC	 [0.844, 0.556, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F1 F2 N3 DC	 [0.844, 0.556, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F1 F2 Cluster DC	 [0.844, 0.556, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F2 F3 N2 DC	 [0.844, 0.556, 0.812, 1.0]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F2 F3 N3 DC	 [0.844, 0.556, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F2 F3 Cluster DC	 [0.844, 0.556, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F3 N2 N3 DC	 [1.0, 0.793, 0.844]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F3 N2 Cluster DC	 [1.0, 0.793, 0.844, 0.812]
+tian chong 0!
+Data: Lung1	 ECOC: Self_Adaption_ECOC F3 N3 Cluster DC	 [1.0, 0.793, 0.844, 0.812]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F1 F1 DC	 [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F2 F2 DC	 [1.0, 1.0, 1.0, 1.0, 0.95, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F3 F3 DC	 [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC N2 N2 DC	 [1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC N3 N3 DC	 [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC Cluster Cluster DC	 [1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F1 F2 DC	 [1.0, 1.0, 1.0, 1.0, 0.929]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F1 F3 DC	 [1.0, 1.0, 1.0, 1.0, 0.929]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F1 N2 DC	 [1.0, 1.0, 1.0, 1.0, 0.929]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F1 N3 DC	 [1.0, 1.0, 1.0, 1.0, 0.929]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F1 Cluster DC	 [1.0, 1.0, 1.0, 1.0, 0.929]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F2 F3 DC	 [1.0, 1.0, 1.0, 0.95, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F2 N2 DC	 [1.0, 1.0, 1.0, 0.95, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F2 N3 DC	 [1.0, 1.0, 1.0, 0.95, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F2 Cluster DC	 [1.0, 1.0, 1.0, 0.95, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F3 N2 DC	 [1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F3 N3 DC	 [1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F3 Cluster DC	 [1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC N2 N3 DC	 [1.0, 1.0, 1.0, 1.0, 0.929]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC N2 Cluster DC	 [1.0, 1.0, 1.0, 1.0, 0.929]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC N3 Cluster DC	 [1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F1 F2 F3 DC	 [1.0, 1.0, 1.0, 1.0, 0.929]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F1 F2 N2 DC	 [1.0, 1.0, 1.0, 1.0, 0.929]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F1 F2 N3 DC	 [1.0, 1.0, 1.0, 1.0, 0.929]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F1 F2 Cluster DC	 [1.0, 1.0, 1.0, 1.0, 0.929]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F2 F3 N2 DC	 [1.0, 1.0, 1.0, 0.95, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F2 F3 N3 DC	 [1.0, 1.0, 1.0, 0.95, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F2 F3 Cluster DC	 [1.0, 1.0, 1.0, 0.95, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F3 N2 N3 DC	 [1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F3 N2 Cluster DC	 [1.0, 1.0, 1.0, 1.0, 1.0]
+tian chong 0!
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F3 N3 Cluster DC	 [1.0, 1.0, 1.0, 1.0, 1.0]

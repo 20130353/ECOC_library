@@ -1,0 +1,9 @@
+FS method:variance_threshold
+Breast	 FS size: 3535
+Cancers	 FS size: 5333
+DLBCL	 FS size: 1545
+GCM	 FS size: 7088
+Leukemia1	 FS size: 2552
+Leukemia2	 FS size: 4328
+Lung1	 FS size: 2835
+SRBCT	 FS size: 892

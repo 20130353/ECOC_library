@@ -1,0 +1,43 @@
+Time: 2018-05-07 12:55:00
+FS: variance_threshold
+Dataset£º Breast
+ECOC: Self_Adaption_ECOC other OVO OVA
+Time: 2018-05-07 12:56:45
+FS: variance_threshold
+Dataset£º Breast
+ECOC: Self_Adaption_ECOC other OVO_ECOC OVA_ECOC
+Time: 2018-05-07 12:59:45
+FS: variance_threshold
+Dataset£º Breast
+ECOC: Self_Adaption_ECOC other OVO_ECOC OVA_ECOC
+Time: 2018-05-07 13:01:07
+FS: variance_threshold
+Dataset£º Breast
+ECOC: Self_Adaption_ECOC other OVO_ECOC OVA_ECOC
+class cplx:
+{'ERBB2': 1.0, 'basal': 1.0, 'cell_lines': 1.0, 'lumina': 1.0, 'normal': 1.0}
+var:0.000000   mean:1.000000  
+botttom th:1.000000   top th:2.000000  
+column num:0
+Time: 2018-05-07 13:01:29
+FS: variance_threshold
+Dataset£º Breast
+ECOC: Self_Adaption_ECOC other OVO_ECOC OVA_ECOC
+Time: 2018-05-07 13:03:44
+FS: variance_threshold
+Dataset£º Breast
+ECOC: Self_Adaption_ECOC other OVO_ECOC OVA_ECOC
+class cplx:
+{'ERBB2': 1.0, 'basal': 1.0, 'cell_lines': 1.0, 'lumina': 1.0, 'normal': 1.0}
+var:0.000000   mean:1.000000  
+botttom th:1.000000   top th:2.000000  
+column num:0
+Time: 2018-05-07 13:04:11
+FS: variance_threshold
+Dataset£º Breast
+ECOC: Self_Adaption_ECOC other OVO_ECOC OVA_ECOC
+class cplx:
+{'ERBB2': 1.0, 'basal': 1.0, 'cell_lines': 1.0, 'lumina': 1.0, 'normal': 1.0}
+var:0.000000   mean:1.000000  
+botttom th:1.000000   top th:2.000000  
+column num:0

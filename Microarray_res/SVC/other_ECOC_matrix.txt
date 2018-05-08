@@ -1,0 +1,280 @@
+Time: 2018-05-06 18:51:50
+Dataset£º Breast
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/OVA_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/OVO_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/Dense_random_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/Sparse_random_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/D_ECOC_Breast.xls
+Time: 2018-05-06 18:51:51
+Dataset£º Cancers
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/OVA_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/OVO_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/Dense_random_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/Sparse_random_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/D_ECOC_Cancers.xls
+Time: 2018-05-06 18:51:51
+Dataset£º DLBCL
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/OVA_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/OVO_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/Dense_random_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/Sparse_random_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/D_ECOC_DLBCL.xls
+Time: 2018-05-06 18:51:52
+Dataset£º GCM
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/OVA_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/OVO_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/Dense_random_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/Sparse_random_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/D_ECOC_GCM.xls
+Time: 2018-05-06 18:51:54
+Dataset£º Leukemia1
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/OVA_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/OVO_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/Dense_random_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/Sparse_random_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/D_ECOC_Leukemia1.xls
+Time: 2018-05-06 18:51:54
+Dataset£º Leukemia2
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/OVA_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/OVO_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/Dense_random_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/Sparse_random_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/D_ECOC_Leukemia2.xls
+Time: 2018-05-06 18:51:55
+Dataset£º Lung1
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/OVA_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/OVO_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/Dense_random_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/Sparse_random_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/D_ECOC_Lung1.xls
+Time: 2018-05-06 18:51:55
+Dataset£º SRBCT
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/OVA_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/OVO_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/Dense_random_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/Sparse_random_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/variance_threshold/D_ECOC_SRBCT.xls
+Time: 2018-05-06 18:51:58
+Dataset£º Breast
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/OVA_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/OVO_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/Dense_random_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/Sparse_random_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/D_ECOC_Breast.xls
+Time: 2018-05-06 18:51:58
+Dataset£º Cancers
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/OVA_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/OVO_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/Dense_random_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/Sparse_random_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/D_ECOC_Cancers.xls
+Time: 2018-05-06 18:51:58
+Dataset£º DLBCL
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/OVA_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/OVO_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/Dense_random_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/Sparse_random_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/D_ECOC_DLBCL.xls
+Time: 2018-05-06 18:52:01
+Dataset£º GCM
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/OVA_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/OVO_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/Dense_random_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/Sparse_random_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/D_ECOC_GCM.xls
+Time: 2018-05-06 18:52:03
+Dataset£º Leukemia1
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/OVA_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/OVO_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/Dense_random_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/Sparse_random_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/D_ECOC_Leukemia1.xls
+Time: 2018-05-06 18:52:03
+Dataset£º Leukemia2
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/OVA_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/OVO_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/Dense_random_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/Sparse_random_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/D_ECOC_Leukemia2.xls
+Time: 2018-05-06 18:52:04
+Dataset£º Lung1
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/OVA_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/OVO_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/Dense_random_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/Sparse_random_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/D_ECOC_Lung1.xls
+Time: 2018-05-06 18:52:04
+Dataset£º SRBCT
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/OVA_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/OVO_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/Dense_random_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/Sparse_random_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/linear_svc/D_ECOC_SRBCT.xls
+Time: 2018-05-06 18:52:06
+Dataset£º Breast
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/OVA_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/OVO_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/Dense_random_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/Sparse_random_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/D_ECOC_Breast.xls
+Time: 2018-05-06 18:52:07
+Dataset£º Cancers
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/OVA_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/OVO_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/Dense_random_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/Sparse_random_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/D_ECOC_Cancers.xls
+Time: 2018-05-06 18:52:07
+Dataset£º DLBCL
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/OVA_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/OVO_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/Dense_random_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/Sparse_random_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/D_ECOC_DLBCL.xls
+Time: 2018-05-06 18:52:11
+Dataset£º GCM
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/OVA_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/OVO_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/Dense_random_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/Sparse_random_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/D_ECOC_GCM.xls
+Time: 2018-05-06 18:52:11
+Dataset£º Leukemia1
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/OVA_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/OVO_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/Dense_random_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/Sparse_random_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/D_ECOC_Leukemia1.xls
+Time: 2018-05-06 18:52:11
+Dataset£º Leukemia2
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/OVA_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/OVO_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/Dense_random_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/Sparse_random_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/D_ECOC_Leukemia2.xls
+Time: 2018-05-06 18:52:12
+Dataset£º Lung1
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/OVA_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/OVO_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/Dense_random_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/Sparse_random_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/D_ECOC_Lung1.xls
+Time: 2018-05-06 18:52:12
+Dataset£º SRBCT
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/OVA_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/OVO_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/Dense_random_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/Sparse_random_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/tree/D_ECOC_SRBCT.xls
+Time: 2018-05-06 18:52:17
+Dataset£º Breast
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/OVA_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/OVO_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/Dense_random_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/Sparse_random_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/D_ECOC_Breast.xls
+Time: 2018-05-06 18:52:17
+Dataset£º Cancers
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/OVA_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/OVO_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/Dense_random_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/Sparse_random_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/D_ECOC_Cancers.xls
+Time: 2018-05-06 18:52:18
+Dataset£º DLBCL
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/OVA_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/OVO_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/Dense_random_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/Sparse_random_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/D_ECOC_DLBCL.xls
+Time: 2018-05-06 18:52:22
+Dataset£º GCM
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/OVA_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/OVO_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/Dense_random_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/Sparse_random_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/D_ECOC_GCM.xls
+Time: 2018-05-06 18:52:27
+Dataset£º Leukemia1
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/OVA_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/OVO_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/Dense_random_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/Sparse_random_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/D_ECOC_Leukemia1.xls
+Time: 2018-05-06 18:52:27
+Dataset£º Leukemia2
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/OVA_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/OVO_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/Dense_random_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/Sparse_random_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/D_ECOC_Leukemia2.xls
+Time: 2018-05-06 18:52:28
+Dataset£º Lung1
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/OVA_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/OVO_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/Dense_random_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/Sparse_random_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/D_ECOC_Lung1.xls
+Time: 2018-05-06 18:52:28
+Dataset£º SRBCT
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/OVA_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/OVO_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/Dense_random_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/Sparse_random_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/fclassif/D_ECOC_SRBCT.xls
+Time: 2018-05-06 18:52:28
+Dataset£º Breast
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/OVA_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/OVO_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/Dense_random_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/Sparse_random_ECOC_Breast.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/D_ECOC_Breast.xls
+Time: 2018-05-06 18:52:28
+Dataset£º Cancers
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/OVA_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/OVO_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/Dense_random_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/Sparse_random_ECOC_Cancers.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/D_ECOC_Cancers.xls
+Time: 2018-05-06 18:52:28
+Dataset£º DLBCL
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/OVA_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/OVO_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/Dense_random_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/Sparse_random_ECOC_DLBCL.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/D_ECOC_DLBCL.xls
+Time: 2018-05-06 18:52:31
+Dataset£º GCM
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/OVA_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/OVO_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/Dense_random_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/Sparse_random_ECOC_GCM.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/D_ECOC_GCM.xls
+Time: 2018-05-06 18:52:31
+Dataset£º Leukemia1
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/OVA_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/OVO_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/Dense_random_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/Sparse_random_ECOC_Leukemia1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/D_ECOC_Leukemia1.xls
+Time: 2018-05-06 18:52:31
+Dataset£º Leukemia2
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/OVA_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/OVO_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/Dense_random_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/Sparse_random_ECOC_Leukemia2.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/D_ECOC_Leukemia2.xls
+Time: 2018-05-06 18:52:31
+Dataset£º Lung1
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/OVA_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/OVO_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/Dense_random_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/Sparse_random_ECOC_Lung1.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/D_ECOC_Lung1.xls
+Time: 2018-05-06 18:52:31
+Dataset£º SRBCT
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/OVA_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/OVO_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/Dense_random_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/Sparse_random_ECOC_SRBCT.xls
+save file:E:/workspace1/ECOCDemo/Microarray_res/SVC/other_ECOC_matrix/RandForReg/D_ECOC_SRBCT.xls

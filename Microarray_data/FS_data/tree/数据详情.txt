@@ -1,0 +1,9 @@
+FS method:tree
+Breast	 		FS size: 203
+Cancers	 		FS size: 462
+DLBCL	 		FS size: 128
+GCM	 			FS size: 699
+Leukemia1	 	FS size: 146
+Leukemia2	 	FS size: 774
+Lung1	 		FS size: 147
+SRBCT	 		FS size: 169

@@ -1,0 +1,64 @@
+
+Data: Breast	 ECOC: OVA_ECOC	 5
+Data: Breast	 ECOC: OVO_ECOC	 10
+Data: Breast	 ECOC: Dense_random_ECOC	 6
+Data: Breast	 ECOC: Sparse_random_ECOC	 10
+Data: Breast	 ECOC: D_ECOC	 4
+Data: Breast	 ECOC: DC_ECOC F1	 4
+Data: Breast	 ECOC: DC_ECOC F2	 4
+Data: Breast	 ECOC: DC_ECOC F3	 4
+Data: Breast	 ECOC: DC_ECOC N2	 4
+Data: Breast	 ECOC: DC_ECOC N3	 4
+Data: Breast	 ECOC: DC_ECOC Cluster	 4
+Data: Cancers	 ECOC: OVA_ECOC	 9
+Data: Cancers	 ECOC: OVO_ECOC	 36
+Data: Cancers	 ECOC: Dense_random_ECOC	 9
+Data: Cancers	 ECOC: Sparse_random_ECOC	 14
+Data: Cancers	 ECOC: D_ECOC	 8
+Data: Cancers	 ECOC: DC_ECOC F1	 8
+Data: Cancers	 ECOC: DC_ECOC F2	 8
+Data: Cancers	 ECOC: DC_ECOC F3	 8
+Data: Cancers	 ECOC: DC_ECOC N2	 8
+Data: Cancers	 ECOC: DC_ECOC N3	 8
+Data: Cancers	 ECOC: DC_ECOC Cluster	 8
+Data: DLBCL	 ECOC: OVA_ECOC	 4
+Data: DLBCL	 ECOC: OVO_ECOC	 6
+Data: DLBCL	 ECOC: Dense_random_ECOC	 6
+Data: DLBCL	 ECOC: Sparse_random_ECOC	 9
+Data: DLBCL	 ECOC: D_ECOC	 3
+Data: DLBCL	 ECOC: DC_ECOC F1	 3
+Data: DLBCL	 ECOC: DC_ECOC F2	 3
+Data: DLBCL	 ECOC: DC_ECOC F3	 3
+Data: DLBCL	 ECOC: DC_ECOC N2	 3
+Data: DLBCL	 ECOC: DC_ECOC N3	 3
+Data: DLBCL	 ECOC: DC_ECOC Cluster	 3
+Data: GCM	 ECOC: OVA_ECOC	 14
+Data: GCM	 ECOC: OVO_ECOC	 91
+Data: GCM	 ECOC: Dense_random_ECOC	 11
+Data: GCM	 ECOC: Sparse_random_ECOC	 17
+Data: GCM	 ECOC: D_ECOC	 13
+Data: GCM	 ECOC: DC_ECOC F1	 13
+Data: GCM	 ECOC: DC_ECOC F2	 13
+Data: GCM	 ECOC: DC_ECOC F3	 13
+Data: GCM	 ECOC: DC_ECOC N2	 13
+Data: GCM	 ECOC: DC_ECOC N3	 13
+Data: GCM	 ECOC: DC_ECOC Cluster	 13
+Data: Leukemia1	 ECOC: OVA_ECOC	 3
+Data: Leukemia1	 ECOC: OVO_ECOC	 3
+Data: Leukemia1	 ECOC: Dense_random_ECOC	 3
+Data: Leukemia1	 ECOC: Sparse_random_ECOC	 4
+Data: Leukemia1	 ECOC: D_ECOC	 2
+Data: Leukemia1	 ECOC: DC_ECOC F1	 2
+Data: Leukemia1	 ECOC: DC_ECOC F2	 2
+Data: Leukemia1	 ECOC: DC_ECOC F3	 2
+Data: Leukemia1	 ECOC: DC_ECOC N2	 2
+Data: Leukemia1	 ECOC: DC_ECOC N3	 2
+Data: Leukemia1	 ECOC: DC_ECOC Cluster	 2
+Data: Leukemia2	 ECOC: OVA_ECOC	 7
+Data: Leukemia2	 ECOC: OVO_ECOC	 21
+Data: Leukemia2	 ECOC: Dense_random_ECOC	 8
+Data: Leukemia2	 ECOC: Sparse_random_ECOC	 12
+Data: Leukemia2	 ECOC: D_ECOC	 6
+Data: Leukemia2	 ECOC: DC_ECOC F1	 6
+Data: Leukemia2	 ECOC: DC_ECOC F2	 6
+Data: Leukemia2	 ECOC: DC_ECOC F3	 6

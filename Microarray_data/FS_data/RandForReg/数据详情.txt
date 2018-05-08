@@ -1,0 +1,9 @@
+FS method:RandForReg
+Breast	 	FS size: 52
+Cancers	 	FS size: 148
+DLBCL	 	FS size: 37
+GCM	 		FS size: 281
+Leukemia1	FS size: 25
+Leukemia2	FS size: 194
+Lung1	 	FS size: 43
+SRBCT	 	FS size: 33

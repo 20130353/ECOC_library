@@ -1,0 +1,1164 @@
+Time: 2018-03-30 16:17:21
+Dataset： car
+DC: DC_ECOC F1
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 0.738122
+iteration:1        F1 0.747071
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 0.817339
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 0.768375
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/F1_car.xls
+DC: DC_ECOC F2
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 11.000000
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 9.000000
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 11.000000
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/F2_car.xls
+DC: DC_ECOC F3
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/F3_car.xls
+DC: DC_ECOC N2
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.721883
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.607649
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.783366
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/N2_car.xls
+DC: DC_ECOC N3
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N3 0.000000
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/N3_car.xls
+DC: DC_ECOC Cluster
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        Cluster 0.252315
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        Cluster 0.266874
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        Cluster 0.276276
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/Cluster_car.xls
+Time: 2018-03-30 16:29:24
+Dataset： cleveland
+DC: DC_ECOC F1
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 0.317834
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 0.294129
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 1.884131
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 2.248912
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/F1_cleveland.xls
+DC: DC_ECOC F2
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 17.162917
+ERROR-F2: the denominator of the 10 dimension of F2 is zero!
+iteration:1        F2 17.030620
+ERROR-F2: the denominator of the 10 dimension of F2 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 15.507205
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 16.044806
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 15.228001
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/F2_cleveland.xls
+DC: DC_ECOC F3
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/F3_cleveland.xls
+DC: DC_ECOC N2
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.875922
+iteration:1        N2 0.865132
+iteration:2        N2 0.761728
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.903803
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.585031
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.561368
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/N2_cleveland.xls
+DC: DC_ECOC N3
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N3 0.000000
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/N3_cleveland.xls
+DC: DC_ECOC Cluster
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        Cluster 0.288288
+iteration:1        Cluster 0.162162
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        Cluster 0.238806
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        Cluster 0.090323
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        Cluster 0.104167
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/Cluster_cleveland.xls
+Time: 2018-03-30 16:30:35
+Dataset： dermatology
+DC: DC_ECOC F1
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 0.896138
+ERROR-F1: the denominator of the 48 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 28 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 15 dimension of F1 is zero!
+ERROR-F1: the denominator of the 28 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 44 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 38 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 46 dimension of F1 is zero!
+ERROR-F1: the denominator of the 47 dimension of F1 is zero!
+ERROR-F1: the denominator of the 49 dimension of F1 is zero!
+ERROR-F1: the denominator of the 58 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 61 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 19 dimension of F1 is zero!
+ERROR-F1: the denominator of the 41 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 44 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 46 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 61 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 10 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 28 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 43 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 44 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 29 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 46 dimension of F1 is zero!
+ERROR-F1: the denominator of the 50 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 61 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+iteration:1        F1 2.691052
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 38 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 46 dimension of F1 is zero!
+ERROR-F1: the denominator of the 47 dimension of F1 is zero!
+ERROR-F1: the denominator of the 49 dimension of F1 is zero!
+ERROR-F1: the denominator of the 58 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 61 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 10 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 28 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 43 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 15 dimension of F1 is zero!
+ERROR-F1: the denominator of the 28 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 29 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 46 dimension of F1 is zero!
+ERROR-F1: the denominator of the 50 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 61 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 44 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 48 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 19 dimension of F1 is zero!
+ERROR-F1: the denominator of the 41 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 44 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 46 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 61 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 28 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 44 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 324518553658426726783156020576256.000000
+ERROR-F1: the denominator of the 28 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 44 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 48 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+iteration:1        F1 649037107316853453566312041152512.000000
+ERROR-F1: the denominator of the 48 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 44 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 28 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 15 dimension of F1 is zero!
+ERROR-F1: the denominator of the 16 dimension of F1 is zero!
+ERROR-F1: the denominator of the 28 dimension of F1 is zero!
+ERROR-F1: the denominator of the 48 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 1298074214633706907132624082305024.000000
+ERROR-F1: the denominator of the 29 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 46 dimension of F1 is zero!
+ERROR-F1: the denominator of the 50 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 61 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+iteration:1        F1 2596148429267413814265248164610048.000000
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 46 dimension of F1 is zero!
+ERROR-F1: the denominator of the 50 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 61 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 29 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 44 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 1298074214633706907132624082305024.000000
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 44 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 23 dimension of F1 is zero!
+ERROR-F1: the denominator of the 42 dimension of F1 is zero!
+ERROR-F1: the denominator of the 44 dimension of F1 is zero!
+ERROR-F1: the denominator of the 64 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 2556825876709903625402883594951363642356949122664994251045076992.000000
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+ERROR-F1: the denominator of the 60 dimension of F1 is zero!
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/F1_dermatology.xls
+DC: DC_ECOC F2
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 43.805970
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 24 dimension of F2 is zero!
+ERROR-F2: the denominator of the 26 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 40 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 43 dimension of F2 is zero!
+ERROR-F2: the denominator of the 44 dimension of F2 is zero!
+ERROR-F2: the denominator of the 46 dimension of F2 is zero!
+ERROR-F2: the denominator of the 47 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 53 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 13 dimension of F2 is zero!
+ERROR-F2: the denominator of the 14 dimension of F2 is zero!
+ERROR-F2: the denominator of the 18 dimension of F2 is zero!
+ERROR-F2: the denominator of the 19 dimension of F2 is zero!
+ERROR-F2: the denominator of the 21 dimension of F2 is zero!
+ERROR-F2: the denominator of the 26 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 39 dimension of F2 is zero!
+ERROR-F2: the denominator of the 40 dimension of F2 is zero!
+ERROR-F2: the denominator of the 41 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 43 dimension of F2 is zero!
+ERROR-F2: the denominator of the 44 dimension of F2 is zero!
+ERROR-F2: the denominator of the 45 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 17 dimension of F2 is zero!
+ERROR-F2: the denominator of the 18 dimension of F2 is zero!
+ERROR-F2: the denominator of the 19 dimension of F2 is zero!
+ERROR-F2: the denominator of the 20 dimension of F2 is zero!
+ERROR-F2: the denominator of the 21 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 24 dimension of F2 is zero!
+ERROR-F2: the denominator of the 26 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 39 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 44 dimension of F2 is zero!
+ERROR-F2: the denominator of the 45 dimension of F2 is zero!
+ERROR-F2: the denominator of the 46 dimension of F2 is zero!
+ERROR-F2: the denominator of the 47 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 49 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 53 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 13 dimension of F2 is zero!
+ERROR-F2: the denominator of the 14 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 17 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 39 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 43 dimension of F2 is zero!
+ERROR-F2: the denominator of the 46 dimension of F2 is zero!
+ERROR-F2: the denominator of the 47 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 49 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 53 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 59 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 65 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 49 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 59 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 26 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 40 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 43 dimension of F2 is zero!
+ERROR-F2: the denominator of the 44 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 9 dimension of F2 is zero!
+ERROR-F2: the denominator of the 10 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 24 dimension of F2 is zero!
+ERROR-F2: the denominator of the 26 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 44 dimension of F2 is zero!
+ERROR-F2: the denominator of the 46 dimension of F2 is zero!
+ERROR-F2: the denominator of the 47 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 50 dimension of F2 is zero!
+ERROR-F2: the denominator of the 51 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 53 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 9 dimension of F2 is zero!
+ERROR-F2: the denominator of the 10 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 43 dimension of F2 is zero!
+ERROR-F2: the denominator of the 46 dimension of F2 is zero!
+ERROR-F2: the denominator of the 47 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 50 dimension of F2 is zero!
+ERROR-F2: the denominator of the 51 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 53 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 18 dimension of F2 is zero!
+ERROR-F2: the denominator of the 19 dimension of F2 is zero!
+ERROR-F2: the denominator of the 21 dimension of F2 is zero!
+ERROR-F2: the denominator of the 26 dimension of F2 is zero!
+ERROR-F2: the denominator of the 27 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 39 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 44 dimension of F2 is zero!
+ERROR-F2: the denominator of the 45 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 13 dimension of F2 is zero!
+ERROR-F2: the denominator of the 14 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 39 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 43 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 9 dimension of F2 is zero!
+ERROR-F2: the denominator of the 10 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 17 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 39 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 46 dimension of F2 is zero!
+ERROR-F2: the denominator of the 47 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 49 dimension of F2 is zero!
+ERROR-F2: the denominator of the 50 dimension of F2 is zero!
+ERROR-F2: the denominator of the 51 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 53 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 49 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 49 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 59 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 35.805970
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 49 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 59 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 24 dimension of F2 is zero!
+ERROR-F2: the denominator of the 26 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 40 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 43 dimension of F2 is zero!
+ERROR-F2: the denominator of the 44 dimension of F2 is zero!
+ERROR-F2: the denominator of the 46 dimension of F2 is zero!
+ERROR-F2: the denominator of the 47 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 53 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+iteration:1        F2 32.074627
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 24 dimension of F2 is zero!
+ERROR-F2: the denominator of the 26 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 40 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 43 dimension of F2 is zero!
+ERROR-F2: the denominator of the 44 dimension of F2 is zero!
+ERROR-F2: the denominator of the 46 dimension of F2 is zero!
+ERROR-F2: the denominator of the 47 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 53 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 49 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 59 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 39 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 25.000000
+ERROR-F2: the denominator of the 9 dimension of F2 is zero!
+ERROR-F2: the denominator of the 10 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 17 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 39 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 46 dimension of F2 is zero!
+ERROR-F2: the denominator of the 47 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 49 dimension of F2 is zero!
+ERROR-F2: the denominator of the 50 dimension of F2 is zero!
+ERROR-F2: the denominator of the 51 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 53 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 13 dimension of F2 is zero!
+ERROR-F2: the denominator of the 14 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 39 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 43 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 18 dimension of F2 is zero!
+ERROR-F2: the denominator of the 19 dimension of F2 is zero!
+ERROR-F2: the denominator of the 21 dimension of F2 is zero!
+ERROR-F2: the denominator of the 26 dimension of F2 is zero!
+ERROR-F2: the denominator of the 27 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 39 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 44 dimension of F2 is zero!
+ERROR-F2: the denominator of the 45 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 39 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 24 dimension of F2 is zero!
+ERROR-F2: the denominator of the 26 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 40 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 43 dimension of F2 is zero!
+ERROR-F2: the denominator of the 44 dimension of F2 is zero!
+ERROR-F2: the denominator of the 46 dimension of F2 is zero!
+ERROR-F2: the denominator of the 47 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 53 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 21.020000
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 24 dimension of F2 is zero!
+ERROR-F2: the denominator of the 26 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 40 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 43 dimension of F2 is zero!
+ERROR-F2: the denominator of the 44 dimension of F2 is zero!
+ERROR-F2: the denominator of the 46 dimension of F2 is zero!
+ERROR-F2: the denominator of the 47 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 53 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 11 dimension of F2 is zero!
+ERROR-F2: the denominator of the 12 dimension of F2 is zero!
+ERROR-F2: the denominator of the 15 dimension of F2 is zero!
+ERROR-F2: the denominator of the 16 dimension of F2 is zero!
+ERROR-F2: the denominator of the 22 dimension of F2 is zero!
+ERROR-F2: the denominator of the 23 dimension of F2 is zero!
+ERROR-F2: the denominator of the 24 dimension of F2 is zero!
+ERROR-F2: the denominator of the 26 dimension of F2 is zero!
+ERROR-F2: the denominator of the 28 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 40 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 43 dimension of F2 is zero!
+ERROR-F2: the denominator of the 44 dimension of F2 is zero!
+ERROR-F2: the denominator of the 46 dimension of F2 is zero!
+ERROR-F2: the denominator of the 47 dimension of F2 is zero!
+ERROR-F2: the denominator of the 48 dimension of F2 is zero!
+ERROR-F2: the denominator of the 52 dimension of F2 is zero!
+ERROR-F2: the denominator of the 53 dimension of F2 is zero!
+ERROR-F2: the denominator of the 56 dimension of F2 is zero!
+ERROR-F2: the denominator of the 57 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 13 dimension of F2 is zero!
+ERROR-F2: the denominator of the 14 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 39 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 43 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 22.851852
+ERROR-F2: the denominator of the 13 dimension of F2 is zero!
+ERROR-F2: the denominator of the 14 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 39 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 43 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+ERROR-F2: the denominator of the 13 dimension of F2 is zero!
+ERROR-F2: the denominator of the 14 dimension of F2 is zero!
+ERROR-F2: the denominator of the 29 dimension of F2 is zero!
+ERROR-F2: the denominator of the 38 dimension of F2 is zero!
+ERROR-F2: the denominator of the 39 dimension of F2 is zero!
+ERROR-F2: the denominator of the 42 dimension of F2 is zero!
+ERROR-F2: the denominator of the 43 dimension of F2 is zero!
+ERROR-F2: the denominator of the 58 dimension of F2 is zero!
+ERROR-F2: the denominator of the 60 dimension of F2 is zero!
+ERROR-F2: the denominator of the 61 dimension of F2 is zero!
+ERROR-F2: the denominator of the 64 dimension of F2 is zero!
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/F2_dermatology.xls
+DC: DC_ECOC F3
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/F3_dermatology.xls
+DC: DC_ECOC N2
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.701455
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.583128
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.470814
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.580215
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.469429
+iteration:1        N2 0.469429
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/N2_dermatology.xls
+DC: DC_ECOC N3
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N3 0.000000
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/N3_dermatology.xls
+DC: DC_ECOC Cluster
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        Cluster 0.029851
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        Cluster 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        Cluster 0.007407
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        Cluster 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        Cluster 0.000000
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/Cluster_dermatology.xls
+Time: 2018-03-30 16:32:51
+Dataset： ecoli
+DC: DC_ECOC F1
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 1.883773
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 2 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 2 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 2 dimension of F1 is zero!
+iteration:1        F1 2.435530
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 2 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 2 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 2 dimension of F1 is zero!
+iteration:2        F1 8.902906
+ERROR-F1: the denominator of the 2 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 2 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 2 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 10384593717069655257060992658440192.000000
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 16.701697
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 2 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 122.671764
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+ERROR-F1: the denominator of the 3 dimension of F1 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 10384593717069655257060992658440192.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 11.256303
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F1 5192296858534827628530496329220096.000000
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/F1_ecoli.xls
+DC: DC_ECOC F2
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 5.097625
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 4.524574
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+iteration:1        F2 3.527449
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 3.981562
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+iteration:1        F2 2.920334
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 3.407299
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 2.038710
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 2.328947
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 3 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F2 2.383511
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+ERROR-F2: the denominator of the 2 dimension of F2 is zero!
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/F2_ecoli.xls
+DC: DC_ECOC F3
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        F3 0.000000
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/F3_ecoli.xls
+DC: DC_ECOC N2
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.575377
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.284474
+iteration:1        N2 0.255037
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.392454
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.379276
+iteration:1        N2 0.379276
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.212333
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.369178
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N2 0.282916
+save file:E:/workspace/pycharm/UCI/DC_matrix/variance_threshold/N2_ecoli.xls
+DC: DC_ECOC N3
+=*=*=*=*=* Greedy Search  *=*=*=*=*=*=*
+iteration:0        N3 0.000000
+DC option is wrong
