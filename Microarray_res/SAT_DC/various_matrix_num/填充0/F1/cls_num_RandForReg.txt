@@ -1,0 +1,33 @@
+
+Data: Breast	 ECOC: Self_Adaption_ECOC F1 F1	 5
+Data: Breast	 ECOC: Self_Adaption_ECOC F1 F1 F1	 5
+Data: Breast	 ECOC: Self_Adaption_ECOC F1 F1 F1 F1	 5
+Data: Breast	 ECOC: Self_Adaption_ECOC F1 F1 F1 F1 F1	 5
+Data: Cancers	 ECOC: Self_Adaption_ECOC F1 F1	 13
+Data: Cancers	 ECOC: Self_Adaption_ECOC F1 F1 F1	 13
+Data: Cancers	 ECOC: Self_Adaption_ECOC F1 F1 F1 F1	 13
+Data: Cancers	 ECOC: Self_Adaption_ECOC F1 F1 F1 F1 F1	 13
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F1 F1	 4
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F1 F1 F1	 4
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F1 F1 F1 F1	 4
+Data: DLBCL	 ECOC: Self_Adaption_ECOC F1 F1 F1 F1 F1	 4
+Data: GCM	 ECOC: Self_Adaption_ECOC F1 F1	 26
+Data: GCM	 ECOC: Self_Adaption_ECOC F1 F1 F1	 26
+Data: GCM	 ECOC: Self_Adaption_ECOC F1 F1 F1 F1	 26
+Data: GCM	 ECOC: Self_Adaption_ECOC F1 F1 F1 F1 F1	 26
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F1 F1	 2
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F1 F1 F1	 2
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F1 F1 F1 F1	 2
+Data: Leukemia1	 ECOC: Self_Adaption_ECOC F1 F1 F1 F1 F1	 2
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F1 F1	 11
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F1 F1 F1	 11
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F1 F1 F1 F1	 11
+Data: Leukemia2	 ECOC: Self_Adaption_ECOC F1 F1 F1 F1 F1	 11
+Data: Lung1	 ECOC: Self_Adaption_ECOC F1 F1	 2
+Data: Lung1	 ECOC: Self_Adaption_ECOC F1 F1 F1	 2
+Data: Lung1	 ECOC: Self_Adaption_ECOC F1 F1 F1 F1	 2
+Data: Lung1	 ECOC: Self_Adaption_ECOC F1 F1 F1 F1 F1	 2
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F1 F1	 4
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F1 F1 F1	 4
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F1 F1 F1 F1	 4
+Data: SRBCT	 ECOC: Self_Adaption_ECOC F1 F1 F1 F1 F1	 4

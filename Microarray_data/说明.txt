@@ -1,0 +1,17 @@
+原数据集存在问题：训练集和测试集类别数量不一致
+
+Cancers
+train:11, test:9
+train: ['BL' 'BR' 'CO' 'GA' 'KI' 'LI' 'LU_A' 'LU_S' 'OV' 'PA' 'PR']
+test: ['BR' 'CO' 'GA' 'KI' 'LI' 'LU_A' 'LU_S' 'OV' 'PR']
+set(['BL', 'PA'])
+BL 8个样本， PA 6个样本
+
+SRBCT
+train:4, test:5
+train: ['BL' 'EWS' 'NB' 'RMS']
+test: ['BL' 'EWS' 'NB' 'OTHERS' 'RMS']
+set(['OTHERS'])
+OTHERS 5个样本
+
+删除多余类的样本

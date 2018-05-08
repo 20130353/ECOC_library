@@ -1,0 +1,9 @@
+FS method:fclassif
+Breast	  		FS size: 5112
+Cancers	 		FS size: 11004
+DLBCL	 		FS size: 3012
+GCM	 			FS size: 14773
+Leukemia1	 	FS size: 2004
+Leukemia2	 	FS size: 4763
+Lung1	 		FS size: 2345
+SRBCT	 		FS size: 1353

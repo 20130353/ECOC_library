@@ -1,0 +1,79 @@
+=====================================
+FS method:fclassif
+Breast	  		FS size: 5112
+Cancers	 		FS size: 11004
+DLBCL	 		FS size: 3012
+GCM	 			FS size: 14773
+Leukemia1	 	FS size: 2004
+Leukemia2	 	FS size: 4763
+Lung1	 		FS size: 2345
+SRBCT	 		FS size: 1353
+=====================================
+
+=====================================
+FS method:linear_svc
+Breast	 		FS size: 4090
+Cancers	 		FS size: 5603
+DLBCL	 		FS size: 1787
+GCM	 			FS size: 6825
+Leukemia1	 	FS size: 2830
+Leukemia2	 	FS size: 6196
+Lung1	 		FS size: 3083
+SRBCT	 		FS size: 1014
+======================================
+
+======================================
+FS method:linearsvc_tree
+Breast	  		FS size: 212
+Cancers	 		FS size: 474
+DLBCL	 		FS size: 168
+GCM	 			FS size: 773
+Leukemia1	 	FS size: 120
+Leukemia2	 	FS size: 696
+Lung1	 		FS size: 168
+SRBCT	 		FS size: 162
+======================================
+
+======================================
+FS method:RandForReg
+Breast	 	FS size: 52
+Cancers	 	FS size: 148
+DLBCL	 	FS size: 37
+GCM	 		FS size: 281
+Leukemia1	FS size: 25
+Leukemia2	FS size: 194
+Lung1	 	FS size: 43
+SRBCT	 	FS size: 33
+======================================
+
+======================================
+FS method:tree
+Breast	 		FS size: 203
+Cancers	 		FS size: 462
+DLBCL	 		FS size: 128
+GCM	 			FS size: 699
+Leukemia1	 	FS size: 146
+Leukemia2	 	FS size: 774
+Lung1	 		FS size: 147
+SRBCT	 		FS size: 169
+=======================================
+
+=======================================
+FS method:variance_threshold
+Breast	 		FS size: 3535
+Cancers	 		FS size: 5333
+DLBCL	 		FS size: 1545
+GCM	 			FS size: 7088
+Leukemia1	 	FS size: 2552
+Leukemia2	 	FS size: 4328
+Lung1	 		FS size: 2835
+SRBCT	 		FS size: 892
+=======================================
+
+特征保留数量排名(大-小)：
+fclassif  5112
+linear_svc 4090
+variance_threshold 3535
+linearsvc_tree 212
+tree 203
+RandForReg 52
