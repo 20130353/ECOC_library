@@ -1,0 +1,8 @@
+删除DLBCL的test集合的T_Cell和cell_lines类别
+
+删除Lung2数据集的SCLC类别
+
+删除Leukemia2数据集
+
+
+将Leukemia3数据集更名为Leukemia2
