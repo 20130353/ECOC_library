@@ -5,8 +5,7 @@
 # description: this module provides some methods to evaluate the model
 
 import numpy as np
-import logging
-from sklearn.metrics import confusion_matrix
+
 
 class Evaluation:
     def __init__(self, true_labels, pre_labels):
@@ -37,9 +36,9 @@ class Evaluation:
         if self.__check_data() == False:
             return
 
-        operation_name = {'simple_acc': self.evaluate_arruracy_simple, 'accuracy': self.evaluate_arruracy\
-                        , 'sensitivity': self.evaluate_sensitivity, 'specifity': self.evaluate_specifity
-                        , 'precision': self.evaluate_precision, 'Fscore': self.evaluate_Fscore}
+        operation_name = {'simple_acc': self.evaluate_arruracy_simple, 'accuracy': self.evaluate_arruracy \
+            , 'sensitivity': self.evaluate_sensitivity, 'specifity': self.evaluate_specifity
+            , 'precision': self.evaluate_precision, 'Fscore': self.evaluate_Fscore}
         res = {}
         for i, each in enumerate(key['option']):
             res[each] = operation_name[each]()
@@ -56,7 +55,6 @@ class Evaluation:
 
         return temp_labels
 
-
     def __get_PN_values(self):
         """
          this function compute FP etc. by onevsone strategy
@@ -67,8 +65,8 @@ class Evaluation:
         ulabel = self.ulabel
 
         for each in ulabel:
-            temp_true_lables = self.__thansform_labels(each, true_labels)#[+1,-1]
-            temp_pre_lables = self.__thansform_labels(each, pre_labels)#[+1,-1]
+            temp_true_lables = self.__thansform_labels(each, true_labels)  # [+1,-1]
+            temp_pre_lables = self.__thansform_labels(each, pre_labels)  # [+1,-1]
 
             TP = 0
             FP = 0
@@ -141,7 +139,7 @@ class Evaluation:
         for i, each in enumerate(ulabel):
             P = list(self.true_labels).count(each)
             N = len(self.true_labels) - float(P)
-            specifity.append(self.TN[i] / N )
+            specifity.append(self.TN[i] / N)
 
         self.each_specifity = specifity
         return np.mean(specifity)
@@ -189,19 +187,19 @@ class Evaluation:
         pre_labels = self.pre_labels
 
         res = []
-        for i,each in enumerate(true_labels):
+        for i, each in enumerate(true_labels):
             if true_labels[i] == pre_labels[i]:
                 res.append(1)
         res = float(len(res)) / len(true_labels)
 
         return res
 
-    def __cal_classifier_diversity(self,predicted_res1,predicted_res2):
+    def __cal_classifier_diversity(self, predicted_res1, predicted_res2):
         dis = 0
         for i in range(len(predicted_res1)):
             if predicted_res1[i] != predicted_res2[i]:
                 dis = dis + 1
-        diversity1 = dis/float(len(predicted_res1))
+        diversity1 = dis / float(len(predicted_res1))
 
         dis = 0
         predicted_res1 = -np.array(predicted_res1)
@@ -214,7 +212,7 @@ class Evaluation:
         if diversity1 == diversity2:
             return diversity1
         else:
-            return np.min(diversity1,diversity2)
+            return np.min(diversity1, diversity2)
 
     # Kappa statistic
     # diversity
@@ -225,19 +223,19 @@ class Evaluation:
             for j in range(i + 1, len(predicted_vector[0])):
                 j_column = [row[j] for row in predicted_vector]
 
-                diversity_matrix[i][j] = self.__cal_classifier_diversity(i_column,j_column)
+                diversity_matrix[i][j] = self.__cal_classifier_diversity(i_column, j_column)
                 diversity_matrix[j][i] = diversity_matrix[i][j]
-                #logging.info('i:%d j:%d diversity:%f' % (i, j,diversity_matrix[i][j]))
-        mean_res = [round(np.mean(row),3) for row in diversity_matrix]
+                # logging.info('i:%d j:%d diversity:%f' % (i, j,diversity_matrix[i][j]))
+        mean_res = [round(np.mean(row), 3) for row in diversity_matrix]
         return mean_res
 
-    def evaluate_PD(self,m1,m2):
+    def evaluate_PD(self, m1, m2):
         total_dis = []
         for i in range(m1.shape[1]):
             dis = []
             for j in range(m2.shape[2]):
-                c1 = m1[:,i]
-                c2 = m2[:,j]
+                c1 = m1[:, i]
+                c2 = m2[:, j]
                 dis.append(np.sum([1 for k in range(len(c1)) if c1[k] != c2[k]]))
             total_dis.append(min(dis))
 
@@ -249,8 +247,8 @@ class Evaluation:
         for i in range(matrix.shape[1]):
             pre_label = [row[i] for row in predicted_vector]
 
-            #find class1 and class2
-            c1 = matrix[:,i]
+            # find class1 and class2
+            c1 = matrix[:, i]
             class1 = []
             class2 = []
             for j in range(len(c1)):
@@ -259,10 +257,10 @@ class Evaluation:
                 elif c1[j] == -1:
                     class2.append(class_index[j])
 
-            #constructed 1,-1 label vector
-            temp_label = []#construted ture label
+            # constructed 1,-1 label vector
+            temp_label = []  # construted ture label
             temp_sample_inx = []
-            for i,each in enumerate(true_label):
+            for i, each in enumerate(true_label):
                 if each in class1:
                     temp_label.append(1)
                     temp_sample_inx.append(i)
@@ -270,14 +268,13 @@ class Evaluation:
                     temp_label.append(-1)
                     temp_sample_inx.append(i)
 
-            #constructed predicted vector
-            temp_predicted_label = []# part predicted label
+            # constructed predicted vector
+            temp_predicted_label = []  # part predicted label
             for i in temp_sample_inx:
                 temp_predicted_label.append(pre_label[i])
 
             right_num = np.sum([1 for i in range(len(temp_label)) if temp_predicted_label[i] == temp_label[i]])
-            acc = right_num/float(len(temp_label))
-            accuracy.append(round(acc,3))
+            acc = right_num / float(len(temp_label))
+            accuracy.append(round(acc, 3))
 
         return accuracy
-

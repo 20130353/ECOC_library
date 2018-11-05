@@ -2,11 +2,10 @@
 # author: sunmengxin
 # time: 2018/2/2 11:04
 # file: Read_Write_tool.py
-# description:
+# description: this module offers some method for read and write Microarray and UCI datasets
 
 import xlwt
 import time
-import types
 import sys
 import xlrd
 import numpy as np
@@ -14,12 +13,10 @@ import logging
 import pandas as pd
 import re
 from sklearn.preprocessing import StandardScaler
-import os
 from imp import reload
-import ECOCDemo.Common.Transition_tool
+
 
 def form_style(arr):
-
     styles = []
     min_v = min(arr)
     max_v = max(arr)
@@ -33,49 +30,46 @@ def form_style(arr):
     return styles
 
 
-def write_file(filepath, row_values, row_titles,col_names):
-
+def write_file(filepath, row_values, row_titles, col_names):
     xls = xlwt.Workbook()  # 创建工作簿
 
-    sheet = xls.add_sheet(u'sheet1',cell_overwrite_ok=True)
+    sheet = xls.add_sheet(u'sheet1', cell_overwrite_ok=True)
 
     default_style = xlwt.easyxf('font:bold 1, color black;')
 
-    if isinstance(row_values[0],int):# 生成第一行
+    if isinstance(row_values[0], int):  # 生成第一行
         logging.debug('row values only contain a single number')
         return []
 
-    for i in range(0, len(row_titles)):#第一行的标题
+    for i in range(0, len(row_titles)):  # 第一行的标题
         sheet.write(0, i + 1, row_titles[i], default_style)
 
-    for row, row_value in enumerate(row_values):#行
+    for row, row_value in enumerate(row_values):  # 行
         sheet.write(row + 1, 0, col_names[row], default_style)
-        for col, col_value in enumerate(row_value):#列
+        for col, col_value in enumerate(row_value):  # 列
             col_styles = form_style(row_value)
-            col_value = str(round(col_value,3))
+            col_value = str(round(col_value, 3))
             style = xlwt.easyxf(col_styles[col])
             sheet.write(row + 1, col + 1, col_value, style)
 
     time_str = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
-    sheet.write(len(row_values)+5,0,'file create time:' + time_str,default_style)
-    xls.save(filepath)# 保存文件, 不能出现空格
+    sheet.write(len(row_values) + 5, 0, 'file create time:' + time_str, default_style)
+    xls.save(filepath)  # 保存文件, 不能出现空格
 
 
 def write_matrix(filepath, M):
-
-    logging.info('save file:'+ filepath)
+    logging.info('save file:' + filepath)
 
     xls = xlwt.Workbook(encoding='utf-8')  # 创建工作簿
 
-    sheet = xls.add_sheet(u'sheet1',cell_overwrite_ok=True)
+    sheet = xls.add_sheet(u'sheet1', cell_overwrite_ok=True)
 
-    for row,value in enumerate(M):
+    for row, value in enumerate(M):
 
-        for col,v in enumerate(value):
+        for col, v in enumerate(value):
+            sheet.write(row, col, str(M[row][col]))
 
-            sheet.write(row,col,str(M[row][col]))
-
-    xls.save(filepath)# 保存文件
+    xls.save(filepath)  # 保存文件
 
 
 def read_matirx(filepath):
@@ -88,15 +82,15 @@ def read_matirx(filepath):
     nrows = sheet.nrows
     ncols = sheet.ncols
 
-    M = np.zeros((nrows,ncols))
+    M = np.zeros((nrows, ncols))
     for i in range(nrows):
         for j in range(ncols):
-            M[i][j] = float(str(sheet.cell(i,j).value))
+            M[i][j] = float(str(sheet.cell(i, j).value))
 
     return M
 
-def write_FS_data(path,data,label):
 
+def write_FS_data(path, data, label):
     Transition_tool.round_list(data)
     af = pd.DataFrame(label).T
     bf = pd.DataFrame(data).T
@@ -104,17 +98,18 @@ def write_FS_data(path,data,label):
     predictions = pd.concat([af, bf])
     predictions.to_csv(path, index=False, header=False)
 
+
 def read_UCI_Dataset(path):
     """
-    to read UCI data set from file
+    to read UCI_data data set from file
     :param path: path of file
     :return: data, label
     """
     df = pd.read_csv(path, header=None)
     df_values = df.values
     col_num = df_values.shape[1]
-    data = df_values[:, 0:col_num-1]
-    label = df_values[:, col_num-1]
+    data = df_values[:, 0:col_num - 1]
+    label = df_values[:, col_num - 1]
     return data, label
 
 
@@ -134,8 +129,9 @@ def read_Microarray_Dataset(path):
     label = df_columns
     return data, label
 
-def write_txt(fname,content):
-    fobj = open(fname, 'a')#没有就创建,在后面追加内容
+
+def write_txt(fname, content):
+    fobj = open(fname, 'a')  # 没有就创建,在后面追加内容
     fobj.write('\n' + content)  # 这里的\n的意思是在源文件末尾换行，即新加内容另起一行插入。
     fobj.close()  # 特别注意文件操作完毕后要close
 

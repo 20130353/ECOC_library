@@ -4,6 +4,6 @@
 # file: __init__.py.py
 # description:
 
-import ECOCDemo.Common.Evaluation_tool
-import ECOCDemo.Common.Read_Write_tool
-import ECOCDemo.Common.Transition_tool
+import ECOC_library.Common.Evaluation_tool
+import ECOC_library.Common.Read_Write_tool
+import ECOC_library.Common.Transition_tool
