@@ -4,38 +4,26 @@
 # file: many_ECOC_test.py
 # description:
 
-import numpy as np
-import copy
-import logging
-import types
 import time
-<<<<<<< HEAD
-from sklearn.ensemble import RandomForestClassifier
-=======
->>>>>>> faa23ca778d809c7318e4b150e1428603a5aabba
 
-from ECOCDemo.Common.Evaluation_tool import Evaluation
-from ECOCDemo.ECOC.Classifier import ECOC_ONE,OVO_ECOC,OVA_ECOC,DC_ECOC,D_ECOC,Dense_random_ECOC,Sparse_random_ECOC
-from ECOCDemo.ECOC.Classifier import Self_Adaption_ECOC
-from ECOCDemo.FS.DC_Feature_selection import *
-from ECOCDemo.FS.DC_Feature_selection import DC_FS, select_data_by_feature_index
-from ECOCDemo.Common import Read_Write_tool
+from ECOC_library.Common.Evaluation_tool import Evaluation
+from ECOC_library.FS.DC_Feature_selection import *
+from ECOC_library.Common import Read_Write_tool
 
 
-def ECOC_Process(train_data,train_label,test_data,test_label,ECOC_name,**param):
-
+def ECOC_Process(train_data, train_label, test_data, test_label, ECOC_name, **param):
     E = None
     if ECOC_name.find('DC_ECOC') >= 0:
-        dc_option = ['F1','F2','F3','N2','N3','N4','L3','Cluster']
-        for i,each in enumerate(dc_option):
+        dc_option = ['F1', 'F2', 'F3', 'N2', 'N3', 'N4', 'L3', 'Cluster']
+        for i, each in enumerate(dc_option):
             if each in ECOC_name:
                 E = eval('DC_ECOC()')
-                E.fit(train_data,train_label,dc_option=each)
+                E.fit(train_data, train_label, dc_option=each)
                 break
 
     elif ECOC_name.find('Self_Adaption_ECOC') >= 0:
         ternary_option = []
-        Ternary = ['+', '-', '*', '/', 'and', 'or','info','DC']
+        Ternary = ['+', '-', '*', '/', 'and', 'or', 'info', 'DC']
         for i, each in enumerate(Ternary):
             if each in ECOC_name:
                 param['ternary_option'] = each
@@ -57,27 +45,23 @@ def ECOC_Process(train_data,train_label,test_data,test_label,ECOC_name,**param):
             E.fit(train_data, train_label, **param)
 
     else:
-<<<<<<< HEAD
         E = eval(ECOC_name + '(base_estimator=RandomForestClassifier)')
 
-=======
-        E = eval(ECOC_name + '()')
->>>>>>> faa23ca778d809c7318e4b150e1428603a5aabba
         E.fit(train_data, train_label)
 
     logging.info(ECOC_name + ' Matrix:\n' + str(E.matrix))
     predicted_label = E.predict(test_data)
 
-    evaluation_option=['simple_acc','accuracy','sensitivity','specifity','precision','Fscore']
+    evaluation_option = ['simple_acc', 'accuracy', 'sensitivity', 'specifity', 'precision', 'Fscore']
     Eva = Evaluation(test_label, predicted_label)
     res = Eva.evaluation(option=evaluation_option)
     res['classifier_num'] = len(E.matrix[0])
-    res['cls_acc'] = Eva.evaluate_classifier_accuracy(E.matrix, E.predicted_vector,test_label)
+    res['cls_acc'] = Eva.evaluate_classifier_accuracy(E.matrix, E.predicted_vector, test_label)
     res['diversity'] = Eva.evaluate_diversity(E.predicted_vector)
     return res
 
-def get_base_M(path,ecoc,dataname):
 
+def get_base_M(path, ecoc, dataname):
     dc_option = ['F1', 'F2', 'F3', 'N2', 'N3', 'N4', 'L3', 'Cluster']
 
     M = None
@@ -98,68 +82,53 @@ if __name__ == '__main__':
     LOG_FORMAT = "%(message)s"
 
     # set log filepath, log level and info format
-<<<<<<< HEAD
     logging.basicConfig(filename='RandForest_OtherECOC_log.txt', level=logging.DEBUG, format=LOG_FORMAT)
-=======
-    logging.basicConfig(filename='F1_DC_log.txt', level=logging.DEBUG, format=LOG_FORMAT)
->>>>>>> faa23ca778d809c7318e4b150e1428603a5aabba
 
     fs_name = ['variance_threshold', 'linear_svc', 'tree', 'fclassif', 'RandForReg', 'linearsvc_tree']
 
-    microarray_dataname = ['Breast','Cancers','DLBCL','GCM','Leukemia1','Leukemia2'\
-                ,'Lung1','SRBCT']
+    microarray_dataname = ['Breast', 'Cancers', 'DLBCL', 'GCM', 'Leukemia1', 'Leukemia2' \
+        , 'Lung1', 'SRBCT']
 
-    UCI_dataname = ['car', 'cleveland', 'dermatology','led7digit' \
+    UCI_dataname = ['car', 'cleveland', 'dermatology', 'led7digit' \
         , 'led24digit', 'letter', 'nursery', 'penbased', 'satimage', 'segment' \
         , 'shuttle', 'vehicle', 'vowel', 'yeast', 'zoo']
 
-    ecoc_name = ['Self_Adaption_ECOC F1 F2 +','Self_Adaption_ECOC F1 F2 -' \
-                ,'Self_Adaption_ECOC F1 F2 *','Self_Adaption_ECOC F1 F2 /'\
-                ,'Self_Adaption_ECOC F1 F2 and','Self_Adaption_ECOC F1 F2 or','Self_Adaption_ECOC F1 F2 info']
+    ecoc_name = ['Self_Adaption_ECOC F1 F2 +', 'Self_Adaption_ECOC F1 F2 -' \
+        , 'Self_Adaption_ECOC F1 F2 *', 'Self_Adaption_ECOC F1 F2 /' \
+        , 'Self_Adaption_ECOC F1 F2 and', 'Self_Adaption_ECOC F1 F2 or', 'Self_Adaption_ECOC F1 F2 info']
 
-    ECOC_conbination = ['Self_Adaption_ECOC F1 F1 DC','Self_Adaption_ECOC F2 F2 DC','Self_Adaption_ECOC F3 F3 DC'\
-                ,'Self_Adaption_ECOC N2 N2 DC','Self_Adaption_ECOC N3 N3 DC','Self_Adaption_ECOC Cluster Cluster DC' \
-                ,'Self_Adaption_ECOC F1 F2 DC','Self_Adaption_ECOC F1 F3 DC','Self_Adaption_ECOC F1 N2 DC'\
-                ,'Self_Adaption_ECOC F1 N3 DC','Self_Adaption_ECOC F1 Cluster DC','Self_Adaption_ECOC F2 F3 DC'\
-                ,'Self_Adaption_ECOC F2 N2 DC', 'Self_Adaption_ECOC F2 N3 DC','Self_Adaption_ECOC F2 Cluster DC'\
-                ,'Self_Adaption_ECOC F3 N2 DC','Self_Adaption_ECOC F3 N3 DC','Self_Adaption_ECOC F3 Cluster DC'\
-                ,'Self_Adaption_ECOC N2 N3 DC','Self_Adaption_ECOC N2 Cluster DC','Self_Adaption_ECOC N3 Cluster DC' \
-                , 'Self_Adaption_ECOC F1 F2 F3 DC', 'Self_Adaption_ECOC F1 F2 N2 DC', 'Self_Adaption_ECOC F1 F2 N3 DC' \
-                , 'Self_Adaption_ECOC F1 F2 Cluster DC', 'Self_Adaption_ECOC F2 F3 N2 DC', 'Self_Adaption_ECOC F2 F3 N3 DC' \
-                , 'Self_Adaption_ECOC F2 F3 Cluster DC', 'Self_Adaption_ECOC F3 N2 N3 DC', 'Self_Adaption_ECOC F3 N2 Cluster DC' \
-                , 'Self_Adaption_ECOC F3 N3 Cluster DC']
+    ECOC_conbination = ['Self_Adaption_ECOC F1 F1 DC', 'Self_Adaption_ECOC F2 F2 DC', 'Self_Adaption_ECOC F3 F3 DC' \
+        , 'Self_Adaption_ECOC N2 N2 DC', 'Self_Adaption_ECOC N3 N3 DC', 'Self_Adaption_ECOC Cluster Cluster DC' \
+        , 'Self_Adaption_ECOC F1 F2 DC', 'Self_Adaption_ECOC F1 F3 DC', 'Self_Adaption_ECOC F1 N2 DC' \
+        , 'Self_Adaption_ECOC F1 N3 DC', 'Self_Adaption_ECOC F1 Cluster DC', 'Self_Adaption_ECOC F2 F3 DC' \
+        , 'Self_Adaption_ECOC F2 N2 DC', 'Self_Adaption_ECOC F2 N3 DC', 'Self_Adaption_ECOC F2 Cluster DC' \
+        , 'Self_Adaption_ECOC F3 N2 DC', 'Self_Adaption_ECOC F3 N3 DC', 'Self_Adaption_ECOC F3 Cluster DC' \
+        , 'Self_Adaption_ECOC N2 N3 DC', 'Self_Adaption_ECOC N2 Cluster DC', 'Self_Adaption_ECOC N3 Cluster DC' \
+        , 'Self_Adaption_ECOC F1 F2 F3 DC', 'Self_Adaption_ECOC F1 F2 N2 DC', 'Self_Adaption_ECOC F1 F2 N3 DC' \
+        , 'Self_Adaption_ECOC F1 F2 Cluster DC', 'Self_Adaption_ECOC F2 F3 N2 DC', 'Self_Adaption_ECOC F2 F3 N3 DC' \
+        , 'Self_Adaption_ECOC F2 F3 Cluster DC', 'Self_Adaption_ECOC F3 N2 N3 DC', 'Self_Adaption_ECOC F3 N2 Cluster DC' \
+        , 'Self_Adaption_ECOC F3 N3 Cluster DC']
 
-    ECOC_coding_numbers = ['Self_Adaption_ECOC F1 F1','Self_Adaption_ECOC F1 F1 F1'\
-                , 'Self_Adaption_ECOC F1 F1 F1 F1','Self_Adaption_ECOC F1 F1 F1 F1 F1']
+    ECOC_coding_numbers = ['Self_Adaption_ECOC F1 F1', 'Self_Adaption_ECOC F1 F1 F1' \
+        , 'Self_Adaption_ECOC F1 F1 F1 F1', 'Self_Adaption_ECOC F1 F1 F1 F1 F1']
 
-    other_ECOC = [ 'OVA_ECOC','OVO_ECOC','Dense_random_ECOC','Sparse_random_ECOC'\
-                ,'D_ECOC','DC_ECOC F1','DC_ECOC F2','DC_ECOC F3'\
-                ,'DC_ECOC N2','DC_ECOC N3','DC_ECOC Cluster']
+    other_ECOC = ['OVA_ECOC', 'OVO_ECOC', 'Dense_random_ECOC', 'Sparse_random_ECOC' \
+        , 'D_ECOC', 'DC_ECOC F1', 'DC_ECOC F2', 'DC_ECOC F3' \
+        , 'DC_ECOC N2', 'DC_ECOC N3', 'DC_ECOC Cluster']
 
     data_folder_path = 'E:/workspace1/ECOCDemo/Microarray_data/FS_data/'
     matrix_folder_path = 'E:/workspace1/ECOCDemo/Microarray_res/DC_matrix/'
-<<<<<<< HEAD
     res_folder_path = 'E:/workspace1/ECOCDemo/Microarray_res/RandForest/other_ECOC_backup/'
 
     selected_dataname = microarray_dataname
     selected_ecoc_name = other_ECOC
-
-=======
-    res_folder_path = 'E:/workspace1/ECOCDemo/Microarray_res/SAT_DC/various_matrix_num/填充0/'
-
-    selected_dataname = microarray_dataname
-    selected_ecoc_name = ECOC_coding_numbers
->>>>>>> faa23ca778d809c7318e4b150e1428603a5aabba
     selected_fs_name = fs_name
 
     for k in range(len(selected_fs_name)):
 
-<<<<<<< HEAD
-=======
         if selected_fs_name[k] != 'RandForReg':
             continue
 
->>>>>>> faa23ca778d809c7318e4b150e1428603a5aabba
         # save evaluation varibles
         data_acc = []
         data_simacc = []
@@ -167,7 +136,7 @@ if __name__ == '__main__':
         data_specifity = []
         data_sensitivity = []
         data_cls_acc = []
-        data_Fscore =[]
+        data_Fscore = []
 
         for i in range(len(selected_dataname)):
 
@@ -176,7 +145,7 @@ if __name__ == '__main__':
             train_data, train_label = Read_Write_tool.read_Microarray_Dataset(train_path)
             test_data, test_label = Read_Write_tool.read_Microarray_Dataset(test_path)
 
-            acc=[]
+            acc = []
             simacc = []
             precision = []
             specifity = []
@@ -197,9 +166,9 @@ if __name__ == '__main__':
                 logging.info('ECOC: ' + selected_ecoc_name[j])
 
                 param = {}
-                if selected_ecoc_name[j].find('Self_Adaption_ECOC') >=0:
+                if selected_ecoc_name[j].find('Self_Adaption_ECOC') >= 0:
                     final_folder_matrix_path = matrix_folder_path + selected_fs_name[k] + '/'
-                    param['base_M'] = get_base_M(final_folder_matrix_path,selected_ecoc_name[j],selected_dataname[i])
+                    param['base_M'] = get_base_M(final_folder_matrix_path, selected_ecoc_name[j], selected_dataname[i])
 
                 res = ECOC_Process(train_data, train_label, test_data, test_label, selected_ecoc_name[j], **param)
                 if 'simple_acc' in res:
@@ -223,15 +192,15 @@ if __name__ == '__main__':
 
                 if 'cls_acc' in res:
                     txtname = res_folder_path + 'cls_acc_' + selected_fs_name[k] + '.txt'
-                    content = 'Data: ' + selected_dataname[i] + '\t' + ' ECOC: ' + selected_ecoc_name[j]\
+                    content = 'Data: ' + selected_dataname[i] + '\t' + ' ECOC: ' + selected_ecoc_name[j] \
                               + '\t ' + str(res['cls_acc'])
-                    Read_Write_tool.write_txt(txtname,content)
+                    Read_Write_tool.write_txt(txtname, content)
 
                 if 'classifier_num' in res:
                     txtname = res_folder_path + 'cls_num_' + selected_fs_name[k] + '.txt'
-                    content = 'Data: ' + selected_dataname[i] + '\t' + ' ECOC: ' + selected_ecoc_name[j]\
+                    content = 'Data: ' + selected_dataname[i] + '\t' + ' ECOC: ' + selected_ecoc_name[j] \
                               + '\t ' + str(res['classifier_num'])
-                    Read_Write_tool.write_txt(txtname,content)
+                    Read_Write_tool.write_txt(txtname, content)
 
             data_simacc.append(simacc)
             data_acc.append(acc)
@@ -243,9 +212,9 @@ if __name__ == '__main__':
         row_name = copy.deepcopy(selected_dataname)
         row_name.append('Avg')
         if np.all(data_simacc):
-            save_filepath = res_folder_path + 'simple_acc_'+ selected_fs_name[k] + '.xls'
-            data_simacc.append(np.mean(data_simacc,axis=0))
-            Read_Write_tool.write_file(save_filepath,data_simacc,selected_ecoc_name,row_name)
+            save_filepath = res_folder_path + 'simple_acc_' + selected_fs_name[k] + '.xls'
+            data_simacc.append(np.mean(data_simacc, axis=0))
+            Read_Write_tool.write_file(save_filepath, data_simacc, selected_ecoc_name, row_name)
 
         if np.all(data_acc):
             save_filepath = res_folder_path + 'accuracy_' + selected_fs_name[k] + '.xls'

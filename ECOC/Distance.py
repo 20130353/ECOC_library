@@ -1,5 +1,11 @@
+# -*- coding: utf-8 -*-
+# author: sunmengxin
+# time: 2018/1/20
+# file: Complexity_tool.py
+# description:  this model define some method to calculate distance
+
+
 """
-this model define some method to calculate distance
 1.hmming_distance
 2.euclidean_distance
 """

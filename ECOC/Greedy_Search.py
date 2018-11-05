@@ -9,8 +9,8 @@ import random
 import logging
 import operator
 
-from ECOCDemo.DC import Get_Complexity as GC
-from ECOCDemo.ECOC import Matrix_tool as MT
+from ECOC_library.DC import Get_Complexity as GC
+from ECOC_library.ECOC import Matrix_tool as MT
 
 def greedy_search(data, labels, dc_option = 'F1'):
     """

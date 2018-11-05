@@ -13,10 +13,10 @@ import operator
 import math
 import random
 
-from ECOCDemo.ECOC import Ternary_Operation
-from ECOCDemo.ECOC.Distance import euclidean_distance
-from ECOCDemo.Common.Evaluation_tool import Evaluation
-from ECOCDemo.DC import Get_Complexity
+from ECOC_library.ECOC import Ternary_Operation
+from ECOC_library.ECOC.Distance import euclidean_distance
+from ECOC_library.Common.Evaluation_tool import Evaluation
+from ECOC_library.DC import Get_Complexity
 
 def get_data_from_col(data, label, col, index):
     """

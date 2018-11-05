@@ -4,9 +4,9 @@
 # file: __init__.py.py
 # description:
 
-import ECOCDemo.ECOC.Classifier
-import ECOCDemo.ECOC.Criterion
-import ECOCDemo.ECOC.Distance
-import ECOCDemo.ECOC.Greedy_Search
-import ECOCDemo.ECOC.Matrix_tool
-import ECOCDemo.ECOC.SFFS
+import ECOC_library.ECOC.Classifier
+import ECOC_library.ECOC.Criterion
+import ECOC_library.ECOC.Distance
+import ECOC_library.ECOC.Greedy_Search
+import ECOC_library.ECOC.Matrix_tool
+import ECOC_library.ECOC.SFFS

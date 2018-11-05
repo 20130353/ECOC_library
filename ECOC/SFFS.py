@@ -1,10 +1,12 @@
-"""
-this model define a sequential floating forward searching(SFFS) method
-"""
+# -*- coding: utf-8 -*-
+# author: sunmengxin
+# time: 2018/1/20 12:15
+# file: Greedy_Search.py
+# description: this model define a sequential floating forward searching(SFFS) method
 
 import numpy as np
-from ECOCDemo.ECOC import Criterion
-from ECOCDemo.ECOC.Matrix_tool import get_data_subset
+from ECOC_library.ECOC import Criterion
+from ECOC_library.ECOC.Matrix_tool import get_data_subset
 
 
 def sffs(data, labels, judge_score=Criterion.divide_score, **param):

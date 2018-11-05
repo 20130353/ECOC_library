@@ -4,12 +4,12 @@
 # file: ECOC_demo.py
 # description: this module comoputs the original data classification res
 
-from ECOCDemo.Common.Evaluation_tool import Evaluation
-from ECOCDemo.ECOC.Classifier import OVO_ECOC
-from ECOCDemo.Common.Read_Write_tool import read_Microarray_Dataset
+from ECOC_library.Common.Evaluation_tool import Evaluation
+from ECOC_library.ECOC.Classifier import OVO_ECOC
+from ECOC_library.Common.Read_Write_tool import read_Microarray_Dataset
 
-train_path = r'E:\workspace\pycharm\microarray\Breast_train.csv'
-test_path = r'E:\workspace\pycharm\microarray\Breast_test.csv'
+train_path = r'./Microarray_data/treated_data/Breast_train.csv'
+test_path = r'./Microarray_data/treated_data/Breast_test.csv'
 train_data, train_label = read_Microarray_Dataset(train_path)
 test_data, test_label = read_Microarray_Dataset(test_path)
 

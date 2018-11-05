@@ -2,7 +2,7 @@
 # author: sunmengxin
 # time: 2018/3/12 19:47
 # file: Ternary_Operation.py
-# description:
+# description: this model defines the ternary operation for self_adaptive ECOC
 
 import logging
 import numpy as np
@@ -10,8 +10,9 @@ import operator
 import math
 import copy
 
-from ECOCDemo.DC import Get_Complexity as GC
-from ECOCDemo.ECOC import Greedy_Search as GS
+from ECOC_library.DC import Get_Complexity as GC
+from ECOC_library.ECOC import Greedy_Search as GS
+
 
 # jiafa
 def ternary_add(left, right, **param):
@@ -22,9 +23,9 @@ def ternary_add(left, right, **param):
         if (a == -1 and b == 1) or (a == 1 and b == -1) or (a == 0 and b == 0):
             res = 0
         elif (a == 0 and b == 1) or (a == 1 and b == 0) or (a == -1 and b == -1):
-           res = 1
+            res = 1
         elif (a == 0 and b == -1) or (a == -1 and b == 0) or (a == 1 and b == 1):
-            res =  -1
+            res = -1
         else:
             logging.error('ERROR: left %d, right %d, left and right node is wrong!' % (a, b))
             ValueError('ERROR: left %d, right %d, left and right node is wrong!' % (a, b))
@@ -35,6 +36,7 @@ def ternary_add(left, right, **param):
             parent = np.row_stack((parent, res))
 
     return parent
+
 
 # jianfa
 def ternary_subtraction(left, right, **param):
@@ -59,6 +61,7 @@ def ternary_subtraction(left, right, **param):
 
     return parent
 
+
 # changfa
 def ternary_multiplication(left, right, **param):
     parent = None
@@ -80,6 +83,7 @@ def ternary_multiplication(left, right, **param):
         else:
             parent = np.row_stack((parent, res))
     return parent
+
 
 # chufa
 def ternary_divide(left, right, **param):
@@ -106,6 +110,7 @@ def ternary_divide(left, right, **param):
             parent = np.row_stack((parent, res))
     return parent
 
+
 # yu
 def ternary_and(left, right, **param):
     parent = None
@@ -126,6 +131,7 @@ def ternary_and(left, right, **param):
         else:
             parent = np.row_stack((parent, res))
     return parent
+
 
 # huo
 def ternary_or(left, right, **param):
@@ -148,28 +154,31 @@ def ternary_or(left, right, **param):
             parent = np.row_stack((parent, res))
     return parent
 
+
 def cal_info(vector):
     label = np.unique(vector)
     p = 0
-    for i,each in enumerate(label):
-        pi = list(vector).count(each)/float(len(vector))
+    for i, each in enumerate(label):
+        pi = list(vector).count(each) / float(len(vector))
         if pi != 1.0:
-            p  = p + pi * math.log(2,pi)
+            p = p + pi * math.log(2, pi)
     return p
 
+
 def ternary_info(left, right, **param):
-    operation_name = {'Ad':ternary_add, 'Sub':ternary_subtraction, 'Mu':ternary_multiplication\
-        ,'D':ternary_divide, 'A':ternary_and, 'O':ternary_or}
+    operation_name = {'Ad': ternary_add, 'Sub': ternary_subtraction, 'Mu': ternary_multiplication \
+        , 'D': ternary_divide, 'A': ternary_and, 'O': ternary_or}
     ternary_res = {}
-    for i,each in operation_name.items():
+    for i, each in operation_name.items():
         ternary_res[i] = each(left, right)
 
     Info = {}
-    for i,each in enumerate(ternary_res):
+    for i, each in enumerate(ternary_res):
         Info[each] = cal_info(ternary_res[each])
 
-    min_inx = sorted(Info.items(),key=operator.itemgetter(1))[0][0]
+    min_inx = sorted(Info.items(), key=operator.itemgetter(1))[0][0]
     return ternary_res[min_inx]
+
 
 def ternary_DC(left, right, **param):
     operation_name = {'Ad': ternary_add, 'Sub': ternary_subtraction, 'Mu': ternary_multiplication \
@@ -192,6 +201,5 @@ def ternary_DC(left, right, **param):
                     group2.append(all_classes[j])
             cplx[each] = GS.get_DC_value(param['data'], param['label'], group1, group2, dc_option='F1')
 
-    min_info_inx = sorted(cplx.items(),key=operator.itemgetter(1))[0][0]
+    min_info_inx = sorted(cplx.items(), key=operator.itemgetter(1))[0][0]
     return ternary_res[min_info_inx]
-
