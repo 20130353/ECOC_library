@@ -2,7 +2,7 @@
 # author: sunmengxin
 # time: 2018/1/20 12:15
 # file: Complexity_tool.py
-# description:  this moudle define some fun to help calculate compelxity index
+# description:  this module defines some fun to help calculate compelxity index
 
 import numpy as np
 from scipy import interpolate

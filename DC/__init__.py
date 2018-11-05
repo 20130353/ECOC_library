@@ -4,5 +4,5 @@
 # file: __init__.py.py
 # description:
 
-import ECOCDemo.DC.Complexity_tool
-import ECOCDemo.DC.Get_Complexity
+import ECOC_library.DC.Complexity_tool
+import ECOC_library.DC.Get_Complexity
