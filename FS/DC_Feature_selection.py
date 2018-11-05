@@ -2,6 +2,8 @@
 # author: sunmengxin
 # time: 2018/1/29 12:15
 # file: DC_feature_selection.py
+# description: this model defines a novel feature selection method with DC measures
+
 
 from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.feature_selection import RFE
@@ -17,12 +19,12 @@ from sklearn.svm import LinearSVC
 from sklearn.svm import SVC
 import logging
 
-from Common.Transition_tool import turn_label_2num
+from ECOC_library.Common.Transition_tool import turn_label_2num
 
 
-from ECOCDemo.DC.Get_Complexity import *
-from ECOCDemo.ECOC.Greedy_Search import greedy_search
-from ECOCDemo.ECOC.Matrix_tool import get_data_subset
+from ECOC_library.DC.Get_Complexity import *
+from ECOC_library.ECOC.Greedy_Search import greedy_search
+from ECOC_library.ECOC.Matrix_tool import get_data_subset
 
 
 def DC_FS(data, label):

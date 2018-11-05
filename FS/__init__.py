@@ -4,4 +4,4 @@
 # file: __init__.py.py
 # description:
 
-import ECOCDemo.FS.DC_Feature_selection
+import ECOC_library.FS.DC_Feature_selection

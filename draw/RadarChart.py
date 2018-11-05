@@ -7,7 +7,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-from ECOCDemo.Common.Read_Write_tool import read_ECOC_res
+from ECOC_library.Common.Read_Write_tool import read_ECOC_res
 
 def draw_angle(ax,data,color,marker):
     angles = np.linspace(0, 2 * np.pi, dataLenth, endpoint=False)

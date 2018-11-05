@@ -7,7 +7,7 @@
 import numpy as np
 from matplotlib.ticker import MultipleLocator, FormatStrFormatter
 
-from ECOCDemo.Common.Read_Write_tool import read_ECOC_res
+from ECOC_library.Common.Read_Write_tool import read_ECOC_res
 #import matplotlib
 #matplotlib.use('Agg')
 
